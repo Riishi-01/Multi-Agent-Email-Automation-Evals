@@ -1,0 +1,75 @@
+# RESOLVER REFLEXIVE — STATE EXAMPLES
+
+Narrow copy of the resolver's `state_examples`, framed for the
+**validator** (you, the Reflexive). The question you ask is not "what
+state should the agent choose?" but "did the agent choose the right
+state for this email?". Use this rubric to score `intent_accuracy`.
+
+---
+
+## State: auto_send
+
+Correct when: customer asks an informational question (where is my
+order, how long does shipping take, what's the warranty, do you have
+this in stock). No money movement, no state change.
+
+If the Resolver chose `auto_send` and the email is a status inquiry,
+`intent_accuracy = 1.0`.
+If the Resolver chose `auto_send` but the email reports a problem
+(defective, damaged, delay, charge error), `intent_accuracy = 0.0` —
+should have been hilt_*.
+
+---
+
+## State: hilt_refund
+
+Correct when: customer explicitly asks for a refund OR a duplicate
+charge needs refund. Money movement.
+
+If the Resolver chose `hilt_refund` and the email contains "refund" /
+"money back" / "chargeback" / "duplicate charge" / "double charged"
+AND the cited clause is in the retriever's policies, `intent_accuracy = 1.0`.
+If the email does not contain any of those words, `intent_accuracy = 0.0`.
+
+---
+
+## State: hilt_other
+
+Correct when: customer asks for replacement, cancellation, address
+change, or any state change WITHOUT money movement.
+
+If the Resolver chose `hilt_other` and the email contains "replace" /
+"replacement" / "swap" / "cancel" / "change address" / "defective",
+`intent_accuracy = 1.0`.
+If the email asks for a refund (not replacement), `intent_accuracy = 0.0` —
+should have been hilt_refund.
+
+---
+
+## State: escalate
+
+Correct when: identity cannot be confirmed (no customer + no order
++ no payments + no order_id in body), when the email is a legal
+threat, or when the request is genuinely out of scope.
+
+If the Resolver chose `escalate` and the above conditions hold,
+`intent_accuracy = 1.0`.
+If the Resolver chose `escalate` for a simple question that
+`auto_send` could have answered, `intent_accuracy = 0.0` —
+over-escalation.
+
+---
+
+## Edge: hilt_refund vs hilt_other
+
+Both are `hilt_*` (operator reviews). The split:
+
+- `hilt_refund` — money moves (refund, chargeback)
+- `hilt_other`  — state change only (replacement, cancellation,
+  address change)
+
+Tiebreaker is the customer's explicit ask:
+- "I want a refund"        → `hilt_refund`
+- "I want a replacement"   → `hilt_other`
+- "I want to cancel"       → `hilt_other`
+- "Cancel and refund"      → `hilt_refund` (money moves)

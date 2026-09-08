@@ -1,0 +1,240 @@
+# RESOLVER AGENT — FEW-SHOT EXAMPLES
+
+Each example below shows the FULL response shape — the `reasoning`
+field is the "comment + draft" pattern: it names the retriever
+results, names the cited policy, and enumerates what the model
+deliberately did NOT do.
+
+Every case shows ALL 7 fields of `ResolverResult`:
+  intent, action, draft, self_check, reasoning, used_entities, hilt_reason
+(hilt_reason is `null` when action is `auto_send` or `escalate`).
+
+For the focused per-state routing reference (when to choose
+auto_send / hilt_refund / hilt_other / escalate, with 1-2 examples
+each), see `state_examples` in the same directory.
+
+Citations use `<policy_id> §<clause>` — no hyperlinks, no prose.
+
+---
+
+## Case 1 — defective item, customer wants a replacement (hilt_other)
+
+Inbound:
+  subject: Defective Razer BlackShark
+  body: My Razer BlackShark V2 Pro arrived defective (dead audio on
+        one side). I want a replacement, not a refund. Order ID is
+        <order_id>.
+
+Retriever context (interpreting tool results):
+  customer:  <customer_name> (email verified)
+  order:     found=true, status=delivered, items=[<Razer BlackShark V2 Pro>]
+  payments:  1 row, status=success, amount=<amount>
+  products:  warranty_text="<product warranty terms>"
+  policies:
+    - return-policy §3.1: "Reporting Window" (14 days)
+    - return-policy §2:   "Eligible Reasons for Return" (manufacturing defect)
+
+Reasoning:
+  Read from retriever: customer verified; order found with status=delivered;
+  products[].warranty_text is non-null; policies has return-policy §3.1
+  and §2.
+  Tone: defective product → empathy lead with "We deeply regret the
+  inconvenience".
+  Did NOT: upsell, volunteer product features, promise a specific
+  replacement unit, or quote a stock number.
+  Decision: hilt_other (state change — replacement, not money movement)
+  per the customer's explicit "I want a replacement, not a refund".
+
+Response:
+{
+  "intent":         "complaint",
+  "action":         "hilt_other",
+  "draft":          "We deeply regret the inconvenience with your Razer
+                    BlackShark V2 Pro, <customer_name>. Per return-policy
+                    §3.1, you are within the 14-day reporting window;
+                    per return-policy §2, manufacturing defects are
+                    eligible for replacement. Our team is reviewing your
+                    request for a replacement unit.",
+  "self_check":     {"policy_compliant": true,  "entities_correct": true,
+                     "state_change_implied": true, "tone": "neutral"},
+  "reasoning":      "Read from retriever: customer verified, order
+                    delivered, products[].warranty_text non-null, policies
+                    has return-policy §3.1 and §2. Tone: problem → empathy
+                    lead. Did NOT: upsell, volunteer features, promise
+                    specific unit, quote stock number. Decision: hilt_other
+                    (replacement, not money movement).",
+  "used_entities":  {"order_id": "<order_id>", "txn_id": null,
+                     "product_names": ["Razer BlackShark V2 Pro"]},
+  "hilt_reason":    {
+    "policy_clause":        "return-policy §3.1",
+    "reason_short":         "Defective item, replacement within 14-day window",
+    "reason_long":          "Customer reports defective audio on Razer
+                             BlackShark V2 Pro (within the 14-day reporting
+                             window) and requested replacement, not refund.
+                             Replacement is eligible per return-policy §2
+                             and warranty terms.",
+    "recommended_action":   "approve_replacement",
+    "action_target":        "ops_queue",
+    "urgency":              "medium",
+    "human_skill_required": "tier_1_support"
+  }
+}
+
+---
+
+## Case 2 — duplicate-charge refund (hilt_refund)
+
+Inbound:
+  subject: Charged twice
+  body: I was charged twice for one order. Order ID is <order_id>.
+        Please refund the extra charge.
+
+Retriever context:
+  customer:  <customer_name>
+  order:     found=true
+  payments:  2 rows — 1 success <amount>, 1 failed <amount>
+  policies:
+    - payment-policy §8: "Failed Transactions" (refund on duplicate debit)
+    - refund-policy  §3: "Refund Timelines" (3–7 business days)
+
+Reasoning:
+  Read from retriever: customer verified; order found; payments has
+  2 rows (one success, one failed of the same amount); policies has
+  payment-policy §8 and refund-policy §3.
+  Tone: duplicate charge → problem → empathy lead.
+  Did NOT: guess the specific transaction amount beyond what the
+  retriever returned, promise a faster refund than §3 allows, or
+  suggest the customer file a chargeback.
+  Decision: hilt_refund (money movement), urgency=high per the
+  duplicate-charge pattern.
+
+Response:
+{
+  "intent":         "refund",
+  "action":         "hilt_refund",
+  "draft":          "We deeply regret the inconvenience with the duplicate
+                    charge on your order <order_id>, <customer_name>. We
+                    have confirmed two transactions on your account: a
+                    successful payment and a failed attempt of the same
+                    amount. Per payment-policy §8 (Failed Transactions)
+                    and refund-policy §3 (Refund Timelines), we will
+                    refund the failed attempt within 3–7 business days.
+                    Our team is reviewing your request.",
+  "self_check":     {"policy_compliant": true,  "entities_correct": true,
+                     "state_change_implied": true, "tone": "neutral"},
+  "reasoning":      "Read from retriever: customer verified, order found,
+                    payments has 2 rows (1 success, 1 failed), policies
+                    has payment-policy §8 and refund-policy §3. Tone:
+                    duplicate-charge → problem → empathy lead. Did NOT:
+                    guess txn_id beyond retriever, promise faster than §3,
+                    suggest chargeback. Decision: hilt_refund, urgency=high.",
+  "used_entities":  {"order_id": "<order_id>", "txn_id": "<txn_id>",
+                     "product_names": []},
+  "hilt_reason":    {
+    "policy_clause":        "refund-policy §3",
+    "reason_short":         "Duplicate charge refund within 3–7 day timeline",
+    "reason_long":          "Customer charged twice for one order; one
+                             transaction succeeded, one failed. The failed
+                             transaction is the duplicate. Refund per
+                             refund-policy §3 timeline.",
+    "recommended_action":   "approve_refund_<amount>",
+    "action_target":        "refund_execution",
+    "urgency":              "high",
+    "human_skill_required": "tier_2_support"
+  }
+}
+
+---
+
+## Case 3 — plain delivery inquiry (auto_send, no empathy)
+
+Inbound:
+  subject: Where is my order?
+  body: Could you tell me the expected delivery date for my order?
+        Order ID is <order_id>.
+
+Retriever context:
+  customer:  <customer_name>
+  order:     found=true, status=paid, expected_delivery=<date>,
+             items=[<PlayStation 5 Disc Edition Console>]
+  payments:  1 row, status=success
+  policies:
+    - shipping-policy §4: "Regular Delivery" (standard timeline)
+
+Reasoning:
+  Read from retriever: customer verified; order found with status=paid
+  and expected_delivery=<date>; policies has shipping-policy §4.
+  Tone: plain question → no empathy lead. No problem reported.
+  Did NOT: upsell, suggest expedited shipping, volunteer product
+  features, quote a stock number, or invent features.
+  Decision: auto_send (no state change, no money movement). Cite
+  shipping §4 once.
+
+Response:
+{
+  "intent":         "info",
+  "action":         "auto_send",
+  "draft":          "Hi <customer_name>, your order <order_id> is
+                    currently in 'paid' status with an expected delivery
+                    of <date>. Per shipping-policy §4, regular delivery
+                    is the standard timeline. You can track status from
+                    your account.",
+  "self_check":     {"policy_compliant": true,  "entities_correct": true,
+                     "state_change_implied": false, "tone": "polite"},
+  "reasoning":      "Read from retriever: customer verified, order found
+                    with status=paid and expected_delivery, policies has
+                    shipping-policy §4. Tone: plain question → no empathy.
+                    Did NOT: upsell, suggest expedited, volunteer features,
+                    quote stock. Decision: auto_send, cite shipping §4
+                    once.",
+  "used_entities":  {"order_id": "<order_id>", "txn_id": null,
+                     "product_names": ["PlayStation 5 Disc Edition Console"]},
+  "hilt_reason":    null
+}
+
+---
+
+## Case 4 — stock inquiry (auto_send, no specific number)
+
+Inbound:
+  subject: Is the Razer BlackShark in stock?
+  body: I want to buy one. How many do you have?
+
+Retriever context:
+  customer:  <customer_name>
+  order:     not found (no order in this thread)
+  payments:  []
+  policies:  []
+
+Reasoning:
+  Read from retriever: customer verified; no order in this thread;
+  no relevant policy cited for stock levels.
+  Tone: stock question → no empathy (no problem), no specific number,
+  no upsell.
+  Did NOT: quote a stock count, speculate on restock date, recommend
+  alternative products, or invent features.
+  Decision: auto_send. Mention "first-come, first-served" explicitly
+  to set expectations.
+
+Response:
+{
+  "intent":         "info",
+  "action":         "auto_send",
+  "draft":          "Hi <customer_name>, stock for the product you asked
+                    about is shown on the website and is subject to
+                    availability on a first-come, first-served basis. We
+                    don't confirm a specific count over email. If you'd
+                    like to proceed, place the order and we will hold
+                    the unit if it's in stock at that moment.",
+  "self_check":     {"policy_compliant": true,  "entities_correct": true,
+                     "state_change_implied": false, "tone": "polite"},
+  "reasoning":      "Read from retriever: customer verified, no order,
+                    no payments, no relevant stock-level policy. Tone:
+                    stock question → no empathy, no specific number, no
+                    upsell. Did NOT: quote count, speculate on restock,
+                    recommend alternatives. Decision: auto_send with
+                    'first-come, first-served' phrasing.",
+  "used_entities":  {"order_id": null, "txn_id": null,
+                     "product_names": []},
+  "hilt_reason":    null
+}

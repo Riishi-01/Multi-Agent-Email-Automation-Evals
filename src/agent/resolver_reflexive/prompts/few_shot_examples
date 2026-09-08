@@ -1,0 +1,172 @@
+# RESOLVER REFLEXIVE — FEW-SHOT EXAMPLES
+
+Each example below shows the FULL output shape: the 5 dimension
+scores, the derived `confidence` (always min of the scores), the
+one-paragraph `reasoning`, the `suggested_action`, and (where
+applicable) concrete `regeneration_hints`. The Reflexive learns the
+pattern of "be skeptical, ground every score, suggest_action flows
+from the scores".
+
+---
+
+## Case A — correct refund rejection (accept)
+
+Inbound:
+  subject: Refund for AB123456
+  body: I want a refund for order AB123456.
+
+Retriever context:
+  order: placed_at=2024-09-01
+  policy_chunks: return-policy §3 (refund window = 14 days)
+
+Resolver output:
+  intent: refund
+  action: hilt_refund
+  draft: |
+    Hi <name>, the order is outside the 14-day refund window per
+    return-policy §3. We are unable to process a refund at this time.
+  hilt_reason: {policy_clause: "return-policy §3", ...}
+
+The Resolver correctly says "no" with the right policy citation. The
+refund window has expired; the right answer is the polite refusal.
+
+Reflexive output:
+{
+  "dimension_scores": {
+    "intent_accuracy":     1.0,
+    "faithfulness":        1.0,
+    "policy_compliance":   1.0,
+    "tone":                1.0,
+    "side_effect_consent": 1.0
+  },
+  "confidence": 1.0,
+  "reasoning": "The Resolver correctly identified that the order
+    (placed 2024-09-01) is outside the 14-day refund window per
+    return-policy §3. The cited clause is in the retriever's
+    policies. The draft is a polite refusal. The customer did not
+    mention consent to anything; this is a refusal, so consent
+    is moot.",
+  "suggested_action": "accept",
+  "regeneration_hints": []
+}
+
+The answer "no" does NOT make it low confidence. The Resolver got
+the policy right.
+
+---
+
+## Case B — fixable hallucination (regenerate)
+
+Same email, same retriever context, but the Resolver made a
+hallucination error:
+
+Resolver output:
+  intent: refund
+  action: hilt_refund
+  draft: |
+    Hi <name>, you can get a refund. Let me process it now.
+
+The Resolver promised a refund outside the policy window. This is
+hallucinated. The Reflexive must catch it.
+
+Reflexive output:
+{
+  "dimension_scores": {
+    "intent_accuracy":     0.0,
+    "faithfulness":        0.0,
+    "policy_compliance":   0.0,
+    "tone":                0.5,
+    "side_effect_consent": 0.0
+  },
+  "confidence": 0.0,
+  "reasoning": "The Resolver promised a refund ('you can get a refund,
+    let me process it now') but the order is outside the 14-day
+    window per return-policy §3. The cited policy is correct but
+    the outcome ('yes you can get a refund') is the opposite of
+    what the policy says. This is a hallucinated outcome on a
+    side-effect action. Tone is fine (greeting + body).",
+  "suggested_action": "regenerate",
+  "regeneration_hints": [
+    "The order AB123456 was placed 2024-09-01. The 14-day refund
+     window per return-policy §3 has expired. The response must
+     NOT promise or process a refund. The correct response is a
+     polite refusal citing the policy.",
+    "Draft opener: 'We regret we are unable to process a refund
+     for order AB123456; the order is outside the 14-day refund
+     window per return-policy §3.'"
+  ]
+}
+
+The Resolver regenerates with the hints appended. The next
+Reflexive pass scores 1.0 across the board → accept.
+
+---
+
+## Case C — persistent failure, unfixable (escalate)
+
+The Resolver keeps hallucinating the refund after 2 regenerations.
+The system prompt's instructions cannot overcome the model's
+inability to apply the 14-day window correctly. This is unfixable
+by another generation attempt.
+
+Reflexive output (3rd call):
+{
+  "dimension_scores": {
+    "intent_accuracy":     0.0,
+    "faithfulness":        0.0,
+    "policy_compliance":   0.0,
+    "tone":                0.5,
+    "side_effect_consent": 0.0
+  },
+  "confidence": 0.0,
+  "reasoning": "After 2 regenerations, the Resolver still promises
+    a refund outside the 14-day window. The model cannot apply the
+    policy correctly for this order. The fix is not another
+    regeneration attempt — it is human review. Escalate.",
+  "suggested_action": "escalate",
+  "regeneration_hints": []
+}
+
+The workflow routes to `human_queue` (escalate) without another
+retry attempt. The hilt queue is for fixable cases; this is
+unfixable.
+
+---
+
+## Counter-example: zero chunks + read-only product question (tool fallback)
+
+The retriever returns 0 policy chunks. The customer asks a product
+question (not policy-bound). The Resolver can answer using
+`get_product_info` / `get_order_info`. The Reflexive must NOT
+short-circuit to escalate just because the retriever returned 0 chunks
+in this case.
+
+Inbound:
+  subject: Battery life of PS5 controller?
+  body: How long does the PS5 controller battery last?
+
+Retriever context:
+  policy_chunks: []    # no policy relevant to a battery question
+
+Resolver output: a tool-based product-info answer (factual).
+
+Reflexive output:
+{
+  "dimension_scores": {
+    "intent_accuracy":   1.0,
+    "faithfulness":      1.0,
+    "policy_compliance": 1.0,    # not a policy question
+    "tone":              1.0,
+    "side_effect_consent": 1.0
+  },
+  "confidence": 1.0,
+  "reasoning": "The customer asked a product factual question, not a
+    policy question. The Resolver used tool fallback to answer.
+    Zero policy chunks is correct here — there's no policy to cite.
+    All claims are grounded in product tool results.",
+  "suggested_action": "accept",
+  "regeneration_hints": []
+}
+
+The Reflexive distinguishes "no chunks + policy question" (escalate)
+from "no chunks + tool-answerable question" (accept).

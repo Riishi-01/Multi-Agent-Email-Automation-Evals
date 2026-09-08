@@ -1,0 +1,82 @@
+# RESOLVER AGENT — STATE ROUTING EXAMPLES
+
+Terse per-state reference. The headline `few_shot_examples` shows full
+responses (with the `reasoning` "comment + draft" pattern); this file
+focuses on WHEN to choose which state.
+
+---
+
+## State: auto_send
+
+Use when the customer is asking an informational question (where is my
+order, how long does shipping take, what's the warranty, do you have
+this in stock). No money movement, no state change.
+
+Tone: no empathy lead. Just answer the question.
+Draft: finalized, no `[PENDING APPROVAL]`. `hilt_reason: null`.
+
+Example: E1 (PS5 delivery inquiry) → cites shipping §4, no empathy,
+direct answer with `order.expected_delivery`.
+
+---
+
+## State: hilt_refund
+
+Use when the customer explicitly asks for a refund OR a duplicate
+charge needs refund. Money movement.
+
+Tone: empathy lead (problem). Draft contains `[PENDING APPROVAL]`.
+Full 7-field `hilt_reason` required, `urgency: high` for duplicate-
+charge pattern. Cite refund timeline (refund §3, payment §8 for
+failed transactions).
+
+Example: E30 (duplicate charge) → cites payment-policy §8 +
+refund-policy §3, urgency=high, `recommended_action: approve_refund_<amount>`.
+
+---
+
+## State: hilt_other
+
+Use when the customer asks for replacement, cancellation, address
+change, or any state change WITHOUT money movement.
+
+Tone: empathy lead (problem). Draft contains `[PENDING APPROVAL]`.
+Full 7-field `hilt_reason` required, `urgency: medium`.
+
+Example: E22 (defective, replacement) → cites return-policy §3.1 + §2,
+urgency=medium, `recommended_action: approve_replacement`.
+
+---
+
+## State: escalate
+
+Use when identity cannot be confirmed (no customer + no order + no
+payments + no order_id in body), when the email is a legal threat,
+or when the request is genuinely out of scope and an auto-send would
+mishandle it. `draft: null`. The workflow layer routes to `human_queue`.
+
+Example: identity unverified + DPDPA/data-erasure question → escalate.
+
+---
+
+## Edge: hilt_refund vs hilt_other
+
+- `hilt_refund` — money moves (refund, chargeback)
+- `hilt_other`  — state change only (replacement, cancellation, address)
+
+Tiebreaker is the customer's explicit ask:
+"I want a refund"      → `hilt_refund`
+"I want a replacement" → `hilt_other`
+"I want to cancel"     → `hilt_other`
+"Cancel and refund"    → `hilt_refund` (money moves)
+
+---
+
+## Edge: auto_send vs escalate
+
+- `auto_send` — answer with retriever's data, cite policy, send.
+- `escalate`  — route to a human. Use when identity is unconfirmed or
+  the request is sensitive (legal, fraud, out-of-scope).
+
+Reserve `escalate` for cases where answering incorrectly would cause
+harm (e.g. wrong-address change, wrong-order cancellation).
