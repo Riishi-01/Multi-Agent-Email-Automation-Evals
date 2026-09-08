@@ -1,0 +1,196 @@
+{
+  "schema_version": "1.2",
+  "email_id": "E26",
+  "captured_at": "2026-09-07T16:48:11.007788+00:00",
+  "input": {
+    "subject": "Crypto Nintendo Switch",
+    "body": "Hey ByteMart, I'm interested in purchasing a Nintendo Switch. Do you accept cryptocurrency payments such as Bitcoin (BTC) or Ethereum (ETH)?\n",
+    "sender_email": "crypto.buyer@gmail.com",
+    "notes": "run_id=workflow-20260907-221613, serial=26"
+  },
+  "retriever": {
+    "customer": {
+      "found": true,
+      "row": {
+        "email": "crypto.buyer@gmail.com",
+        "full_name": "Shaurya Bhatt",
+        "account_status": "active",
+        "no_of_orders": 0,
+        "created_at": "2025-07-30T05:30:00+00:00"
+      }
+    },
+    "order": {
+      "found": false,
+      "row": null
+    },
+    "payments": [],
+    "products": [],
+    "policies": [
+      {
+        "parent_id": "payment-policy#v1#parent-034-001",
+        "doc_id": "payment-policy",
+        "page_from": 34,
+        "page_to": 34,
+        "similarity": 0.7247,
+        "chunk_id": "payment-policy#v1#parent-034-001#child-001",
+        "clause_refs": [
+          "8",
+          "8.1",
+          "8.2",
+          "8.3",
+          "9",
+          "9.1",
+          "9.2",
+          "10",
+          "10.1",
+          "10.2",
+          "10.3",
+          "10.4",
+          "10.5",
+          "10.5.1",
+          "10.5.2"
+        ],
+        "text": "8. Failed Transactions 8.1 If a payment is initiated but the transaction fails (e.g., due to insufficient funds, network error, or bank decline), the Order shall not be confirmed, and the Buyer\u2019s account shall not be debited. 8.2 In the event of a duplicate debit or an unauthorised debit, the Buyer should immediately contact [support@bytemart.in] with the transaction reference. Byte Mart shall investigate andfacilitatearefundinaccordancewiththe Return,Refundand Replacement Policyandthe RBI\u2019s customer protection framework. 8.3 Byte Mart shall not be liable for delays or losses arising from failed transactions at- tributable to the Buyer\u2019s bank, payment instrument issuer, or network provider. 9. Pricing Disclosures (E-Commerce Rules, 2020) 9.1 In accordance with Reg. 5 of the Consumer Protection (E-Commerce) Rules, 2020, Byte Mart displays the following information on every Product page and at checkout: (a) Clear description of the Product; (b) MRP and selling price; (c) Total price payable (including taxes and delivery charges); (d) Country of origin; (e) Name and address of the seller (Byte Mart); (f) GSTIN, CIN, and other statutory registration numbers; (g) Available payment methods; (h) Delivery options, charges, and timelines; (i) Return, refund, and cancellation policy; (j) Grievance Officer contact details. 9.2 No hidden charges are added at checkout. The total price displayed at the payment step is the final amount payable by the Buyer (subject to the COD Charge under Clause 6 where applicable). 10. Discounts, Coupons & Promotional Offers 10.1 Discounts,coupons,cashback,andpromotionaloffersaregovernedbythespecificterms communicated at the time of the offer, including but not limited to: (a) Eligibility (Products, categories,Users);(b)Validityperiod;(c)Minimumordervalue(ifany);(d)Maximumdiscount value (if any); (e) One-time or repeat use; (f) Combination with other offers; (g) Cancellation andrefundeffect(seethe Cancellation Policyandthe Return,Refundand Replacement Policy). 10.2 Byte Mart reserves the right to modify, withdraw, or cancel any offer at any time, with or without notice, in accordance with Applicable Law. 10.3 Offers are not exchangeable for cash and are non-transferable unless expressly stated. 10.4 Promotionaldiscounts,whereapplicable,areappliedonlytothe Productpriceandtaxes, and not to the COD Charge or delivery charges, unless expressly stated. 10.5 Promotional Sales \u2014 Limited Period, Limited Stock, No Price Difference Refund 10.5.1 Limited Period. Pricingofferedduringapromotionalsale(includingbutnotlimitedto festivesales,flashsales,anniversarysales,clearancesales,andlimited-timediscountevents) is available only for the period of the promotion, as communicated on the Platform and in the offer terms. The start time, end time, and duration of each promotion are determined solely by Byte Mart. 10.5.2 Limited Stock. Promotionalpricingisavailableonly for the limited stockallocated tothepromotion. Byte Martmay,atitssolediscretion,setper-User,per-Order,orper-Product purchase limits during a promotion. 34"
+      },
+      {
+        "parent_id": "payment-policy#v1#parent-031-001",
+        "doc_id": "cancellation-policy",
+        "page_from": 31,
+        "page_to": 31,
+        "similarity": 0.6761,
+        "chunk_id": "payment-policy#v1#parent-031-001#child-001",
+        "clause_refs": [
+          "12",
+          "12.1",
+          "12.2",
+          "1.0",
+          "1",
+          "1.1",
+          "1.2",
+          "2",
+          "2.1",
+          "2.2",
+          "11",
+          "2.3",
+          "2.4",
+          "2.5",
+          "3",
+          "3.1"
+        ],
+        "text": "12. Contact 12.1 For all cancellation related queries, please contact: Byte Mart Customer Support Email: [support@bytemart.in] Phone: [PHONE] Hours: [DAYS / TIMINGS] Portal: \u201cMy Orders\u201d \u2192 \u201cCancel Order\u201d 12.2 If unsatisfied with our response, please refer to the Grievance Redressal Policy for further escalation options. End of Cancellation Policy Byte Mart \u2014 Payment & Pricing Policy Version: 1.0 Last Updated: [DD/MM/YYYY] Effective Date: [DD/MM/YYYY] Statutory map (for internal use): Payment and Settlement Systems Act, 2007 \u00b7 RBIM aster Directionson Digital Lending/Online Payment 2021\u00b7RBIT okenisation Directions 2021\u00b7CGSTA ct,2017(TCS under Section 52 fore-commerceoperators; tax invoice under Section 31) \u00b7 CGST Rules, 2017 (invoice format) \u00b7 Income Tax Act, 1961 (TDS under Section 194-O for e-commerce participants) \u00b7 Foreign Exchange Management Act, 1999 (cross-border payments, if any) \u00b7 IT Act, 2000 (electronic records, digital signatures). 1. Scope 1.1 This Payment and Pricing Policy (\u201cPayment Policy\u201d) governs the prices, taxes, payment methods,processing,security,andrelatedmattersfortransactionsonthe Byte Mart Platform. 1.2 This Payment Policy forms an integral part of the Byte Mart Terms and Conditions. In the event of a conflict, this Payment Policy shall prevail for matters relating to payments and pricing. 2. Pricing 2.1 All prices displayed on the Platform are in Indian Rupees (\u20b9) and are inclusive of all ap- plicable taxes, including Goods and Services Tax (\u201cGST\u201d), unless expressly stated otherwise. 2.2 Prices displayed on the Product page are the maximum retail price (\u201cMRP\u201d) as declared on the Product under the Legal Metrology (Packaged Commodities) Rules, 2011. Byte Mart may offer the Product at a price lower than the MRP. 2.3 The price applicable to an Order is the price displayed at the time of Order placement. Byte Mart reserves the right to modify prices at any time prior to Order acceptance. 2.4 Despite Byte Mart\u2019sbestefforts,asmallnumberof Productsmaybemispriced. Ifa Product is listed at an incorrect price due to a technical or human error, Byte Mart reserves the right to: (a) Cancel the Order and notify the Buyer of the cancellation, with a full refund; or (b) Contact the Buyer to confirm the corrected price before dispatch. 2.5 Byte Mart is not obligated to honour a mispriced Order. 3. Taxes 3.1 GST ischargedonall Productsandondeliverycharges,asapplicable,inaccordancewith the CGST Act, 2017, and the relevant state GST laws. 31"
+      },
+      {
+        "parent_id": "pricing-policy#v1#parent-035-001",
+        "doc_id": "pricing-policy",
+        "page_from": 35,
+        "page_to": 35,
+        "similarity": 0.6625,
+        "chunk_id": "pricing-policy#v1#parent-035-001#child-003",
+        "clause_refs": [
+          "10.5.3",
+          "10.5.4",
+          "10.5.5",
+          "10.5.6",
+          "10.5.7",
+          "11",
+          "11.1",
+          "11.2",
+          "11.3",
+          "11.4",
+          "12",
+          "12.1",
+          "12.2",
+          "12.3",
+          "12.4",
+          "13",
+          "13.1"
+        ],
+        "text": "10.5.3 Active Promotion Only. Toavailofapromotionaloffer,the Buyermustplacethe Order and the Order must be confirmed (in accordance with the Terms) while the promotion is active. An Order is \u201cplaced during the promotion\u201d only if: (a) The Order is confirmed by Byte Mart (Order Confirmation) within the active promotion window; and (b) Payment (where pre-paid) is successfully captured by the PSP within the active promotion window. 10.5.4 No Price Difference Refund. If a Buyer places an Order for a Product before the start of a promotional sale or after the end of a promotional sale (or before/after the pro- motional stock is exhausted), the Order shall be charged at the regular (non-promotional) price in effect at the time of Order placement. The Buyer shall not be eligible for any refund, credit, coupon, or adjustment representing the price difference between the regular price and the promotional price. 10.5.5 No Post-Hoc Claims. Byte Mart shall not entertain any claim, request, or complaint forapricedifferencerefund,retroactivediscount,orpromotionaladjustmentinrespectofan Order placed outside the active promotion window. Any such request shall be rejected. 10.5.6 Pre-Orders During Sales. The treatment of Pre-Orders placed during a sale is gov- erned by Clause 10.4 of the Shipping and Delivery Policy. Where a Pre-Order is accepted during a sale, the Pre-Order will be honoured at the promotional price, subject to the terms of the Pre-Order and the promotion. 10.5.7 Display of Promotional Pricing. Promotional pricing shall be displayed clearly on the Product page, with the original (regular) price shown alongside the promotional price, in accordance with the Legal Metrology (Packaged Commodities) Rules, 2011, and the E- Commerce Rules, 2020. 11. International Cards & Cross-Border Payments 11.1 International credit and debit cards (issued by banks outside India) are accepted for Orders delivered within India, subject to RBI guidelines and the policies of the PSP. 11.2 Thetransactionamountshallbeconvertedto Indian Rupeesattheexchangerateapplied by the Buyer\u2019s card issuer. Byte Mart is not responsible for any currency conversion charges, cross-borderfees,orforeignexchangedifferentialsappliedbythe Buyer\u2019sbankorcardissuer. 11.3 For cross-border payments, Byte Mart complies with the Foreign Exchange Manage- ment Act, 1999 (FEMA) and the RBI\u2019s relevant foreign exchange regulations. 11.4 UPI payments from non-resident accounts (NRE/NRO) are accepted only where sup- ported by the Buyer\u2019s bank and the UPI network. 12. Invoicing 12.1 Ataxinvoiceshallbeissuedforeverysuccessful Orderandsenttothe Buyer\u2019sregistered email address. 12.2 The Buyermayalsodownloadtheinvoicefromthe\u201cMy Orders\u201dsectionoftheiraccount. 12.3 Any error in the invoice (e.g., GSTIN, billing address) must be reported to [sup- port@bytemart.in] within 48 hours of invoice issuance. Byte Mart shall correct errors at its sole discretion, subject to the time limits prescribed under the CGST Act and Rules. 12.4 For COD Orders, the invoice shall include the COD Charge as a separate line item. 13. Chargebacks 13.1 Ifthe Buyerinitiatesachargebackwiththeirbankorcardissuer,Byte Martshallbeenti- tledto: (a)Disputethechargebackwithdocumentaryevidence(Orderconfirmation,dispatch 35"
+      }
+    ],
+    "tool_calls": [
+      {
+        "tool": "lookup_customer",
+        "args": {
+          "email": "crypto.buyer@gmail.com"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 19,
+        "error": null
+      },
+      {
+        "tool": "lookup_customer",
+        "args": {
+          "email": "crypto.buyer@gmail.com"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 6,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "What is ByteMart's policy on failed payment transactions?",
+          "top_k": 3
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 276,
+        "error": null
+      }
+    ],
+    "_sender_email": "crypto.buyer@gmail.com",
+    "_identity_verified": true
+  },
+  "resolver": {
+    "intent": "info",
+    "action": "auto_send",
+    "draft": "Hi Shaurya,\n\nThank you for reaching ByteMart support.\n\nRe: Crypto Nintendo Switch\n\nWe've reviewed your message and have an update for you.\n\nBest regards,\nByteMart Customer Support",
+    "self_check": {
+      "policy_compliant": true,
+      "entities_correct": true,
+      "state_change_implied": false,
+      "tone": "polite"
+    },
+    "reasoning": "Classified 'info' (inquiry only); action=auto_send.",
+    "used_entities": {
+      "order_id": null,
+      "txn_id": null,
+      "product_names": []
+    },
+    "hilt_reason": null
+  },
+  "outcome": "pending",
+  "timing_ms": {
+    "retriever": 5486,
+    "resolver": 11215,
+    "total": 16702
+  },
+  "reflexive": {
+    "dimension_scores": {
+      "intent_accuracy": 0.5,
+      "faithfulness": 1.0,
+      "policy_compliance": 1.0,
+      "tone": 1.0,
+      "side_effect_consent": 1.0
+    },
+    "confidence": 0.5,
+    "reasoning": "structural-retrieval-check: clause(s) ['1', '10', '11', '12', '13', '2', '3', '8', '9'] appear in multiple chunks (likely contradictory versions); human must disambiguate",
+    "suggested_action": "accept",
+    "regeneration_hints": [
+      "Re-evaluate the response and tighten the draft."
+    ],
+    "malformed": false
+  },
+  "final_action": "auto_send",
+  "error": null
+}

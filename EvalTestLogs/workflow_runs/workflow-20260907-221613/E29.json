@@ -1,0 +1,298 @@
+{
+  "schema_version": "1.2",
+  "email_id": "E29",
+  "captured_at": "2026-09-07T16:48:32.606670+00:00",
+  "input": {
+    "subject": "Refund Cancelled Order",
+    "body": "Hey ByteMart, I received an email stating that my order was cancelled due to inventory shortage and that a full refund had been initiated. It has been 2 days, but I have not received the refund in my HDFC Bank account. Could you please check the refund status and let me know when I can expect the amount to be credited?\n",
+    "sender_email": "aditya.rao.ahm@gmail.com",
+    "notes": "run_id=workflow-20260907-221613, serial=29"
+  },
+  "retriever": {
+    "customer": {
+      "found": true,
+      "row": {
+        "email": "aditya.rao.ahm@gmail.com",
+        "full_name": "Aditya Rao",
+        "account_status": "active",
+        "no_of_orders": 2,
+        "created_at": "2025-07-25T14:00:00+00:00"
+      }
+    },
+    "order": {
+      "found": false,
+      "row": null
+    },
+    "payments": [],
+    "products": [],
+    "policies": [
+      {
+        "parent_id": "shipping-policy#v1#parent-008-001",
+        "doc_id": "return-policy",
+        "page_from": 8,
+        "page_to": 8,
+        "similarity": 0.744,
+        "chunk_id": "shipping-policy#v1#parent-008-001#child-001",
+        "clause_refs": [
+          "8.3",
+          "8.4",
+          "9",
+          "9.1",
+          "9.2",
+          "9.3",
+          "9.4",
+          "9.5",
+          "9.6",
+          "10",
+          "10.1",
+          "10.2",
+          "10.3",
+          "10.4",
+          "10.5",
+          "11",
+          "11.1",
+          "11.2"
+        ],
+        "text": "Such refund shall be processed in accordance with Clause 11 and the Return, Refund and Replacement Policy. 8.3 Delivery timelines are indicative and may be affected by factors beyond Byte Mart\u2019s rea- sonable control, including natural disasters, transportation disruptions, government actions, and force majeure events. 8.4 Forcompleteshippingterms,includingserviceablelocations,tracking,faileddelivery,and risk of loss, please refer to the Shipping and Delivery Policy. 9. Returns, Refunds & Replacements 9.1 Byte Mart accepts returns, refunds, and replacements strictly in accordance with the Re- turn, Refund and Replacement Policy. 9.2 Returns shall be accepted only in the following circumstances: (a) Physical damage to the Productupondelivery;(b)Incomplete Orderdelivered;or(c)Wrong Productdelivered. 9.3 For damaged, wrong, or incomplete Orders, Byte Mart shall, at its sole discretion and subject to verification: (a) Offer a replacement of the Product, subject to stock availability; or (b) Offer a complete refund of the Product price if the Product or a suitable replacement is out of stock. 9.4 Refunds for cancelled Orders shall be processed without any charge to the Buyer. Re- funds for damaged Products are not provided; replacement shall be offered instead, sub- ject to Clause 9.3. 9.5 Standard refund processing time is 3\u20137 business days from initiation, subject to bank processing timelines. Replacement processing time is 5\u20137 business days. 9.6 For complete terms governing returns, refunds, and replacements, please refer to the Return, Refund and Replacement Policy. 10. Cancellations 10.1 You may cancel your Order at any time within the delivery window (i.e., from Order placement until actual delivery or refusal of delivery) via the \u201cMy Orders\u201d section of your account on the Platform, or by contacting [support@bytemart.in]. 10.2 If you cancel an Order on the scheduled delivery day (i.e., when the Order is in the \u201cOut for Delivery\u201d stage), Byte Mart reserves the right to deny delivery at the time of attempted delivery. 10.3 Ifyouacceptdeliveryofacancelled Order,the Ordershallbedeemeddelivered,andno return shall be permitted under the cancellation provisions. Any post-delivery return request shall be governed exclusively by the Return, Refund and Replacement Policy, and shall be subject to the 14-day Reporting Window and the limited grounds set out therein (physical damage, incomplete Order, wrong Product, or wrong version). 10.4 Refunds for cancelled Orders shall be processed in accordance with Clause 11 and the Return, Refund and Replacement Policy. 10.5 For complete cancellation terms, please refer to the Cancellation Policy. 11. Refunds 11.1 Refunds shall be processed to the original payment method used at the time of Order placement. 11.2 Oncearefundticketisinitiated,therefundmaytake 3\u20137 businessdaystobecreditedto the Buyer\u2019s account due to bank processing timelines. 8"
+      },
+      {
+        "parent_id": "shipping-policy#v1#parent-024-001",
+        "doc_id": "return-policy",
+        "page_from": 24,
+        "page_to": 24,
+        "similarity": 0.7214,
+        "chunk_id": "shipping-policy#v1#parent-024-001#child-002",
+        "clause_refs": [
+          "4.4.5",
+          "4.5",
+          "4.5.1",
+          "3",
+          "4.5.2",
+          "4.5.3",
+          "4.5.4",
+          "4.5.5",
+          "5",
+          "5",
+          "5.1",
+          "5.2",
+          "5.3",
+          "6",
+          "6.1",
+          "6.2",
+          "6.3",
+          "6.4"
+        ],
+        "text": "accessory;or(c)Offerthe Buyertheoptiontokeepthe Productandreceiveadiscountcoupon for future purchases. 4.4.5 No replacement of the main Product shall be offered under this Clause, as the Product itself is functional and accepted by the Buyer; the issue is limited to a missing accessory or document. 4.5 Same Product, Different Version Delivered 4.5.1 Ifthe Buyerreceivesa Productthatisthesamebrandandfamilybutadifferentversion (e.g.,differentgeneration,configuration,capacity,regionvariant,orcolourway)fromtheone ordered,the Buyermayreporttheissueinaccordancewith Clause 3. Thereportmustinclude photographsoftheboxandthe Productshowingtheversion/modelnumberandconfiguration. 4.5.2 Upon verification, Byte Mart shall arrange a replacement of the ordered Product. 4.5.3 The Buyershallreturnthedelivered Product(thewrong-version Product)initsoriginal condition, including: (a) Original packaging with all original accessories, manuals, labels, and tamper seals intact; (b) No signs of use, wear, scratches, or damage; (c) All freebies, coupons, or bundled items that were part of the original delivery. 4.5.4 If the returned Product is not in its original condition, Byte Mart may reject the re- placement at its sole discretion. The rejection may be communicated to the Buyer with pho- tographic or video evidence of the condition of the returned Product. 4.5.5 Iftheordered Product(correctversion)isoutofstock,Byte Martshallofferarefundof theinvoiceamount(Productprice+taxes+originaldeliverycharges,ifany),inaccordance with Clause 5. No Fast Deliverychargerefundshallapplyunlesstheconditionsofthe Shipping and Delivery Policy are met. 5. Resolution: Refund When Out of Stock 5.1 If the damaged, incomplete, or wrong Product is out of stock and cannot be replaced within a reasonable time, Byte Mart shall offer a complete refund of the Product price, in- cluding: (a) The Product price; (b) Taxes (GST) charged on the Product; (c) Original delivery charges, if any. 5.2 The Fast Delivery charge is refunded only in accordance with Clause 3.3 of the Shipping and Delivery Policy, regardless of the resolution path. 5.3 Refunds shall be processed to the original payment method used at the time of Order placement. 6. Refund Timelines 6.1 Once a refund ticket is initiated, the refund may take 3\u20137 business days to be credited to the Buyer\u2019s account due to bank processing timelines. 6.2 Byte Martshallinitiate refundsasquicklyas possible, butthe finalcreditingofthe refund is subject to the timelines of the Buyer\u2019s bank or payment instrument issuer. Byte Mart is not responsible for delays attributable to banks, payment gateways, or card networks. 6.3 The overall return-to-refund processing time (from return pickup to refund initiation) is up to 5\u20137 business days. 6.4 For COD Orders, refunds shall be processed via UPI, NEFT, or RTGS to a verified bank account, in accordance with the timelines set out in Clause 6.1. 24"
+      },
+      {
+        "parent_id": "refund-policy#v1#parent-025-001",
+        "doc_id": "refund-policy",
+        "page_from": 25,
+        "page_to": 25,
+        "similarity": 0.7195,
+        "chunk_id": "refund-policy#v1#parent-025-001#child-001",
+        "clause_refs": [
+          "7",
+          "7.1",
+          "7.2",
+          "7.3",
+          "8",
+          "8.1",
+          "8.2",
+          "8.3",
+          "9",
+          "9.1",
+          "9.2",
+          "9.3",
+          "10",
+          "10.1",
+          "10.2",
+          "10.3",
+          "11",
+          "11.1"
+        ],
+        "text": "7. Refunds for Cancelled Orders 7.1 Refundsfor Orderscancelledinaccordancewiththe Cancellation Policyshallbeprocessed without any charge to the Buyer. 7.2 Therefundamountshallinclude: (a)The Productprice;(b)Taxeschargedonthe Product; (c) Original delivery charges, if any (subject to the Cancellation Policy). 7.3 Refund timeline: 3\u20137 business days from initiation, subject to bank processing. 8. No Refund for Product Damage 8.1 Byte Martdoesnotoffermonetaryrefundsfordamaged Products. Damaged Products are eligible for replacement only, in accordance with Clause 4. 8.2 A monetary refund shall be offered only if the Product or its replacement is out of stock (Clause 5). 8.3 Thisclauseiswithoutprejudicetoanyrightsorremediesavailabletothe Buyerunderthe Consumer Protection Act, 2019, or any other Applicable Law. 9. Return Pickup & Reverse Logistics 9.1 For approved returns, Byte Mart shall arrange reverse pickup from the Buyer\u2019s delivery address at no cost to the Buyer, typically within 3\u20135 business days of approval. 9.2 The Buyershall: (a)Keepthe Productinitsoriginalpackagingwithallaccessories,manu- als,warrantycards,andfreebiesintact;(b)Affixthereturnlabelprovidedby Byte Mart(where applicable); (c) Hand over the Product to the logistics partner during the scheduled pickup. 9.3 If reverse pickup is not serviceable at the Buyer\u2019s pincode, the Buyer may be required to self-ship the Product. Byte Mart shall reimburse reasonable self-shipping costs upon verifica- tion, in accordance with our internal policy. 10. Condition of Returned Products 10.1 The returned Product must be in the same condition as delivered, with all original pack- aging, accessories, manuals, warranty cards, and freebies. 10.2 Products that show signs of use, damage caused after delivery, missing accessories, or tampering shall be rejected and returned to the Buyer without refund or replacement. 10.3 Byte Mart reserves the right to inspect the returned Product before processing a refund or replacement. 11. Non-Returnable / Non-Refundable Items 11.1 The following categories of Products are generally not eligible for return, refund, or replacementunderthis Return Policy,exceptwherethe Productisdelivereddamaged,incom- plete, or wrong: (a) Digital products \u2014 including software licenses, digital game keys, gift cards, prepaid recharge, and subscription codes (once the code/key has been delivered or revealed); (b) Perishable goods; (c) Personal care and hygiene products that have been opened or used; (d) Products marked as \u201cFinal Sale\u201d, \u201cNon-Returnable\u201d, or \u201cAs-Is\u201d on the Product page; (e) Customised or special-order Products; 25"
+      },
+      {
+        "parent_id": "payment-policy#v1#parent-031-001",
+        "doc_id": "cancellation-policy",
+        "page_from": 31,
+        "page_to": 31,
+        "similarity": 0.7316,
+        "chunk_id": "payment-policy#v1#parent-031-001#child-001",
+        "clause_refs": [
+          "12",
+          "12.1",
+          "12.2",
+          "1.0",
+          "1",
+          "1.1",
+          "1.2",
+          "2",
+          "2.1",
+          "2.2",
+          "11",
+          "2.3",
+          "2.4",
+          "2.5",
+          "3",
+          "3.1"
+        ],
+        "text": "12. Contact 12.1 For all cancellation related queries, please contact: Byte Mart Customer Support Email: [support@bytemart.in] Phone: [PHONE] Hours: [DAYS / TIMINGS] Portal: \u201cMy Orders\u201d \u2192 \u201cCancel Order\u201d 12.2 If unsatisfied with our response, please refer to the Grievance Redressal Policy for further escalation options. End of Cancellation Policy Byte Mart \u2014 Payment & Pricing Policy Version: 1.0 Last Updated: [DD/MM/YYYY] Effective Date: [DD/MM/YYYY] Statutory map (for internal use): Payment and Settlement Systems Act, 2007 \u00b7 RBIM aster Directionson Digital Lending/Online Payment 2021\u00b7RBIT okenisation Directions 2021\u00b7CGSTA ct,2017(TCS under Section 52 fore-commerceoperators; tax invoice under Section 31) \u00b7 CGST Rules, 2017 (invoice format) \u00b7 Income Tax Act, 1961 (TDS under Section 194-O for e-commerce participants) \u00b7 Foreign Exchange Management Act, 1999 (cross-border payments, if any) \u00b7 IT Act, 2000 (electronic records, digital signatures). 1. Scope 1.1 This Payment and Pricing Policy (\u201cPayment Policy\u201d) governs the prices, taxes, payment methods,processing,security,andrelatedmattersfortransactionsonthe Byte Mart Platform. 1.2 This Payment Policy forms an integral part of the Byte Mart Terms and Conditions. In the event of a conflict, this Payment Policy shall prevail for matters relating to payments and pricing. 2. Pricing 2.1 All prices displayed on the Platform are in Indian Rupees (\u20b9) and are inclusive of all ap- plicable taxes, including Goods and Services Tax (\u201cGST\u201d), unless expressly stated otherwise. 2.2 Prices displayed on the Product page are the maximum retail price (\u201cMRP\u201d) as declared on the Product under the Legal Metrology (Packaged Commodities) Rules, 2011. Byte Mart may offer the Product at a price lower than the MRP. 2.3 The price applicable to an Order is the price displayed at the time of Order placement. Byte Mart reserves the right to modify prices at any time prior to Order acceptance. 2.4 Despite Byte Mart\u2019sbestefforts,asmallnumberof Productsmaybemispriced. Ifa Product is listed at an incorrect price due to a technical or human error, Byte Mart reserves the right to: (a) Cancel the Order and notify the Buyer of the cancellation, with a full refund; or (b) Contact the Buyer to confirm the corrected price before dispatch. 2.5 Byte Mart is not obligated to honour a mispriced Order. 3. Taxes 3.1 GST ischargedonall Productsandondeliverycharges,asapplicable,inaccordancewith the CGST Act, 2017, and the relevant state GST laws. 31"
+      },
+      {
+        "parent_id": "cancellation-policy#v1#parent-028-001",
+        "doc_id": "cancellation-policy",
+        "page_from": 28,
+        "page_to": 28,
+        "similarity": 0.7315,
+        "chunk_id": "cancellation-policy#v1#parent-028-001#child-001",
+        "clause_refs": [
+          "17.2",
+          "1.0",
+          "1",
+          "1.1",
+          "1.2",
+          "2",
+          "2.1",
+          "3",
+          "3.1",
+          "3.2"
+        ],
+        "text": "17.2 If unsatisfied with our response, please refer to the Grievance Redressal Policy for further escalation options, including the National Consumer Helpline (1915), INGRAM portal, and e-Daakhil. End of Return, Refund & Replacement Policy Byte Mart \u2014 Cancellation Policy Version: 1.0 Last Updated: [DD/MM/YYYY] Effective Date: [DD/MM/YYYY] Statutory map (for internal use): Consumer Protection Act, 2019 (right to infor- mation,righttobeheard)\u00b7Consumer Protection(E-Commerce)Rules,2020(Reg. 5 \u2014 disclosure of cancellation policy) \u00b7 Indian Contract Act, 1872 (revocation of offer, breach of contract). 1. Scope 1.1 This Cancellation Policy (\u201cCancellation Policy\u201d) governs the conditions, process, and timelines applicable to the cancellation of Orders placed on the Byte Mart Platform. 1.2 This Cancellation Policy forms an integral part of the Byte Mart Terms and Conditions. In the event of a conflict, this Cancellation Policy shall prevail for matters relating to Order cancellation. 2. Stages of an Order 2.1 For the purpose of this Cancellation Policy, an Order passes through the following stages: (a) Order Placed \u2014 the Buyer has placed the Order and payment (if pre-paid) has been authorised; (b) Order Confirmed \u2014 Byte Mart has accepted the Order and issued an Order Confirma- tion; (c) Order Packed \u2014 the Product has been packed and is awaiting pickup by the logistics partner; (d) Order Dispatched \u2014 the Product has been handed over to the logistics partner and is in transit; (e) Out for Delivery \u2014 the Product is on the logistics partner\u2019s vehicle for delivery to the Buyer\u2019s address; (f) Delivered \u2014 the Product has been delivered to and accepted at the Buyer\u2019s address. 3. Cancellation Window 3.1 AB uyermayrequestcancellationofan Orderatanytimewithin the delivery window \u2014 thatis,fromthemomentthe Orderisplaceduntilthe Orderisactuallydeliveredtothe Buyer (or refused at the door). Once the Order has been delivered, the cancellation pathway under this Policy shall no longer apply. 3.2 The \u201cdelivery window\u201d means the period commencing on Order placement and ending onthemomentofactualdelivery(orrefusalofdelivery)atthe Buyer\u2019saddress. Thisincludes allofthefollowingstages: (a)Order Placed;(b)Order Confirmed;(c)Order Packed;(d)Order Dispatched (in transit); (e) Out for Delivery. 28"
+      },
+      {
+        "parent_id": "shipping-policy#v1#parent-029-001",
+        "doc_id": "cancellation-policy",
+        "page_from": 29,
+        "page_to": 29,
+        "similarity": 0.7313,
+        "chunk_id": "shipping-policy#v1#parent-029-001#child-003",
+        "clause_refs": [
+          "3.3",
+          "3.4",
+          "4",
+          "4.1",
+          "4.2",
+          "4.3",
+          "4.4",
+          "5",
+          "5.1",
+          "5.2",
+          "5.3",
+          "6",
+          "6.1",
+          "6.2",
+          "4"
+        ],
+        "text": "3.3 Cancellation within the delivery window may be requested via: (a) The \u201cMy Orders\u201d sec- tion of the Buyer\u2019s account on the Platform (recommended for pre-dispatch cancellations); or (b) Email to [support@bytemart.in]. 3.4 Cancellation within the delivery window is free of charge. No cancellation fee shall be levied on the Buyer. 4. Refund for Cancellation Within the Delivery Window 4.1 For any cancellation within the delivery window, Byte Mart shall process a full refund of: (a) The Product price; (b) Taxes (GST) charged on the Product; (c) Delivery charges (Fast Delivery charge and Regular Delivery charge, if any), including the COD Charge in the case of COD Orders. 4.2 No charge shall be levied on the Buyer for cancellation within the delivery window. 4.3 Refundtimeline: 3\u20137 business daysfrominitiation,subjecttobankprocessingtimelines. 4.4 For COD Orders cancelled within the delivery window, no payment is due from the Buyer. If the Buyer had pre-paid the Order value, the full amount shall be refunded in accordance with Clause 4.1. 5. Cancellation on the Day of Delivery 5.1 If the Buyer wishes to cancel an Order on the scheduled delivery day (i.e., when the Orderisinthe\u201cOutfor Delivery\u201dstage), Byte Martreservestherighttodeny delivery atthe time of attempted delivery. 5.2 Where delivery is denied at the door: (a) The Order shall be treated as cancelled; (b) The Productshallbereturnedtothewarehouse;(c)Refundshallbeprocessedinaccordancewith Clause 4, subject to verification by the logistics partner. 5.3 Where the Order is accepted at the door (i.e., the Buyer or any person at the delivery address takes delivery of the Product): (a) The Order shall be deemed delivered; (b) The cancellationpathwayunderthis Cancellation Policyshallnolongerapply;(c)The Buyermay notreturnthe Productunderthecancellationprovisions;(d)Anypost-deliveryreturnrequest shall be governed exclusively by the Return, Refund and Replacement Policy (and shall be subject to the limited grounds set out therein, i.e., physical damage, incomplete Order, or wrong Product, and the 14-day Reporting Window). 6. Cancellation by Byte Mart 6.1 Byte Mart reserves the right to cancel an Order at any time prior to dispatch (or, where necessary, recall an in-transit Order), with or without notice, in the following circumstances: (a) The Product is out of stock or unavailable; (b) Thepricingdisplayedonthe Productpageisincorrectduetoatechnicalorhumanerror; (c) The Buyer\u2019s address is not serviceable; (d) The Buyer\u2019s payment cannot be authorised, captured, or verified; (e) The Order is suspected to be fraudulent, unauthorised, or in violation of these Terms; (f) The Orderisinviolationof Applicable Laworanyrestrictionimposedbya Reseller,OEM, or governmental authority; (g) Force majeure events prevent fulfilment. 6.2 Intheeventofcancellationby Byte Mart,the Buyershallbeentitledtoafull refundofall amountspaid,inaccordancewith Clause 4. Byte Martshallnotbeliableforanyconsequential loss or damage arising from such cancellation. 29"
+      }
+    ],
+    "tool_calls": [
+      {
+        "tool": "lookup_customer",
+        "args": {
+          "email": "aditya.rao.ahm@gmail.com"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 3,
+        "error": null
+      },
+      {
+        "tool": "lookup_customer",
+        "args": {
+          "email": "aditya.rao.ahm@gmail.com"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 12,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "What is ByteMart's refund policy and timeline?",
+          "top_k": 3
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 242,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "What is ByteMart's cancellation policy?",
+          "top_k": 3
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 219,
+        "error": null
+      }
+    ],
+    "_sender_email": "aditya.rao.ahm@gmail.com",
+    "_identity_verified": true
+  },
+  "resolver": {
+    "intent": "refund",
+    "action": "hilt_refund",
+    "draft": "We deeply regret the inconvenience, Aditya.\n\nOur team is reviewing your request and will get back to you with a resolution.\n\nRe: [PENDING APPROVAL] Refund Cancelled Order\n\n[PENDING APPROVAL: review required before sending]\n\nBest regards,\nByteMart Customer Support",
+    "self_check": {
+      "policy_compliant": true,
+      "entities_correct": true,
+      "state_change_implied": true,
+      "tone": "neutral"
+    },
+    "reasoning": "Action verb matched refund trigger; routed to operator for refund execution.",
+    "used_entities": {
+      "order_id": null,
+      "txn_id": null,
+      "product_names": []
+    },
+    "hilt_reason": {
+      "policy_clause": "refund \u00a73",
+      "reason_short": "Refund request requires operator approval",
+      "reason_long": "Customer requested a refund. Money movement requires tier-2 support approval per refund policy \u00a73.",
+      "recommended_action": "review_refund_request",
+      "action_target": "refund_execution",
+      "urgency": "high",
+      "human_skill_required": "tier_2_support"
+    }
+  },
+  "outcome": "pending",
+  "timing_ms": {
+    "retriever": 7061,
+    "resolver": 14221,
+    "total": 21282
+  },
+  "reflexive": {
+    "dimension_scores": {
+      "intent_accuracy": 1.0,
+      "faithfulness": 1.0,
+      "policy_compliance": 0.0,
+      "tone": 1.0,
+      "side_effect_consent": 1.0
+    },
+    "confidence": 0.0,
+    "reasoning": "structural-retrieval-check: clause(s) ['1', '10', '11', '12', '2', '3', '4', '5', '6', '7', '8', '9'] appear in multiple chunks (likely contradictory versions); human must disambiguate",
+    "suggested_action": "accept",
+    "regeneration_hints": [
+      "The cited policy clause is not in the retriever's policies[] list. Re-verify the policy citation."
+    ],
+    "malformed": false
+  },
+  "final_action": "hilt_refund",
+  "error": null
+}

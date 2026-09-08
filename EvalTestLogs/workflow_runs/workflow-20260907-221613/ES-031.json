@@ -1,0 +1,199 @@
+{
+  "schema_version": "1.2",
+  "email_id": "ES-031",
+  "captured_at": "2026-09-07T16:48:30.435490+00:00",
+  "input": {
+    "subject": "Data Erasure DPDPA",
+    "body": "I want to delete my account and all associated personal data from your systems immediately.\n",
+    "sender_email": "user.privacy@test.com",
+    "notes": "run_id=workflow-20260907-221613, serial=31"
+  },
+  "retriever": {
+    "customer": {
+      "found": true,
+      "row": {
+        "email": "user.privacy@test.com",
+        "full_name": "User Privacy",
+        "account_status": "active",
+        "no_of_orders": 0,
+        "created_at": "2026-08-20T04:30:00+00:00"
+      }
+    },
+    "order": {
+      "found": false,
+      "row": null
+    },
+    "payments": [],
+    "products": [],
+    "policies": [
+      {
+        "parent_id": "privacy-policy#v1#parent-010-001",
+        "doc_id": "privacy-policy",
+        "page_from": 10,
+        "page_to": 10,
+        "similarity": 0.6884,
+        "chunk_id": "privacy-policy#v1#parent-010-001#child-001",
+        "clause_refs": [
+          "14",
+          "14.1",
+          "14.2",
+          "15",
+          "15.1",
+          "15.2",
+          "15.3",
+          "16",
+          "16.1",
+          "16.2",
+          "16.3",
+          "16.4",
+          "16.5"
+        ],
+        "text": "14. Intellectual Property 14.1 All Content on the Platform, including but not limited to text, graphics, logos, images, audio, video, software, and the compilation thereof, is the property of Byte Mart or its licen- sors and is protected by Indian and international copyright, trademark, patent, and other intellectual property laws. 14.2 You may not reproduce, distribute, modify, create derivative works of, publicly display, publiclyperform,republish,download,store,ortransmitanyofthe Contentwithouttheprior written consent of Byte Mart. 14.3 \u201cByte Mart\u201d and all related logos, product names, and service names are trademarks of Byte Mart. You may not use such marks without the prior written consent of Byte Mart. 15. Data & Privacy 15.1 Byte Martprocessesyourpersonaldatainaccordancewiththe Digital Personal Data Pro- tection Act, 2023 (\u201cDPDPA\u201d), the Information Technology Act, 2000, and the IT (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011, as set out in the Privacy Policy. 15.2 Byusingthe Platform,youconsenttothecollection,use,storage,processing,andsharing of your personal data in accordance with the Privacy Policy. 15.3 You have the right to access, correct, erase, and nominate another individual in respect ofyourpersonaldata,inaccordancewiththe DPDPA.Toexercisetheserights,pleasecontact the Grievance Officer. 16. Product Standards, Safety & E-Waste 16.1 Byte Mart ensures that Products requiring mandatory registration under the BIS Act, 2016, the Meit Y CRS, or any other Applicable Law are sourced only from BIS-registered manufacturers or importers. 16.2 The Buyer is entitled to receive Products that comply with the standards notified un- der the Legal Metrology Act, 2009, and the Legal Metrology (Packaged Commodities) Rules, 2011, including declarations of MRP, net quantity, manufacturer/importer details, country of origin, and date of manufacture/import. 16.3 In accordance with the E-Waste (Management) Rules, 2022, Byte Mart supports Ex- tended Producer Responsibility (\u201cEPR\u201d) and provides a take-back mechanism for end-of-life electrical and electronic equipment purchased on the Platform. Buyers may deposit e-waste at the collection points communicated on the Platform or contact [support@bytemart.in] for scheduled collection, where available. 16.4 Buyers are advised to handle lithium-ion and other battery-powered Products with care and to dispose of damaged or end-of-life batteries only through authorised channels. 16.5 Manufacturerwarrantiesandpost-salesservicearetheresponsibilityoftheoriginal manufacturer of the Product. Byte Mart is a retailer and does not provide warranty or post- sales service in its own name, except where expressly stated on a specific Product page. (a) Themanufacturer\u2019swarrantyterms(includingperiod,scope,andexclusions)shallapply as set out in the warranty card, terms document, or manufacturer\u2019s website; (b) The Byte Marttaxinvoiceshallbeacceptedasvalidproofofpurchaseformanufacturer warrantyclaims,andshallcontainthe Productdescription,modelnumber,serialnumber (where recorded), purchase date, and price; 10"
+      },
+      {
+        "parent_id": "shipping-policy#v1#parent-013-001",
+        "doc_id": "shipping-policy",
+        "page_from": 13,
+        "page_to": 13,
+        "similarity": 0.6843,
+        "chunk_id": "shipping-policy#v1#parent-013-001#child-002",
+        "clause_refs": [
+          "25",
+          "25.1",
+          "26",
+          "26.1",
+          "26.2",
+          "27",
+          "27.1",
+          "28",
+          "28.1",
+          "1.0",
+          "1",
+          "1.1"
+        ],
+        "text": "25. Severability 25.1 If any provision of these Terms is held by a court of competent jurisdiction to be invalid, illegal, or unenforceable, such provision shall be severed, and the remaining provisions shall remain in full force and effect. 26. Waiver 26.1 No waiver by Byte Mart of any term or condition set out in these Terms shall be deemed a further or continuing waiver of such term or condition, or a waiver of any other term or condition. 26.2 No failure or delay by Byte Mart in exercising any right, power, or privilege under these Terms shall operate as a waiver thereof. 27. Entire Agreement 27.1 These Terms, together with the Privacy Policy, Shipping and Delivery Policy, Return, Re- fund and Replacement Policy, Cancellation Policy, Payment and Pricing Policy, and Grievance Redressal Policy, constitute the entire agreement between you and Byte Mart regarding the use of the Platform, and supersede all prior or contemporaneous communications, represen- tations, and proposals, whether oral or written. 28. Contact 28.1 For questions regarding these Terms, please contact: Byte Mart [Private Limited / Limited] Registered Office: [ADDRESS], New Delhi, India CIN: [CIN] GSTIN: [GSTIN] PAN: [PAN] Customer Support: [sup- port@bytemart.in] | [PHONE] Grievance Officer: [NAME] Grievance Officer Email: [grievance@bytemart.in] Grievance Officer Phone: [PHONE] Grievance Officer Address: [ADDRESS], New Delhi, India End of Terms and Conditions Byte Mart \u2014 Privacy Policy Version: 1.0 Last Updated: [DD/MM/YYYY] Effective Date: [DD/MM/YYYY] Statutory map (for internal use): Digital Personal Data Protection Act, 2023 (DPDPA)\u00b7Information Technology Act,2000\u00b7IT(Reasonable Security Practicesand Procedures and Sensitive Personal Data or Information) Rules, 2011 \u00b7 IT (Interme- diary Guidelinesand Digital Media Ethics Code)Rules,2021\u00b7Consumer Protection (E-Commerce) Rules, 2020. 1. Introduction 1.1 This Privacy Policy (\u201cPolicy\u201d) describes how [Byte Mart Private Limited / Byte Mart Limited] (\u201cByte Mart\u201d, \u201cwe\u201d, \u201cus\u201d, or \u201cour\u201d) collects, uses, stores, processes, shares, and protects the personal data of Users (\u201cyou\u201d or \u201cyour\u201d) when you access or use the Byte Mart website, mobile application, and related services (the \u201cPlatform\u201d). 13"
+      },
+      {
+        "parent_id": "privacy-policy#v1#parent-017-001",
+        "doc_id": "privacy-policy",
+        "page_from": 17,
+        "page_to": 17,
+        "similarity": 0.678,
+        "chunk_id": "privacy-policy#v1#parent-017-001#child-002",
+        "clause_refs": [
+          "10.3",
+          "11",
+          "11.1",
+          "11.2",
+          "12",
+          "12.1",
+          "18",
+          "12.2",
+          "12.3",
+          "13",
+          "13.1",
+          "13.2",
+          "14",
+          "14.1",
+          "14.2"
+        ],
+        "text": "(b) Performance & Analytics Cookies \u2014 to measure usage and improve the Platform; (c) Functionality Cookies \u2014 to remember your preferences (e.g., language, location); (d) Marketing & Advertising Cookies \u2014 to deliver relevant ads and measure their effec- tiveness. 10.3 Youcanmanageyour Cookiepreferencesviathe Cookieconsentbanneroryourbrowser settings. Disabling certain Cookies may affect the functionality of the Platform. 11. Your Rights as a Data Principal 11.1 Under the DPDPA and other Applicable Law, you have the following rights: (a) Right to Access \u2014 to obtain a summary of your personal data being processed and the associated processing activities; (b) Right to Correction & Erasure \u2014 to correct inaccurate or misleading personal data and to request erasure of personal data that is no longer necessary; (c) Rightto Withdraw Consent\u2014towithdraw Consentatanytime,withprospectiveeffect; (d) Right of Nomination \u2014 to nominate another individual to exercise your rights in the event of your death or incapacity; (e) Right to Grievance Redressal \u2014 to file a complaint with our Grievance Officer and, if unsatisfied, with the Data Protection Board of India. 11.2 Toexerciseanyoftheserights,pleasecontactthe Grievance Officerat[grievance@bytemart.in]. We will respond to your request within thirty (30) days, or such longer period as may be permitted under the DPDPA, after identity verification. 12. Children\u2019s Data 12.1 The Platform is not intended for individuals under the age of 18. We do not knowingly collect personal data from children. 12.2 Ifwebecomeawarethatwehaveinadvertentlycollectedpersonaldatafromachildunder 18, we will delete such data as soon as possible. 12.3 If you believe that a child has provided us with personal data, please contact the Grievance Officer. 13. Third-Party Links 13.1 The Platformmaycontainlinkstothird-partywebsites,applications,orservicesthatare not owned or controlled by Byte Mart. 13.2 Wearenotresponsiblefortheprivacypracticesofsuchthirdparties. Weencourageyou to read the privacy policies of every website and application that collects your personal data. 14. Automated Decision-Making & Profiling 14.1 We may use automated processing, including profiling, for purposes such as fraud de- tection, personalised recommendations, and dynamic pricing, in accordance with Applicable Law. 14.2 You have the right to request human review of any automated decision that significantly affects you, in accordance with the DPDPA. 17"
+      }
+    ],
+    "tool_calls": [
+      {
+        "tool": "lookup_customer",
+        "args": {
+          "email": "user.privacy@test.com"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 3,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "What is ByteMart's policy on data erasure under the DPDPA?"
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 229,
+        "error": null
+      },
+      {
+        "tool": "lookup_customer",
+        "args": {
+          "email": "user.privacy@test.com"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 4,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "What are the data principal rights under ByteMart's privacy policy?",
+          "top_k": 3
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 250,
+        "error": null
+      }
+    ],
+    "_sender_email": "user.privacy@test.com",
+    "_identity_verified": true
+  },
+  "resolver": {
+    "intent": "other",
+    "action": "escalate",
+    "draft": null,
+    "self_check": {
+      "policy_compliant": true,
+      "entities_correct": true,
+      "state_change_implied": true,
+      "tone": "neutral"
+    },
+    "reasoning": "Read from retriever: customer verified; no orders found; policies include privacy-policy with relevant clauses on data erasure. Tone: request for data erasure \u2192 neutral. Did NOT: provide specific details on the process or timeline for data deletion. Decision: escalate due to the sensitive nature of the request regarding data erasure.",
+    "used_entities": {
+      "order_id": null,
+      "txn_id": null,
+      "product_names": []
+    },
+    "hilt_reason": null
+  },
+  "outcome": "sent",
+  "timing_ms": {
+    "retriever": 5925,
+    "resolver": 6939,
+    "total": 12865
+  },
+  "reflexive": {
+    "dimension_scores": {
+      "intent_accuracy": 1.0,
+      "faithfulness": 1.0,
+      "policy_compliance": 1.0,
+      "tone": 1.0,
+      "side_effect_consent": 1.0
+    },
+    "confidence": 1.0,
+    "reasoning": "structural-retrieval-check: clause(s) ['1', '11', '12', '13', '14', '15', '16', '25', '26', '27', '28'] appear in multiple chunks (likely contradictory versions); human must disambiguate",
+    "suggested_action": "accept",
+    "regeneration_hints": [],
+    "malformed": false
+  },
+  "final_action": "escalate",
+  "error": null
+}

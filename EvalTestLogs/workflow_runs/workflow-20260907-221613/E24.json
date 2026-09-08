@@ -1,0 +1,466 @@
+{
+  "schema_version": "1.2",
+  "email_id": "E24",
+  "captured_at": "2026-09-07T16:48:15.447284+00:00",
+  "input": {
+    "subject": "Refund Fast Delivery",
+    "body": "I opted for fast delivery for my PS5 order and paid an additional Rs.100 for expedited delivery to my address in Delhi. However, the order was delivered after 6 days, which appears to be the regular delivery timeline. Since I paid extra for fast delivery but did not receive the promised service, I would like to request a refund of the Rs.100 delivery charge. Please review my order and let me know the refund status.\n",
+    "sender_email": "rohan.delhi.21@gmail.com",
+    "notes": "run_id=workflow-20260907-221613, serial=24"
+  },
+  "retriever": {
+    "customer": {
+      "found": true,
+      "row": {
+        "email": "rohan.delhi.21@gmail.com",
+        "full_name": "Rohan Gupta",
+        "account_status": "active",
+        "no_of_orders": 2,
+        "created_at": "2025-07-10T04:00:00+00:00"
+      }
+    },
+    "order": {
+      "found": true,
+      "row": {
+        "order_id": "BM200010",
+        "customer_email": "rohan.delhi.21@gmail.com",
+        "items": [
+          {
+            "qty": 1,
+            "sku": "PS5-DISC-001",
+            "name": "PlayStation 5 Disc Edition Console",
+            "line_total": 54990.0,
+            "unit_price": 54990.0
+          },
+          {
+            "qty": 1,
+            "sku": "EXP-DEL-001",
+            "name": "Express Delivery Surcharge",
+            "line_total": 100.0,
+            "unit_price": 100.0
+          }
+        ],
+        "total_amount": "55090.00",
+        "payment_method": "upi",
+        "order_date": "2025-08-18T06:00:00+00:00",
+        "expected_delivery": "2025-08-21",
+        "current_status": "delivered",
+        "shipping_address": {
+          "zip": "110091",
+          "city": "Delhi",
+          "line1": "9 Mayur Vihar Phase 2",
+          "state": "Delhi",
+          "country": "India"
+        },
+        "created_at": "2025-08-18T06:00:00+00:00",
+        "updated_at": "2026-09-07T03:04:58.781315+00:00"
+      }
+    },
+    "payments": [
+      {
+        "payment_id": "569ab7de-2082-4b09-8611-0cf6c3b88c2c",
+        "customer_email": "rohan.delhi.21@gmail.com",
+        "order_id": "BM200010",
+        "amount": "100.00",
+        "method": "upi",
+        "status": "success",
+        "transaction_id": "25081803",
+        "failure_reason": null,
+        "created_at": "2025-08-18T06:00:35+00:00",
+        "updated_at": "2025-08-18T06:00:35+00:00"
+      },
+      {
+        "payment_id": "8fa9a40d-9fba-4a16-bf6f-599d69f28804",
+        "customer_email": "rohan.delhi.21@gmail.com",
+        "order_id": "BM200010",
+        "amount": "54990.00",
+        "method": "upi",
+        "status": "success",
+        "transaction_id": "25081802",
+        "failure_reason": null,
+        "created_at": "2025-08-18T06:00:30+00:00",
+        "updated_at": "2025-08-18T06:00:30+00:00"
+      }
+    ],
+    "products": [
+      {
+        "sku": "PS5-DISC-001",
+        "name": "PlayStation 5 Disc Edition Console",
+        "category": "gaming_console",
+        "unit_price": "54990.00",
+        "in_stock": true,
+        "description": "PS5 with Ultra HD Blu-ray drive",
+        "warranty_text": "1 Year manufacturer warranty covering manufacturing defects.",
+        "tech_description": "Next-generation Sony gaming console with Ultra HD Blu-ray disc drive, high-speed SSD storage, AMD Zen 2 CPU and RDNA 2 GPU.",
+        "tech_details": "Storage: 825GB SSD Wi-Fi: Wi-Fi 6 Bluetooth: 5.1 USB: 2\u00d7 USB-A, 2\u00d7 USB-C HDMI: 1\u00d7 HDMI 2.1 Disc: 4K UHD Blu-ray Resolution: Up to 8K Networking: Gigabit Ethernet Controller: DualSense Wireless",
+        "stock_count": 7
+      }
+    ],
+    "policies": [
+      {
+        "parent_id": "pricing-policy#v1#parent-021-001",
+        "doc_id": "pricing-policy",
+        "page_from": 21,
+        "page_to": 21,
+        "similarity": 0.7388,
+        "chunk_id": "pricing-policy#v1#parent-021-001#child-002",
+        "clause_refs": [
+          "10.4",
+          "10.4.1",
+          "10.4.2",
+          "10.4.3",
+          "10.4.4",
+          "11",
+          "11.1",
+          "12",
+          "12.1",
+          "12.2",
+          "12.3",
+          "13",
+          "13.1",
+          "14",
+          "14.1"
+        ],
+        "text": "10.4 Pre-Orders During Sales 10.4.1 Duringapromotionalsale(includingbutnotlimitedtofestivesales,flashsales,anniver- sary sales, and clearance sales), Byte Mart may, at its sole discretion, accept or not accept Pre-Orders for selected Products. 10.4.2 Where Pre-Ordersareacceptedduringasale,the Buyermayplacea Pre-Orderthrough the Platform during the active promotional period. The Pre-Order will be honoured at the promotional price, subject to stock and the terms of the Pre-Order. 10.4.3 Where Pre-Orders are not accepted during a sale, the Platform shall not display any \u201cPre-Order\u201d or \u201cNotify Me\u201d option for the affected Product(s). The Buyer may purchase the Product only when (and if) it becomes available for regular sale at the regular price. 10.4.4 For the avoidance of doubt, the general rules on offers and promotions in Clause 10 of the Payment and Pricing Policy apply to Pre-Orders placed during a sale. 11. Delivery to Multiple Addresses 11.1 Byte Mart currently supports delivery to a single address per Order. If the Buyer wishes to ship Products to multiple addresses, separate Orders must be placed. 12. Change of Delivery Address 12.1 The Buyer may request a change of delivery address prior to dispatch by contacting [support@bytemart.in]. Byte Mart may, at its sole discretion, accept or reject the request. 12.2 Once an Order has been dispatched from the warehouse, the Buyer cannot re- quest a change of delivery address. The Order shall be delivered to the address on file at the time of dispatch, and any redirection request thereafter shall not be entertained. 12.3 Ifthe Buyerisunavailableatthedispatch-timeaddress,thestandardfailed-deliveryand RTO process under Clauses 7 and 8 shall apply. The Order may be cancelled and refunded in accordancewiththe Cancellation Policy,withthe Fast Deliverychargeand(whereapplicable) the COD Charge not refunded, in accordance with the Payment and Pricing Policy. 13. International Shipping 13.1 Byte Mart currently does not offer international shipping. Products are delivered within the territory of India only. 14. Compliance Disclosures 14.1 In accordance with the E-Commerce Rules, 2020, Byte Mart displays the following information on every Product page and at checkout: (a) Name and principal address of Byte Mart; (b) GSTIN, CIN, and other statutory registration numbers; (c) Country of origin of each Product; (d) Delivery options, charges, and estimated timelines; (e) Grievance Officer contact details. 21"
+      },
+      {
+        "parent_id": "shipping-policy#v1#parent-007-001",
+        "doc_id": "shipping-policy",
+        "page_from": 7,
+        "page_to": 7,
+        "similarity": 0.7216,
+        "chunk_id": "shipping-policy#v1#parent-007-001#child-003",
+        "clause_refs": [
+          "5.7",
+          "6",
+          "6.1",
+          "6.2",
+          "72",
+          "6.3",
+          "6.4",
+          "6.5",
+          "7",
+          "7.1",
+          "7.2",
+          "7.3",
+          "7.4",
+          "7.5",
+          "7.6",
+          "7.7",
+          "8",
+          "8.1",
+          "8.2"
+        ],
+        "text": "Byte Martshallensurethatonly Productsbearingvalid BIS registration(including ISI or CRS marks where applicable) are offered for sale on the Platform. 5.7 Each Product page shall display the country of origin and the name and address of the manufacturer or importer, in compliance with the Legal Metrology (Packaged Commodities) Rules, 2011, and the Consumer Protection (E-Commerce) Rules, 2020. 6. Orders & Contract Formation 6.1 To place an Order, you must follow the instructions on the Platform and provide accurate delivery and payment information. 6.2 Submissionofan Orderconstitutesanofferbyyoutoenterintoacontractwith Byte Mart, in accordance with the Indian Contract Act, 1872. No contract is formed until Byte Mart ac- cepts your offer by issuing an Order Confirmation. 6.3 Byte Mart reserves the right to cancel any Order prior to issuance of the Order Confirma- tion,includingbutnotlimitedtocasesofpricingerrors,stockunavailability,suspectedfraud, non-compliance with these Terms, or any legal or regulatory restriction. 6.4 Each Order shall be governed by these Terms and any additional terms communicated at the time of Order placement. 6.5 Byte Mart may, at its sole discretion, place limits on Order quantities, Order value, or the total number of Orders per User, per household, or per payment instrument. 7. Payment Terms 7.1 Byte Mart accepts payment through the methods specified on the Platform, which may include credit cards, debit cards, Unified Payments Interface (\u201cUPI\u201d), net banking, mobile wallets, prepaid payment instruments, and Cash on Delivery (\u201cCOD\u201d) (where available). 7.2 All payments are processed in compliance with the rules and regulations of the Reserve Bank of India (\u201cRBI\u201d) and the Payment and Settlement Systems Act, 2007. 7.3 Byte Martusesthird-partypaymentgatewayprovidersthatcomplywiththe Payment Card Industry Data Security Standard (\u201cPCI-DSS\u201d) and applicable RBI guidelines. Byte Mart does not store your complete payment card or banking credentials. 7.4 You agree to pay all charges at the prices displayed at the time of Order placement, to- gether with applicable taxes, delivery charges, and any other fees specified at checkout. 7.5 Fortheavoidanceofdoubt,titletoany Productpurchasedshallpasstoyouupondelivery, and the risk of loss shall pass to you upon delivery at the address specified in the Order. 7.6 For the avoidance of doubt, GST on e-commerce supplies shall be discharged in accor- dance with the CGST Act, 2017, and any tax collected at source (\u201cTCS\u201d) by Byte Mart as an e-commerce operator shall be reflected in the tax invoice. 7.7 For full payment terms, please refer to the Payment and Pricing Policy. 8. Shipping & Delivery 8.1 Byte Mart offers two delivery options as set out in the Shipping and Delivery Policy: (a) Fast Delivery \u2014 between \u20b9100 and \u20b9250, depending on the delivery location, with delivery within 3\u20134 business days; and (b) Regular Delivery \u2014 free of charge, with delivery within 5\u20137 business days. 8.2 In the event that a Fast Delivery Order is not delivered within the guaranteed 3\u20134 busi- ness day window, the Buyer may request a refund of the Fast Delivery charge only (not the Product price or other charges) by emailing [support@bytemart.in] with the Order number. 7"
+      },
+      {
+        "parent_id": "shipping-policy#v1#parent-022-001",
+        "doc_id": "shipping-policy",
+        "page_from": 22,
+        "page_to": 22,
+        "similarity": 0.7147,
+        "chunk_id": "shipping-policy#v1#parent-022-001#child-001",
+        "clause_refs": [
+          "15",
+          "15.1",
+          "16",
+          "16.1",
+          "1.0",
+          "1",
+          "1.1",
+          "1.2",
+          "2",
+          "2.1",
+          "2.2"
+        ],
+        "text": "15. Force Majeure 15.1 Byte Mart shall not be liable for any delay or failure in delivery caused by force majeure events, as set out in Clause 20 of the Terms and Conditions. 16. Contact 16.1 For all shipping and delivery related queries, please contact: Byte Mart Customer Support Email: [support@bytemart.in] Phone: [PHONE] Hours: [DAYS / TIMINGS] End of Shipping & Delivery Policy Byte Mart \u2014 Return, Refund & Replacement Policy Version: 1.0 Last Updated: [DD/MM/YYYY] Effective Date: [DD/MM/YYYY] Statutory map (for internal use): Consumer Protection Act, 2019 (rights of con- sumers,includingrighttoseekredressalagainstdefectivegoods,unfairtradeprac- tice, etc.) \u00b7 Consumer Protection (E-Commerce) Rules, 2020 (Reg. 5(3) \u2014 return policy;Reg. 9\u2014refund)\u00b7Indian Contract Act,1872(defect,failureofconsideration) \u00b7 Sale of Goods Act, 1930 (conditions and warranties) \u00b7 Bureau of Indian Standards Act, 2016 (product standards). 1. Scope 1.1 This Return, Refund and Replacement Policy (\u201cReturn Policy\u201d) governs the conditions, process,andtimelinesapplicabletoreturns,refunds,andreplacementsof Productspurchased on the Byte Mart Platform. 1.2 This Return Policy forms an integral part of the Byte Mart Terms and Conditions. In the eventofaconflict,this Return Policyshallprevailformattersrelatingtoreturns,refunds,and replacements. 2. Eligible Reasons for Return 2.1 Byte Mart accepts return requests only in the following circumstances: (a) Physical Damage \u2014 the Product is delivered in a damaged condition (cracked, broken, dented, water-damaged, or otherwise physically compromised); (b) Incomplete Order\u2014oneormoreitemsinamulti-item Orderaremissingatthetimeof delivery; or (c) Wrong Product \u2014the Productdelivereddoes notmatchthe Productordered (different model, variant, colour, size, or configuration). 2.2 Returns for reasons other than those listed in Clause 2.1 (e.g., \u201cchange of mind\u201d, buyer\u2019s remorse, or non-defect-related dissatisfaction) are not accepted, except where required by Applicable Law. 22"
+      },
+      {
+        "parent_id": "shipping-policy#v1#parent-008-001",
+        "doc_id": "return-policy",
+        "page_from": 8,
+        "page_to": 8,
+        "similarity": 0.744,
+        "chunk_id": "shipping-policy#v1#parent-008-001#child-001",
+        "clause_refs": [
+          "8.3",
+          "8.4",
+          "9",
+          "9.1",
+          "9.2",
+          "9.3",
+          "9.4",
+          "9.5",
+          "9.6",
+          "10",
+          "10.1",
+          "10.2",
+          "10.3",
+          "10.4",
+          "10.5",
+          "11",
+          "11.1",
+          "11.2"
+        ],
+        "text": "Such refund shall be processed in accordance with Clause 11 and the Return, Refund and Replacement Policy. 8.3 Delivery timelines are indicative and may be affected by factors beyond Byte Mart\u2019s rea- sonable control, including natural disasters, transportation disruptions, government actions, and force majeure events. 8.4 Forcompleteshippingterms,includingserviceablelocations,tracking,faileddelivery,and risk of loss, please refer to the Shipping and Delivery Policy. 9. Returns, Refunds & Replacements 9.1 Byte Mart accepts returns, refunds, and replacements strictly in accordance with the Re- turn, Refund and Replacement Policy. 9.2 Returns shall be accepted only in the following circumstances: (a) Physical damage to the Productupondelivery;(b)Incomplete Orderdelivered;or(c)Wrong Productdelivered. 9.3 For damaged, wrong, or incomplete Orders, Byte Mart shall, at its sole discretion and subject to verification: (a) Offer a replacement of the Product, subject to stock availability; or (b) Offer a complete refund of the Product price if the Product or a suitable replacement is out of stock. 9.4 Refunds for cancelled Orders shall be processed without any charge to the Buyer. Re- funds for damaged Products are not provided; replacement shall be offered instead, sub- ject to Clause 9.3. 9.5 Standard refund processing time is 3\u20137 business days from initiation, subject to bank processing timelines. Replacement processing time is 5\u20137 business days. 9.6 For complete terms governing returns, refunds, and replacements, please refer to the Return, Refund and Replacement Policy. 10. Cancellations 10.1 You may cancel your Order at any time within the delivery window (i.e., from Order placement until actual delivery or refusal of delivery) via the \u201cMy Orders\u201d section of your account on the Platform, or by contacting [support@bytemart.in]. 10.2 If you cancel an Order on the scheduled delivery day (i.e., when the Order is in the \u201cOut for Delivery\u201d stage), Byte Mart reserves the right to deny delivery at the time of attempted delivery. 10.3 Ifyouacceptdeliveryofacancelled Order,the Ordershallbedeemeddelivered,andno return shall be permitted under the cancellation provisions. Any post-delivery return request shall be governed exclusively by the Return, Refund and Replacement Policy, and shall be subject to the 14-day Reporting Window and the limited grounds set out therein (physical damage, incomplete Order, wrong Product, or wrong version). 10.4 Refunds for cancelled Orders shall be processed in accordance with Clause 11 and the Return, Refund and Replacement Policy. 10.5 For complete cancellation terms, please refer to the Cancellation Policy. 11. Refunds 11.1 Refunds shall be processed to the original payment method used at the time of Order placement. 11.2 Oncearefundticketisinitiated,therefundmaytake 3\u20137 businessdaystobecreditedto the Buyer\u2019s account due to bank processing timelines. 8"
+      },
+      {
+        "parent_id": "shipping-policy#v1#parent-024-001",
+        "doc_id": "return-policy",
+        "page_from": 24,
+        "page_to": 24,
+        "similarity": 0.7214,
+        "chunk_id": "shipping-policy#v1#parent-024-001#child-002",
+        "clause_refs": [
+          "4.4.5",
+          "4.5",
+          "4.5.1",
+          "3",
+          "4.5.2",
+          "4.5.3",
+          "4.5.4",
+          "4.5.5",
+          "5",
+          "5",
+          "5.1",
+          "5.2",
+          "5.3",
+          "6",
+          "6.1",
+          "6.2",
+          "6.3",
+          "6.4"
+        ],
+        "text": "accessory;or(c)Offerthe Buyertheoptiontokeepthe Productandreceiveadiscountcoupon for future purchases. 4.4.5 No replacement of the main Product shall be offered under this Clause, as the Product itself is functional and accepted by the Buyer; the issue is limited to a missing accessory or document. 4.5 Same Product, Different Version Delivered 4.5.1 Ifthe Buyerreceivesa Productthatisthesamebrandandfamilybutadifferentversion (e.g.,differentgeneration,configuration,capacity,regionvariant,orcolourway)fromtheone ordered,the Buyermayreporttheissueinaccordancewith Clause 3. Thereportmustinclude photographsoftheboxandthe Productshowingtheversion/modelnumberandconfiguration. 4.5.2 Upon verification, Byte Mart shall arrange a replacement of the ordered Product. 4.5.3 The Buyershallreturnthedelivered Product(thewrong-version Product)initsoriginal condition, including: (a) Original packaging with all original accessories, manuals, labels, and tamper seals intact; (b) No signs of use, wear, scratches, or damage; (c) All freebies, coupons, or bundled items that were part of the original delivery. 4.5.4 If the returned Product is not in its original condition, Byte Mart may reject the re- placement at its sole discretion. The rejection may be communicated to the Buyer with pho- tographic or video evidence of the condition of the returned Product. 4.5.5 Iftheordered Product(correctversion)isoutofstock,Byte Martshallofferarefundof theinvoiceamount(Productprice+taxes+originaldeliverycharges,ifany),inaccordance with Clause 5. No Fast Deliverychargerefundshallapplyunlesstheconditionsofthe Shipping and Delivery Policy are met. 5. Resolution: Refund When Out of Stock 5.1 If the damaged, incomplete, or wrong Product is out of stock and cannot be replaced within a reasonable time, Byte Mart shall offer a complete refund of the Product price, in- cluding: (a) The Product price; (b) Taxes (GST) charged on the Product; (c) Original delivery charges, if any. 5.2 The Fast Delivery charge is refunded only in accordance with Clause 3.3 of the Shipping and Delivery Policy, regardless of the resolution path. 5.3 Refunds shall be processed to the original payment method used at the time of Order placement. 6. Refund Timelines 6.1 Once a refund ticket is initiated, the refund may take 3\u20137 business days to be credited to the Buyer\u2019s account due to bank processing timelines. 6.2 Byte Martshallinitiate refundsasquicklyas possible, butthe finalcreditingofthe refund is subject to the timelines of the Buyer\u2019s bank or payment instrument issuer. Byte Mart is not responsible for delays attributable to banks, payment gateways, or card networks. 6.3 The overall return-to-refund processing time (from return pickup to refund initiation) is up to 5\u20137 business days. 6.4 For COD Orders, refunds shall be processed via UPI, NEFT, or RTGS to a verified bank account, in accordance with the timelines set out in Clause 6.1. 24"
+      },
+      {
+        "parent_id": "refund-policy#v1#parent-025-001",
+        "doc_id": "refund-policy",
+        "page_from": 25,
+        "page_to": 25,
+        "similarity": 0.7195,
+        "chunk_id": "refund-policy#v1#parent-025-001#child-001",
+        "clause_refs": [
+          "7",
+          "7.1",
+          "7.2",
+          "7.3",
+          "8",
+          "8.1",
+          "8.2",
+          "8.3",
+          "9",
+          "9.1",
+          "9.2",
+          "9.3",
+          "10",
+          "10.1",
+          "10.2",
+          "10.3",
+          "11",
+          "11.1"
+        ],
+        "text": "7. Refunds for Cancelled Orders 7.1 Refundsfor Orderscancelledinaccordancewiththe Cancellation Policyshallbeprocessed without any charge to the Buyer. 7.2 Therefundamountshallinclude: (a)The Productprice;(b)Taxeschargedonthe Product; (c) Original delivery charges, if any (subject to the Cancellation Policy). 7.3 Refund timeline: 3\u20137 business days from initiation, subject to bank processing. 8. No Refund for Product Damage 8.1 Byte Martdoesnotoffermonetaryrefundsfordamaged Products. Damaged Products are eligible for replacement only, in accordance with Clause 4. 8.2 A monetary refund shall be offered only if the Product or its replacement is out of stock (Clause 5). 8.3 Thisclauseiswithoutprejudicetoanyrightsorremediesavailabletothe Buyerunderthe Consumer Protection Act, 2019, or any other Applicable Law. 9. Return Pickup & Reverse Logistics 9.1 For approved returns, Byte Mart shall arrange reverse pickup from the Buyer\u2019s delivery address at no cost to the Buyer, typically within 3\u20135 business days of approval. 9.2 The Buyershall: (a)Keepthe Productinitsoriginalpackagingwithallaccessories,manu- als,warrantycards,andfreebiesintact;(b)Affixthereturnlabelprovidedby Byte Mart(where applicable); (c) Hand over the Product to the logistics partner during the scheduled pickup. 9.3 If reverse pickup is not serviceable at the Buyer\u2019s pincode, the Buyer may be required to self-ship the Product. Byte Mart shall reimburse reasonable self-shipping costs upon verifica- tion, in accordance with our internal policy. 10. Condition of Returned Products 10.1 The returned Product must be in the same condition as delivered, with all original pack- aging, accessories, manuals, warranty cards, and freebies. 10.2 Products that show signs of use, damage caused after delivery, missing accessories, or tampering shall be rejected and returned to the Buyer without refund or replacement. 10.3 Byte Mart reserves the right to inspect the returned Product before processing a refund or replacement. 11. Non-Returnable / Non-Refundable Items 11.1 The following categories of Products are generally not eligible for return, refund, or replacementunderthis Return Policy,exceptwherethe Productisdelivereddamaged,incom- plete, or wrong: (a) Digital products \u2014 including software licenses, digital game keys, gift cards, prepaid recharge, and subscription codes (once the code/key has been delivered or revealed); (b) Perishable goods; (c) Personal care and hygiene products that have been opened or used; (d) Products marked as \u201cFinal Sale\u201d, \u201cNon-Returnable\u201d, or \u201cAs-Is\u201d on the Product page; (e) Customised or special-order Products; 25"
+      }
+    ],
+    "tool_calls": [
+      {
+        "tool": "lookup_customer",
+        "args": {
+          "email": "rohan.delhi.21@gmail.com"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 4,
+        "error": null
+      },
+      {
+        "tool": "lookup_order_by_sender_and_product",
+        "args": {
+          "email": "rohan.delhi.21@gmail.com",
+          "product_hint": "PS5"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 3,
+        "error": null
+      },
+      {
+        "tool": "lookup_payments_for_order",
+        "args": {
+          "customer_email": "rohan.delhi.21@gmail.com",
+          "order_id": "BM200010"
+        },
+        "result_keys": [
+          "rows"
+        ],
+        "duration_ms": 3,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "What is ByteMart's refund policy for delivery charges when the service promised was not delivered?",
+          "top_k": 3
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 253,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "What is ByteMart's policy on expedited delivery and its guarantees?",
+          "top_k": 3
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 226,
+        "error": null
+      },
+      {
+        "tool": "lookup_customer",
+        "args": {
+          "email": "rohan.delhi.21@gmail.com"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 89,
+        "error": null
+      },
+      {
+        "tool": "lookup_order_by_sender_and_product",
+        "args": {
+          "email": "rohan.delhi.21@gmail.com",
+          "product_hint": "PS5"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 13,
+        "error": null
+      },
+      {
+        "tool": "lookup_payments_for_order",
+        "args": {
+          "customer_email": "rohan.delhi.21@gmail.com",
+          "order_id": "BM200010"
+        },
+        "result_keys": [
+          "rows"
+        ],
+        "duration_ms": 4,
+        "error": null
+      },
+      {
+        "tool": "get_product_details",
+        "args": {
+          "sku": "PS5-DISC-001"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 3,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "What is ByteMart's shipping and delivery policy?",
+          "top_k": 3
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 244,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "What is ByteMart's refund policy and timeline?",
+          "top_k": 3
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 251,
+        "error": null
+      }
+    ],
+    "_sender_email": "rohan.delhi.21@gmail.com",
+    "_identity_verified": true
+  },
+  "resolver": {
+    "intent": "refund",
+    "action": "hilt_refund",
+    "draft": "We deeply regret the inconvenience, Rohan.\n\nOur team is reviewing your request and will get back to you with a resolution.\n\nRe: [PENDING APPROVAL] Refund Fast Delivery\n\n[PENDING APPROVAL: review required before sending]\n\nBest regards,\nByteMart Customer Support",
+    "self_check": {
+      "policy_compliant": true,
+      "entities_correct": true,
+      "state_change_implied": true,
+      "tone": "neutral"
+    },
+    "reasoning": "Action verb matched refund trigger; routed to operator for refund execution.",
+    "used_entities": {
+      "order_id": "BM200010",
+      "txn_id": null,
+      "product_names": [
+        "EXP-DEL-001",
+        "PS5-DISC-001"
+      ]
+    },
+    "hilt_reason": {
+      "policy_clause": "refund \u00a73",
+      "reason_short": "Refund request requires operator approval",
+      "reason_long": "Customer requested a refund. Money movement requires tier-2 support approval per refund policy \u00a73.",
+      "recommended_action": "review_refund_request",
+      "action_target": "refund_execution",
+      "urgency": "high",
+      "human_skill_required": "tier_2_support"
+    }
+  },
+  "outcome": "pending",
+  "timing_ms": {
+    "retriever": 13490,
+    "resolver": 16676,
+    "total": 30166
+  },
+  "reflexive": {
+    "dimension_scores": {
+      "intent_accuracy": 1.0,
+      "faithfulness": 1.0,
+      "policy_compliance": 0.0,
+      "tone": 1.0,
+      "side_effect_consent": 1.0
+    },
+    "confidence": 0.0,
+    "reasoning": "structural-retrieval-check: clause(s) ['1', '10', '11', '12', '13', '14', '15', '16', '2', '4', '5', '6', '7', '8', '9'] appear in multiple chunks (likely contradictory versions); human must disambiguate",
+    "suggested_action": "accept",
+    "regeneration_hints": [
+      "The cited policy clause is not in the retriever's policies[] list. Re-verify the policy citation."
+    ],
+    "malformed": false
+  },
+  "final_action": "hilt_refund",
+  "error": null
+}

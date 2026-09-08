@@ -1,0 +1,206 @@
+{
+  "schema_version": "1.2",
+  "email_id": "ES-036",
+  "captured_at": "2026-09-07T16:48:54.990800+00:00",
+  "input": {
+    "subject": "Consumer Forum / NCH Escalation",
+    "body": "Unresolved issue for 40 days. Escalating to National Consumer Helpline and e-Daakhil.\n",
+    "sender_email": "legal.user@test.com",
+    "notes": "run_id=workflow-20260907-221613, serial=36"
+  },
+  "retriever": {
+    "customer": {
+      "found": true,
+      "row": {
+        "email": "legal.user@test.com",
+        "full_name": "Legal User",
+        "account_status": "active",
+        "no_of_orders": 2,
+        "created_at": "2026-06-20T06:30:00+00:00"
+      }
+    },
+    "order": {
+      "found": false,
+      "row": null
+    },
+    "payments": [],
+    "products": [],
+    "policies": [
+      {
+        "parent_id": "grievance-policy#v1#parent-040-001",
+        "doc_id": "grievance-policy",
+        "page_from": 40,
+        "page_to": 40,
+        "similarity": 0.7421,
+        "chunk_id": "grievance-policy#v1#parent-040-001#child-001",
+        "clause_refs": [
+          "11",
+          "11.1",
+          "12",
+          "12.1",
+          "12.2"
+        ],
+        "text": "11. No Adverse Action Against Whistle-blowers 11.1 Byte Martshallnottakeanyadverseactionagainstany Userwhofilesagrievanceingood faith, whether with Byte Mart or with a statutory forum. 12. Contact 12.1 For all grievance related queries, please contact: Grievance Officer: [NAME] Byte Mart [Private Limited / Limited] Registered Office: [ADDRESS], New Delhi, India Email: [grievance@bytemart.in] Phone: [PHONE] Working Hours: [DAYS / TIMINGS] 12.2 Statutory channels: Forum Contact National Consumer Helpline (NCH) 1915 / https://consumerhelpline.gov.in/ INGRAM Portal https://consumerhelpline.gov.in/consumer/index.php/ingram- portal e-Daakhil https://edaakhil.nic.in/ RBI Ombudsman https://sachet.rbi.org.in/ / https://cms.rbi.org.in/ Data Protection Board of India (See Meit Y portal) End of Grievance Redressal Policy 40"
+      },
+      {
+        "parent_id": "grievance-policy#v1#parent-038-001",
+        "doc_id": "grievance-policy",
+        "page_from": 38,
+        "page_to": 38,
+        "similarity": 0.6958,
+        "chunk_id": "grievance-policy#v1#parent-038-001#child-002",
+        "clause_refs": [
+          "4.4",
+          "5",
+          "5.1",
+          "5.2",
+          "5.3",
+          "6",
+          "6.1",
+          "19",
+          "6.2",
+          "6.3"
+        ],
+        "text": "Category Acknowledgement Resolution Target Order not delivered / RTO 24 hours 5\u20137 business days Damaged / wrong / incomplete Order 24 hours 5\u20137 business days Refund not received 24 hours 3\u20137 business days Payment / chargeback 24 hours 7\u201315 business days Account access / deactivation 24 hours 7 business days Privacy / data access / erasure 48 hours 30 calendar days Warranty / manufacturer issue 48 hours 7\u201315 business days Other 48 hours 30 calendar days 4.4 If the grievance cannot be resolved within the timelines specified in Clause 4.3, the User shall be informed of the reason for the delay and the revised expected timeline. 5. Escalation Matrix 5.1 Ifthe Userisnotsatisfiedwiththefirstresponse,oriftheresponseisnotreceivedwithin the timelines set out in Clause 4, the User may escalate as follows: Level 1 \u2014 Customer Support: [support@bytemart.in] / [PHONE] Level 2 \u2014 Grievance Officer: [grievance@bytemart.in] / [PHONE] Level 3 \u2014 Head of Customer Experience: [head.cx@bytemart.in] / [PHONE] Level 4 \u2014 Designated Director / Nodal Officer: [di- rector@bytemart.in] / [PHONE] 5.2 Each escalation level shall respond within the timelines set out in Clause 4.3. 5.3 The User may also approach the statutory forums set out in Clause 6 at any stage, irre- spective of the internal escalation. 6. Statutory Consumer Redressal Forums 6.1 Nothinginthis Grievance Policylimitsthe User\u2019srighttoseekredressalfromthestatutory forums established under the Consumer Protection Act, 2019. Byte Mart shall cooperate with such forums in good faith. 6.2 National Consumer Helpline (NCH) (a) The National Consumer Helpline is a toll-free helpline operated by the Department of Consumer Affairs, Government of India. (b) Helpline number: 1915 (toll-free, available in multiple languages). (c) Usersmayfileacomplaintbydialling 1915 orviathe NCH websiteathttps://consumerhelpline.gov.in/. 6.3 INGRAM Portal (a) The INGRAM (Integrated Grievance Redressal Mechanism) portal is the cen- tralised consumer complaint platform of the Government of India. (b) URL: https://consumerhelpline.gov.in/consumer/index.php/ingram-portal (c) Users may lodge complaints online, track status, and receive redressal through this por- tal. 6.4 e-Daakhil Portal (a) The e-Daakhil portal is the official portal for filing consumer complaints electronically before the Consumer Disputes Redressal Commissions. (b) URL: https://edaakhil.nic.in/ 38"
+      },
+      {
+        "parent_id": "grievance-policy#v1#parent-037-001",
+        "doc_id": "grievance-policy",
+        "page_from": 37,
+        "page_to": 37,
+        "similarity": 0.6718,
+        "chunk_id": "grievance-policy#v1#parent-037-001#child-003",
+        "clause_refs": [
+          "1",
+          "1.1",
+          "1.2",
+          "1.3",
+          "2",
+          "2.1",
+          "20",
+          "2.2",
+          "00",
+          "2.3",
+          "3",
+          "3.1",
+          "3.2",
+          "4",
+          "4.1",
+          "4.2",
+          "4.3"
+        ],
+        "text": "1. Scope 1.1 This Grievance Redressal Policy(\u201cGrievance Policy\u201d)describesthemechanismbywhich Byte Mart receives, processes, and resolves complaints, grievances, and queries from Users inconnectionwiththe Platform,Products,Orders,deliveries,payments,refunds,andprivacy. 1.2 This Grievance Policyispublishedincompliancewith: (a)Regulation 4 ofthe Consumer Protection(E-Commerce)Rules, 2020(appointmentofgrievanceofficerandgrievancere- dressalmechanism);(b)Regulation 4(2) of the IT (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 (grievance officer for intermediaries); (c) Section 12 of the Digital Personal Data Protection Act, 2023(righttogrievanceredressalby Data Prin- cipal);(d)Section 35 of the Consumer Protection Act, 2019(consumerdisputeredressal forums). 1.3 This Grievance Policy forms an integral part of the Byte Mart Terms and Conditions. 2. Grievance Officer 2.1 Byte Marthasappointeda Grievance Officerinaccordancewiththe ITR ules 2021 andthe E-Commerce Rules 2020. The Grievance Officeristhesinglepointofcontactforallconsumer and data-related grievances. 2.2 Grievance Officer Details: Name: [GRIEVANCE OFFICER NAME] Designation: Grievance Officer Entity: Byte Mart [Private Limited / Limited] Registered Office: [ADDRESS], New Delhi, India Email: [grievance@bytemart.in] Phone: [PHONE] Working Hours: [DAYS / TIMINGS, e.g., Monday to Friday, 10:00 to 18:00 IST] 2.3 The Grievance Officer\u2019s name, designation, and contact details are displayed: (a) On the Platform\u2019s home page footer; (b) On the \u201cContact Us\u201d page; (c) In the Terms and Conditions and Privacy Policy; (d) On every Product page; and (e) In every transactional email. 3. Channels for Filing a Grievance 3.1 Users may file a grievance through any of the following channels: (a) Email: [grievance@bytemart.in] (preferred channel \u2014 provides written record); (b) Phone: [PHONE] (during working hours); (c) Postal: Grievance Officer, [ADDRESS], New Delhi, India; (d) Portal: \u201cHelp & Support\u201d or \u201cMy Orders\u201d \u2192 \u201cReport an Issue\u201d on the Platform; (e) Chat: [If live chat is available] 3.2 The following information should be provided to enable prompt resolution: (a) Full name and registered email/mobile number; (b) Order number (if applicable); (c) Description of the grievance;(d)Dateandtimeoftheissue(ifknown);(e)Photographicordocumentaryevidence (if applicable); (f) Desired resolution. 4. Acknowledgement & Response Timelines 4.1 Byte Mart shall acknowledge receipt of every grievance within forty-eight (48) hours of receipt, by email or SMS to the contact details provided by the User. 4.2 Byte Mart shall endeavour to resolve every grievance within thirty (30) days of receipt, in accordance with the DPDPA and the E-Commerce Rules, 2020. 4.3 For specific categories of grievances, the following internal timelines shall apply: 37"
+      },
+      {
+        "parent_id": "pricing-policy#v1#parent-021-001",
+        "doc_id": "pricing-policy",
+        "page_from": 21,
+        "page_to": 21,
+        "similarity": 0.5871,
+        "chunk_id": "pricing-policy#v1#parent-021-001#child-003",
+        "clause_refs": [
+          "10.4",
+          "10.4.1",
+          "10.4.2",
+          "10.4.3",
+          "10.4.4",
+          "11",
+          "11.1",
+          "12",
+          "12.1",
+          "12.2",
+          "12.3",
+          "13",
+          "13.1",
+          "14",
+          "14.1"
+        ],
+        "text": "10.4 Pre-Orders During Sales 10.4.1 Duringapromotionalsale(includingbutnotlimitedtofestivesales,flashsales,anniver- sary sales, and clearance sales), Byte Mart may, at its sole discretion, accept or not accept Pre-Orders for selected Products. 10.4.2 Where Pre-Ordersareacceptedduringasale,the Buyermayplacea Pre-Orderthrough the Platform during the active promotional period. The Pre-Order will be honoured at the promotional price, subject to stock and the terms of the Pre-Order. 10.4.3 Where Pre-Orders are not accepted during a sale, the Platform shall not display any \u201cPre-Order\u201d or \u201cNotify Me\u201d option for the affected Product(s). The Buyer may purchase the Product only when (and if) it becomes available for regular sale at the regular price. 10.4.4 For the avoidance of doubt, the general rules on offers and promotions in Clause 10 of the Payment and Pricing Policy apply to Pre-Orders placed during a sale. 11. Delivery to Multiple Addresses 11.1 Byte Mart currently supports delivery to a single address per Order. If the Buyer wishes to ship Products to multiple addresses, separate Orders must be placed. 12. Change of Delivery Address 12.1 The Buyer may request a change of delivery address prior to dispatch by contacting [support@bytemart.in]. Byte Mart may, at its sole discretion, accept or reject the request. 12.2 Once an Order has been dispatched from the warehouse, the Buyer cannot re- quest a change of delivery address. The Order shall be delivered to the address on file at the time of dispatch, and any redirection request thereafter shall not be entertained. 12.3 Ifthe Buyerisunavailableatthedispatch-timeaddress,thestandardfailed-deliveryand RTO process under Clauses 7 and 8 shall apply. The Order may be cancelled and refunded in accordancewiththe Cancellation Policy,withthe Fast Deliverychargeand(whereapplicable) the COD Charge not refunded, in accordance with the Payment and Pricing Policy. 13. International Shipping 13.1 Byte Mart currently does not offer international shipping. Products are delivered within the territory of India only. 14. Compliance Disclosures 14.1 In accordance with the E-Commerce Rules, 2020, Byte Mart displays the following information on every Product page and at checkout: (a) Name and principal address of Byte Mart; (b) GSTIN, CIN, and other statutory registration numbers; (c) Country of origin of each Product; (d) Delivery options, charges, and estimated timelines; (e) Grievance Officer contact details. 21"
+      }
+    ],
+    "tool_calls": [
+      {
+        "tool": "lookup_customer",
+        "args": {
+          "email": "legal.user@test.com"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 5,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "How does ByteMart handle grievances and the National Consumer Helpline?",
+          "top_k": 3
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 238,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "How does ByteMart escalate to the National Consumer Helpline?",
+          "top_k": 3
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 249,
+        "error": null
+      }
+    ],
+    "_sender_email": "legal.user@test.com",
+    "_identity_verified": true
+  },
+  "resolver": {
+    "intent": "escalation",
+    "action": "escalate",
+    "draft": null,
+    "self_check": {
+      "policy_compliant": true,
+      "entities_correct": true,
+      "state_change_implied": false,
+      "tone": "neutral"
+    },
+    "reasoning": "Read from retriever: customer verified, no order found, no payments. The email indicates an unresolved issue for 40 days and escalation to statutory forums. Tone: legal escalation \u2192 neutral. Did NOT: provide specific resolution or engage in further dialogue. Decision: escalate due to the nature of the request.",
+    "used_entities": {
+      "order_id": null,
+      "txn_id": null,
+      "product_names": []
+    },
+    "hilt_reason": null
+  },
+  "outcome": "sent",
+  "timing_ms": {
+    "retriever": 3521,
+    "resolver": 12163,
+    "total": 15684
+  },
+  "reflexive": {
+    "dimension_scores": {
+      "intent_accuracy": 1.0,
+      "faithfulness": 1.0,
+      "policy_compliance": 1.0,
+      "tone": 1.0,
+      "side_effect_consent": 1.0
+    },
+    "confidence": 1.0,
+    "reasoning": "structural-retrieval-check: clause(s) ['1', '10', '11', '12', '13', '14', '2', '3', '4', '5', '6'] appear in multiple chunks (likely contradictory versions); human must disambiguate",
+    "suggested_action": "accept",
+    "regeneration_hints": [],
+    "malformed": false
+  },
+  "final_action": "escalate",
+  "error": null
+}

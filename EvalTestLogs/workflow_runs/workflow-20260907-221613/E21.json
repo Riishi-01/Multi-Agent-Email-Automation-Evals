@@ -1,0 +1,264 @@
+{
+  "schema_version": "1.2",
+  "email_id": "E21",
+  "captured_at": "2026-09-07T16:47:51.327596+00:00",
+  "input": {
+    "subject": "Missing HDMI Dell Alienware",
+    "body": "Hey ByteMart, I received my Dell Alienware AW3423DWF today. The box was well sealed and does not appear to have been tampered with or opened, but the HDMI cable is missing from the box. Could you please arrange to send the missing cable or advise me on the next steps?\n",
+    "sender_email": "karan.bhatia.chn@outlook.com",
+    "notes": "run_id=workflow-20260907-221613, serial=21"
+  },
+  "retriever": {
+    "customer": {
+      "found": true,
+      "row": {
+        "email": "karan.bhatia.chn@outlook.com",
+        "full_name": "Karan Bhatia",
+        "account_status": "active",
+        "no_of_orders": 2,
+        "created_at": "2025-05-20T04:45:00+00:00"
+      }
+    },
+    "order": {
+      "found": true,
+      "row": {
+        "order_id": "BM200008",
+        "customer_email": "karan.bhatia.chn@outlook.com",
+        "items": [
+          {
+            "qty": 1,
+            "sku": "AW3423DWF",
+            "name": "Dell Alienware AW3423DWF 34 inch OLED Monitor",
+            "line_total": 92990.0,
+            "unit_price": 92990.0
+          }
+        ],
+        "total_amount": "92990.00",
+        "payment_method": "card",
+        "order_date": "2025-08-22T11:00:00+00:00",
+        "expected_delivery": "2025-08-27",
+        "current_status": "delivered",
+        "shipping_address": {
+          "zip": "600017",
+          "city": "Chennai",
+          "line1": "77 T Nagar 4th Avenue",
+          "state": "Tamil Nadu",
+          "country": "India"
+        },
+        "created_at": "2025-08-22T11:00:00+00:00",
+        "updated_at": "2026-09-07T03:04:58.781315+00:00"
+      }
+    },
+    "payments": [
+      {
+        "payment_id": "a9270a81-d215-45fa-98a8-f172de11f2b3",
+        "customer_email": "karan.bhatia.chn@outlook.com",
+        "order_id": "BM200008",
+        "amount": "92990.00",
+        "method": "card",
+        "status": "success",
+        "transaction_id": "25082205",
+        "failure_reason": null,
+        "created_at": "2025-08-22T11:00:30+00:00",
+        "updated_at": "2025-08-22T11:00:30+00:00"
+      }
+    ],
+    "products": [
+      {
+        "sku": "AW3423DWF",
+        "name": "Dell Alienware AW3423DWF 34 inch OLED Monitor",
+        "category": "monitor",
+        "unit_price": "92990.00",
+        "in_stock": true,
+        "description": "34\" curved OLED gaming monitor, 175Hz",
+        "warranty_text": "3 Years limited hardware warranty.",
+        "tech_description": "Premium 34-inch curved QD-OLED ultrawide gaming monitor with high refresh rate and HDR support.",
+        "tech_details": "Size: 34\" Panel: QD-OLED Resolution: 3440\u00d71440 Refresh Rate: 165Hz Response: 0.03ms HDR: DisplayHDR True Black 400 HDMI: 2\u00d7 HDMI DisplayPort: 1\u00d7 DP 1.4 USB: USB hub Audio: 3.5mm audio out Adaptive Sync: AMD FreeSync Premium Pro",
+        "stock_count": 7
+      }
+    ],
+    "policies": [
+      {
+        "parent_id": "grievance-policy#v1#parent-038-001",
+        "doc_id": "grievance-policy",
+        "page_from": 38,
+        "page_to": 38,
+        "similarity": 0.3851,
+        "chunk_id": "grievance-policy#v1#parent-038-001#child-001",
+        "clause_refs": [
+          "4.4",
+          "5",
+          "5.1",
+          "5.2",
+          "5.3",
+          "6",
+          "6.1",
+          "19",
+          "6.2",
+          "6.3"
+        ],
+        "text": "Category Acknowledgement Resolution Target Order not delivered / RTO 24 hours 5\u20137 business days Damaged / wrong / incomplete Order 24 hours 5\u20137 business days Refund not received 24 hours 3\u20137 business days Payment / chargeback 24 hours 7\u201315 business days Account access / deactivation 24 hours 7 business days Privacy / data access / erasure 48 hours 30 calendar days Warranty / manufacturer issue 48 hours 7\u201315 business days Other 48 hours 30 calendar days 4.4 If the grievance cannot be resolved within the timelines specified in Clause 4.3, the User shall be informed of the reason for the delay and the revised expected timeline. 5. Escalation Matrix 5.1 Ifthe Userisnotsatisfiedwiththefirstresponse,oriftheresponseisnotreceivedwithin the timelines set out in Clause 4, the User may escalate as follows: Level 1 \u2014 Customer Support: [support@bytemart.in] / [PHONE] Level 2 \u2014 Grievance Officer: [grievance@bytemart.in] / [PHONE] Level 3 \u2014 Head of Customer Experience: [head.cx@bytemart.in] / [PHONE] Level 4 \u2014 Designated Director / Nodal Officer: [di- rector@bytemart.in] / [PHONE] 5.2 Each escalation level shall respond within the timelines set out in Clause 4.3. 5.3 The User may also approach the statutory forums set out in Clause 6 at any stage, irre- spective of the internal escalation. 6. Statutory Consumer Redressal Forums 6.1 Nothinginthis Grievance Policylimitsthe User\u2019srighttoseekredressalfromthestatutory forums established under the Consumer Protection Act, 2019. Byte Mart shall cooperate with such forums in good faith. 6.2 National Consumer Helpline (NCH) (a) The National Consumer Helpline is a toll-free helpline operated by the Department of Consumer Affairs, Government of India. (b) Helpline number: 1915 (toll-free, available in multiple languages). (c) Usersmayfileacomplaintbydialling 1915 orviathe NCH websiteathttps://consumerhelpline.gov.in/. 6.3 INGRAM Portal (a) The INGRAM (Integrated Grievance Redressal Mechanism) portal is the cen- tralised consumer complaint platform of the Government of India. (b) URL: https://consumerhelpline.gov.in/consumer/index.php/ingram-portal (c) Users may lodge complaints online, track status, and receive redressal through this por- tal. 6.4 e-Daakhil Portal (a) The e-Daakhil portal is the official portal for filing consumer complaints electronically before the Consumer Disputes Redressal Commissions. (b) URL: https://edaakhil.nic.in/ 38"
+      },
+      {
+        "parent_id": "shipping-policy#v1#parent-008-001",
+        "doc_id": "return-policy",
+        "page_from": 8,
+        "page_to": 8,
+        "similarity": 0.3811,
+        "chunk_id": "shipping-policy#v1#parent-008-001#child-003",
+        "clause_refs": [
+          "8.3",
+          "8.4",
+          "9",
+          "9.1",
+          "9.2",
+          "9.3",
+          "9.4",
+          "9.5",
+          "9.6",
+          "10",
+          "10.1",
+          "10.2",
+          "10.3",
+          "10.4",
+          "10.5",
+          "11",
+          "11.1",
+          "11.2"
+        ],
+        "text": "Such refund shall be processed in accordance with Clause 11 and the Return, Refund and Replacement Policy. 8.3 Delivery timelines are indicative and may be affected by factors beyond Byte Mart\u2019s rea- sonable control, including natural disasters, transportation disruptions, government actions, and force majeure events. 8.4 Forcompleteshippingterms,includingserviceablelocations,tracking,faileddelivery,and risk of loss, please refer to the Shipping and Delivery Policy. 9. Returns, Refunds & Replacements 9.1 Byte Mart accepts returns, refunds, and replacements strictly in accordance with the Re- turn, Refund and Replacement Policy. 9.2 Returns shall be accepted only in the following circumstances: (a) Physical damage to the Productupondelivery;(b)Incomplete Orderdelivered;or(c)Wrong Productdelivered. 9.3 For damaged, wrong, or incomplete Orders, Byte Mart shall, at its sole discretion and subject to verification: (a) Offer a replacement of the Product, subject to stock availability; or (b) Offer a complete refund of the Product price if the Product or a suitable replacement is out of stock. 9.4 Refunds for cancelled Orders shall be processed without any charge to the Buyer. Re- funds for damaged Products are not provided; replacement shall be offered instead, sub- ject to Clause 9.3. 9.5 Standard refund processing time is 3\u20137 business days from initiation, subject to bank processing timelines. Replacement processing time is 5\u20137 business days. 9.6 For complete terms governing returns, refunds, and replacements, please refer to the Return, Refund and Replacement Policy. 10. Cancellations 10.1 You may cancel your Order at any time within the delivery window (i.e., from Order placement until actual delivery or refusal of delivery) via the \u201cMy Orders\u201d section of your account on the Platform, or by contacting [support@bytemart.in]. 10.2 If you cancel an Order on the scheduled delivery day (i.e., when the Order is in the \u201cOut for Delivery\u201d stage), Byte Mart reserves the right to deny delivery at the time of attempted delivery. 10.3 Ifyouacceptdeliveryofacancelled Order,the Ordershallbedeemeddelivered,andno return shall be permitted under the cancellation provisions. Any post-delivery return request shall be governed exclusively by the Return, Refund and Replacement Policy, and shall be subject to the 14-day Reporting Window and the limited grounds set out therein (physical damage, incomplete Order, wrong Product, or wrong version). 10.4 Refunds for cancelled Orders shall be processed in accordance with Clause 11 and the Return, Refund and Replacement Policy. 10.5 For complete cancellation terms, please refer to the Cancellation Policy. 11. Refunds 11.1 Refunds shall be processed to the original payment method used at the time of Order placement. 11.2 Oncearefundticketisinitiated,therefundmaytake 3\u20137 businessdaystobecreditedto the Buyer\u2019s account due to bank processing timelines. 8"
+      },
+      {
+        "parent_id": "shipping-policy#v1#parent-022-001",
+        "doc_id": "shipping-policy",
+        "page_from": 22,
+        "page_to": 22,
+        "similarity": 0.3768,
+        "chunk_id": "shipping-policy#v1#parent-022-001#child-002",
+        "clause_refs": [
+          "15",
+          "15.1",
+          "16",
+          "16.1",
+          "1.0",
+          "1",
+          "1.1",
+          "1.2",
+          "2",
+          "2.1",
+          "2.2"
+        ],
+        "text": "15. Force Majeure 15.1 Byte Mart shall not be liable for any delay or failure in delivery caused by force majeure events, as set out in Clause 20 of the Terms and Conditions. 16. Contact 16.1 For all shipping and delivery related queries, please contact: Byte Mart Customer Support Email: [support@bytemart.in] Phone: [PHONE] Hours: [DAYS / TIMINGS] End of Shipping & Delivery Policy Byte Mart \u2014 Return, Refund & Replacement Policy Version: 1.0 Last Updated: [DD/MM/YYYY] Effective Date: [DD/MM/YYYY] Statutory map (for internal use): Consumer Protection Act, 2019 (rights of con- sumers,includingrighttoseekredressalagainstdefectivegoods,unfairtradeprac- tice, etc.) \u00b7 Consumer Protection (E-Commerce) Rules, 2020 (Reg. 5(3) \u2014 return policy;Reg. 9\u2014refund)\u00b7Indian Contract Act,1872(defect,failureofconsideration) \u00b7 Sale of Goods Act, 1930 (conditions and warranties) \u00b7 Bureau of Indian Standards Act, 2016 (product standards). 1. Scope 1.1 This Return, Refund and Replacement Policy (\u201cReturn Policy\u201d) governs the conditions, process,andtimelinesapplicabletoreturns,refunds,andreplacementsof Productspurchased on the Byte Mart Platform. 1.2 This Return Policy forms an integral part of the Byte Mart Terms and Conditions. In the eventofaconflict,this Return Policyshallprevailformattersrelatingtoreturns,refunds,and replacements. 2. Eligible Reasons for Return 2.1 Byte Mart accepts return requests only in the following circumstances: (a) Physical Damage \u2014 the Product is delivered in a damaged condition (cracked, broken, dented, water-damaged, or otherwise physically compromised); (b) Incomplete Order\u2014oneormoreitemsinamulti-item Orderaremissingatthetimeof delivery; or (c) Wrong Product \u2014the Productdelivereddoes notmatchthe Productordered (different model, variant, colour, size, or configuration). 2.2 Returns for reasons other than those listed in Clause 2.1 (e.g., \u201cchange of mind\u201d, buyer\u2019s remorse, or non-defect-related dissatisfaction) are not accepted, except where required by Applicable Law. 22"
+      }
+    ],
+    "tool_calls": [
+      {
+        "tool": "lookup_customer",
+        "args": {
+          "email": "karan.bhatia.chn@outlook.com"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 3,
+        "error": null
+      },
+      {
+        "tool": "lookup_order_by_sender_and_product",
+        "args": {
+          "email": "karan.bhatia.chn@outlook.com",
+          "product_hint": "Alienware"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 2,
+        "error": null
+      },
+      {
+        "tool": "lookup_payments_for_order",
+        "args": {
+          "customer_email": "karan.bhatia.chn@outlook.com",
+          "order_id": "BM200008"
+        },
+        "result_keys": [
+          "rows"
+        ],
+        "duration_ms": 3,
+        "error": null
+      },
+      {
+        "tool": "get_product_details",
+        "args": {
+          "sku": "AW3423DWF"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 1,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "What policies apply to this support request?",
+          "top_k": 3
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 249,
+        "error": null
+      }
+    ],
+    "_sender_email": "karan.bhatia.chn@outlook.com",
+    "_identity_verified": true
+  },
+  "resolver": {
+    "intent": "complaint",
+    "action": "auto_send",
+    "draft": "Hi Karan,\n\nThank you for reaching ByteMart support.\n\nRe: Missing HDMI Dell Alienware\n\nWe've reviewed your message and have an update for you.\n\nBest regards,\nByteMart Customer Support",
+    "self_check": {
+      "policy_compliant": true,
+      "entities_correct": true,
+      "state_change_implied": false,
+      "tone": "polite"
+    },
+    "reasoning": "Classified 'complaint' (inquiry only); action=auto_send.",
+    "used_entities": {
+      "order_id": "BM200008",
+      "txn_id": null,
+      "product_names": [
+        "AW3423DWF"
+      ]
+    },
+    "hilt_reason": null
+  },
+  "outcome": "pending",
+  "timing_ms": {
+    "retriever": 3264,
+    "resolver": 19474,
+    "total": 22738
+  },
+  "reflexive": {
+    "dimension_scores": {
+      "intent_accuracy": 0.0,
+      "faithfulness": 1.0,
+      "policy_compliance": 1.0,
+      "tone": 0.0,
+      "side_effect_consent": 1.0
+    },
+    "confidence": 0.0,
+    "reasoning": "structural-retrieval-check: all retrieved chunks have similarity < 0.6; policy relevance is too weak",
+    "suggested_action": "accept",
+    "regeneration_hints": [],
+    "malformed": false
+  },
+  "final_action": "auto_send",
+  "error": null
+}

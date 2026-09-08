@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "run_id": "judge-20260907-222803",
+  "phase1_run_id": "workflow-20260907-221613",
+  "n_emails": 36,
+  "total_pass": 0,
+  "total_fail": 0,
+  "total_unscored": 308,
+  "total_cost_usd": 0.0
+}

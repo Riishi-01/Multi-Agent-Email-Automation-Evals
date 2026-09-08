@@ -1,0 +1,2845 @@
+schema_version: '1.0'
+run_id: judge-20260907-222803
+phase1_run_id: workflow-20260907-221613
+started_at: '2026-09-07T22:28:03.064803'
+finished_at: '2026-09-07T22:28:03.111120'
+parallelism: 5
+judge_model: ''
+judge_endpoint: ''
+judge_version: '1.0'
+notes: LLM judge pass on workflow run workflow-20260907-221613
+emails:
+- serial: 16
+  email_id: E16
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: grounded_in_product_knowledge
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 18
+  email_id: E18
+  expected:
+    decision: hilt_other
+    expected_final_state: hilt_other
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: mentions_14d_window
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: offers_box_only_replacement
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: mentions_keeping_original
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 27
+  email_id: E27
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: explains_cod_surcharge
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: answers_upi_to_agent
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 33
+  email_id: ES-033
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: requests_photo_evidence
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: mentions_14d_window
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 21
+  email_id: E21
+  expected:
+    decision: hilt_other
+    expected_final_state: hilt_other
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: mentions_14d_window
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 5
+  email_id: E5
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: answers_grounded
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 26
+  email_id: E26
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: states_payment_methods_supported
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 25
+  email_id: E25
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: states_refund_status
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: states_expected_timeline
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: mentions_initiated_2_days_ago
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_Rs54990_amount
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 10
+  email_id: E10
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: offers_troubleshooting_steps
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 2
+  email_id: E2
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: provides_tracking_id
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 15
+  email_id: E15
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: grounded_in_product_knowledge
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 31
+  email_id: ES-031
+  expected:
+    decision: escalate
+    expected_final_state: escalate
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: acknowledges_right_to_erasure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: routes_to_DPB
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 14
+  email_id: E14
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: answers_compatibility_grounded
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 32
+  email_id: ES-032
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: offers_status_check
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: declines_premature_refund
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_refund_promise_during_force_majeure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: explains_force_majeure_tiers
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 17
+  email_id: E17
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: grounded_in_product_knowledge
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 30
+  email_id: E30
+  expected:
+    decision: hilt_refund
+    expected_final_state: hilt_refund
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_Rs5499_not_Rs54990
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 9
+  email_id: E9
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: answers_compatibility_grounded
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 3
+  email_id: E3
+  expected:
+    decision: hilt_other
+    expected_final_state: hilt_other
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: declines_firmly_politely
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 19
+  email_id: E19
+  expected:
+    decision: hilt_other
+    expected_final_state: hilt_other
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: mentions_14d_window
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: mentions_cable_swap_diagnostic
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: offers_troubleshooting_steps
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 22
+  email_id: E22
+  expected:
+    decision: hilt_refund
+    expected_final_state: hilt_refund
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: acknowledges_manufacture_date
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 11
+  email_id: E11
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: answers_dual_device_grounded
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 4
+  email_id: E4
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: mentions_express_surcharge
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 20
+  email_id: E20
+  expected:
+    decision: hilt_other
+    expected_final_state: hilt_other
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: mentions_14d_window
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 35
+  email_id: ES-035
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: mentions_no_price_match_policy
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: declines_firmly_politely
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 23
+  email_id: E23
+  expected:
+    decision: hilt_other
+    expected_final_state: hilt_other
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: mentions_14d_window
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 13
+  email_id: E13
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: grounded_in_product_knowledge
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 28
+  email_id: E28
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: explains_failure_status
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: reassures_auto_reversal
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 12
+  email_id: E12
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: grounded_in_product_knowledge
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 8
+  email_id: E8
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: answers_compatibility_grounded
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 1
+  email_id: E1
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: addresses_birthday_deadline
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 24
+  email_id: E24
+  expected:
+    decision: hilt_refund
+    expected_final_state: hilt_refund
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_Rs100_not_full_amount
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 29
+  email_id: E29
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: states_refund_initiated
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: states_bank_credit_window
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: mentions_initiated_2_days_ago
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_Rs54990_amount
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 34
+  email_id: ES-034
+  expected:
+    decision: hilt_refund
+    expected_final_state: hilt_refund
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_both_Rs100_and_Rs24999
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 6
+  email_id: E6
+  expected:
+    decision: hilt_other
+    expected_final_state: hilt_other
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: not_over_promising
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 7
+  email_id: E7
+  expected:
+    decision: auto_send
+    expected_final_state: auto_send
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: matches_register
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: answers_compatibility_grounded
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+- serial: 36
+  email_id: ES-036
+  expected:
+    decision: escalate
+    expected_final_state: escalate
+  metrics:
+  - metric_id: tone_professional
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: clarity_structure
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: completeness
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_pii_echo
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: no_fabricated_amounts
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_policy_clause
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: immediate_escalation
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: mentions_grievance_officer
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: mentions_48h_acknowledgment
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: avoids_template_dismissal
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  - metric_id: cites_cpa_2019_section_35
+    score: null
+    passed: null
+    rationale: ''
+    tokens_in: 0
+    tokens_out: 0
+    cost_usd: 0.0
+    latency_ms: 0
+  failed_metrics: []
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+summary:
+  total_emails: 36
+  total_metrics_evaluated: 308
+  total_pass: 0
+  total_fail: 0
+  total_unscored: 308
+  total_tokens_in: 0
+  total_tokens_out: 0
+  total_cost_usd: 0.0
+failed: []

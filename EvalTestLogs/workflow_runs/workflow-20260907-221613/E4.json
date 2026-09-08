@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.2",
+  "email_id": "E4",
+  "captured_at": "2026-09-07T16:46:35.388324+00:00",
+  "input": {
+    "subject": "Express Delivery 3 Days",
+    "body": "Dear Customer Support, I would like to know if it is possible to have my order delivered within 3 days to Delhi. I am willing to pay additional charges for express delivery or Speed Post if this can help expedite the shipment. Please let me know whether this delivery timeline is possible and what additional charges would apply. Thank you.\n",
+    "sender_email": "pooja.delhi.arora@gmail.com",
+    "notes": "run_id=workflow-20260907-221613, serial=4"
+  },
+  "retriever": {
+    "customer": {
+      "found": true,
+      "row": {
+        "email": "pooja.delhi.arora@gmail.com",
+        "full_name": "Pooja Arora",
+        "account_status": "active",
+        "no_of_orders": 2,
+        "created_at": "2025-08-05T13:15:00+00:00"
+      }
+    },
+    "order": {
+      "found": false,
+      "row": null
+    },
+    "payments": [],
+    "products": [],
+    "policies": [
+      {
+        "parent_id": "shipping-policy#v1#parent-007-001",
+        "doc_id": "shipping-policy",
+        "page_from": 7,
+        "page_to": 7,
+        "similarity": 0.7055,
+        "chunk_id": "shipping-policy#v1#parent-007-001#child-003",
+        "clause_refs": [
+          "5.7",
+          "6",
+          "6.1",
+          "6.2",
+          "72",
+          "6.3",
+          "6.4",
+          "6.5",
+          "7",
+          "7.1",
+          "7.2",
+          "7.3",
+          "7.4",
+          "7.5",
+          "7.6",
+          "7.7",
+          "8",
+          "8.1",
+          "8.2"
+        ],
+        "text": "Byte Martshallensurethatonly Productsbearingvalid BIS registration(including ISI or CRS marks where applicable) are offered for sale on the Platform. 5.7 Each Product page shall display the country of origin and the name and address of the manufacturer or importer, in compliance with the Legal Metrology (Packaged Commodities) Rules, 2011, and the Consumer Protection (E-Commerce) Rules, 2020. 6. Orders & Contract Formation 6.1 To place an Order, you must follow the instructions on the Platform and provide accurate delivery and payment information. 6.2 Submissionofan Orderconstitutesanofferbyyoutoenterintoacontractwith Byte Mart, in accordance with the Indian Contract Act, 1872. No contract is formed until Byte Mart ac- cepts your offer by issuing an Order Confirmation. 6.3 Byte Mart reserves the right to cancel any Order prior to issuance of the Order Confirma- tion,includingbutnotlimitedtocasesofpricingerrors,stockunavailability,suspectedfraud, non-compliance with these Terms, or any legal or regulatory restriction. 6.4 Each Order shall be governed by these Terms and any additional terms communicated at the time of Order placement. 6.5 Byte Mart may, at its sole discretion, place limits on Order quantities, Order value, or the total number of Orders per User, per household, or per payment instrument. 7. Payment Terms 7.1 Byte Mart accepts payment through the methods specified on the Platform, which may include credit cards, debit cards, Unified Payments Interface (\u201cUPI\u201d), net banking, mobile wallets, prepaid payment instruments, and Cash on Delivery (\u201cCOD\u201d) (where available). 7.2 All payments are processed in compliance with the rules and regulations of the Reserve Bank of India (\u201cRBI\u201d) and the Payment and Settlement Systems Act, 2007. 7.3 Byte Martusesthird-partypaymentgatewayprovidersthatcomplywiththe Payment Card Industry Data Security Standard (\u201cPCI-DSS\u201d) and applicable RBI guidelines. Byte Mart does not store your complete payment card or banking credentials. 7.4 You agree to pay all charges at the prices displayed at the time of Order placement, to- gether with applicable taxes, delivery charges, and any other fees specified at checkout. 7.5 Fortheavoidanceofdoubt,titletoany Productpurchasedshallpasstoyouupondelivery, and the risk of loss shall pass to you upon delivery at the address specified in the Order. 7.6 For the avoidance of doubt, GST on e-commerce supplies shall be discharged in accor- dance with the CGST Act, 2017, and any tax collected at source (\u201cTCS\u201d) by Byte Mart as an e-commerce operator shall be reflected in the tax invoice. 7.7 For full payment terms, please refer to the Payment and Pricing Policy. 8. Shipping & Delivery 8.1 Byte Mart offers two delivery options as set out in the Shipping and Delivery Policy: (a) Fast Delivery \u2014 between \u20b9100 and \u20b9250, depending on the delivery location, with delivery within 3\u20134 business days; and (b) Regular Delivery \u2014 free of charge, with delivery within 5\u20137 business days. 8.2 In the event that a Fast Delivery Order is not delivered within the guaranteed 3\u20134 busi- ness day window, the Buyer may request a refund of the Fast Delivery charge only (not the Product price or other charges) by emailing [support@bytemart.in] with the Order number. 7"
+      },
+      {
+        "parent_id": "pricing-policy#v1#parent-021-001",
+        "doc_id": "pricing-policy",
+        "page_from": 21,
+        "page_to": 21,
+        "similarity": 0.6863,
+        "chunk_id": "pricing-policy#v1#parent-021-001#child-002",
+        "clause_refs": [
+          "10.4",
+          "10.4.1",
+          "10.4.2",
+          "10.4.3",
+          "10.4.4",
+          "11",
+          "11.1",
+          "12",
+          "12.1",
+          "12.2",
+          "12.3",
+          "13",
+          "13.1",
+          "14",
+          "14.1"
+        ],
+        "text": "10.4 Pre-Orders During Sales 10.4.1 Duringapromotionalsale(includingbutnotlimitedtofestivesales,flashsales,anniver- sary sales, and clearance sales), Byte Mart may, at its sole discretion, accept or not accept Pre-Orders for selected Products. 10.4.2 Where Pre-Ordersareacceptedduringasale,the Buyermayplacea Pre-Orderthrough the Platform during the active promotional period. The Pre-Order will be honoured at the promotional price, subject to stock and the terms of the Pre-Order. 10.4.3 Where Pre-Orders are not accepted during a sale, the Platform shall not display any \u201cPre-Order\u201d or \u201cNotify Me\u201d option for the affected Product(s). The Buyer may purchase the Product only when (and if) it becomes available for regular sale at the regular price. 10.4.4 For the avoidance of doubt, the general rules on offers and promotions in Clause 10 of the Payment and Pricing Policy apply to Pre-Orders placed during a sale. 11. Delivery to Multiple Addresses 11.1 Byte Mart currently supports delivery to a single address per Order. If the Buyer wishes to ship Products to multiple addresses, separate Orders must be placed. 12. Change of Delivery Address 12.1 The Buyer may request a change of delivery address prior to dispatch by contacting [support@bytemart.in]. Byte Mart may, at its sole discretion, accept or reject the request. 12.2 Once an Order has been dispatched from the warehouse, the Buyer cannot re- quest a change of delivery address. The Order shall be delivered to the address on file at the time of dispatch, and any redirection request thereafter shall not be entertained. 12.3 Ifthe Buyerisunavailableatthedispatch-timeaddress,thestandardfailed-deliveryand RTO process under Clauses 7 and 8 shall apply. The Order may be cancelled and refunded in accordancewiththe Cancellation Policy,withthe Fast Deliverychargeand(whereapplicable) the COD Charge not refunded, in accordance with the Payment and Pricing Policy. 13. International Shipping 13.1 Byte Mart currently does not offer international shipping. Products are delivered within the territory of India only. 14. Compliance Disclosures 14.1 In accordance with the E-Commerce Rules, 2020, Byte Mart displays the following information on every Product page and at checkout: (a) Name and principal address of Byte Mart; (b) GSTIN, CIN, and other statutory registration numbers; (c) Country of origin of each Product; (d) Delivery options, charges, and estimated timelines; (e) Grievance Officer contact details. 21"
+      },
+      {
+        "parent_id": "shipping-policy#v1#parent-022-001",
+        "doc_id": "shipping-policy",
+        "page_from": 22,
+        "page_to": 22,
+        "similarity": 0.6603,
+        "chunk_id": "shipping-policy#v1#parent-022-001#child-001",
+        "clause_refs": [
+          "15",
+          "15.1",
+          "16",
+          "16.1",
+          "1.0",
+          "1",
+          "1.1",
+          "1.2",
+          "2",
+          "2.1",
+          "2.2"
+        ],
+        "text": "15. Force Majeure 15.1 Byte Mart shall not be liable for any delay or failure in delivery caused by force majeure events, as set out in Clause 20 of the Terms and Conditions. 16. Contact 16.1 For all shipping and delivery related queries, please contact: Byte Mart Customer Support Email: [support@bytemart.in] Phone: [PHONE] Hours: [DAYS / TIMINGS] End of Shipping & Delivery Policy Byte Mart \u2014 Return, Refund & Replacement Policy Version: 1.0 Last Updated: [DD/MM/YYYY] Effective Date: [DD/MM/YYYY] Statutory map (for internal use): Consumer Protection Act, 2019 (rights of con- sumers,includingrighttoseekredressalagainstdefectivegoods,unfairtradeprac- tice, etc.) \u00b7 Consumer Protection (E-Commerce) Rules, 2020 (Reg. 5(3) \u2014 return policy;Reg. 9\u2014refund)\u00b7Indian Contract Act,1872(defect,failureofconsideration) \u00b7 Sale of Goods Act, 1930 (conditions and warranties) \u00b7 Bureau of Indian Standards Act, 2016 (product standards). 1. Scope 1.1 This Return, Refund and Replacement Policy (\u201cReturn Policy\u201d) governs the conditions, process,andtimelinesapplicabletoreturns,refunds,andreplacementsof Productspurchased on the Byte Mart Platform. 1.2 This Return Policy forms an integral part of the Byte Mart Terms and Conditions. In the eventofaconflict,this Return Policyshallprevailformattersrelatingtoreturns,refunds,and replacements. 2. Eligible Reasons for Return 2.1 Byte Mart accepts return requests only in the following circumstances: (a) Physical Damage \u2014 the Product is delivered in a damaged condition (cracked, broken, dented, water-damaged, or otherwise physically compromised); (b) Incomplete Order\u2014oneormoreitemsinamulti-item Orderaremissingatthetimeof delivery; or (c) Wrong Product \u2014the Productdelivereddoes notmatchthe Productordered (different model, variant, colour, size, or configuration). 2.2 Returns for reasons other than those listed in Clause 2.1 (e.g., \u201cchange of mind\u201d, buyer\u2019s remorse, or non-defect-related dissatisfaction) are not accepted, except where required by Applicable Law. 22"
+      }
+    ],
+    "tool_calls": [
+      {
+        "tool": "lookup_customer",
+        "args": {
+          "email": "pooja.delhi.arora@gmail.com"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 3,
+        "error": null
+      },
+      {
+        "tool": "lookup_order_by_sender_and_product",
+        "args": {
+          "email": "pooja.delhi.arora@gmail.com",
+          "product_hint": "express delivery"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 8,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "What is ByteMart's policy on express delivery and additional charges for expedited shipping options?"
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 2379,
+        "error": null
+      }
+    ],
+    "_sender_email": "pooja.delhi.arora@gmail.com",
+    "_identity_verified": true
+  },
+  "resolver": {
+    "intent": "info",
+    "action": "auto_send",
+    "draft": "Hi Pooja Arora,\n\nThank you for reaching out to us. Currently, we offer Fast Delivery, which typically takes 3-4 business days, depending on the delivery location. However, we cannot guarantee delivery within exactly 3 days. The additional charges for Fast Delivery range from \u20b9100 to \u20b9250, depending on your specific location in Delhi.\n\nIf you would like to proceed with this option, please let us know, and we can assist you further.\n\nBest regards,\nByte Mart Customer Support",
+    "self_check": {
+      "policy_compliant": true,
+      "entities_correct": true,
+      "state_change_implied": false,
+      "tone": "polite"
+    },
+    "reasoning": "Read from retriever: customer verified; no order found; policies indicate Fast Delivery option with a timeline of 3-4 business days and additional charges. Tone: plain inquiry \u2192 no empathy lead. Did NOT: promise exact delivery in 3 days, quote specific stock numbers, or upsell. Decision: auto_send, providing information on delivery options and charges.",
+    "used_entities": {
+      "order_id": null,
+      "txn_id": null,
+      "product_names": []
+    },
+    "hilt_reason": null
+  },
+  "outcome": "sent",
+  "timing_ms": {
+    "retriever": 14323,
+    "resolver": 7225,
+    "total": 21548
+  },
+  "reflexive": {
+    "dimension_scores": {
+      "intent_accuracy": 1.0,
+      "faithfulness": 1.0,
+      "policy_compliance": 1.0,
+      "tone": 1.0,
+      "side_effect_consent": 1.0
+    },
+    "confidence": 1.0,
+    "reasoning": "structural-retrieval-check: clause(s) ['1', '10', '11', '12', '13', '14', '15', '16', '2', '6', '7', '8'] appear in multiple chunks (likely contradictory versions); human must disambiguate",
+    "suggested_action": "accept",
+    "regeneration_hints": [],
+    "malformed": false
+  },
+  "final_action": "auto_send",
+  "error": null
+}

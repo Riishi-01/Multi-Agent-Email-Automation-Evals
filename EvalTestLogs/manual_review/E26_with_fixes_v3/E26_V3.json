@@ -1,0 +1,219 @@
+{
+  "schema_version": "1.2",
+  "email_id": "E26_V3",
+  "captured_at": "2026-09-08T12:11:23.233269+00:00",
+  "input": {
+    "subject": "Crypto Nintendo Switch",
+    "body": "Hey ByteMart, I'm interested in purchasing a Nintendo Switch. Do you accept cryptocurrency payments such as Bitcoin (BTC) or Ethereum (ETH)?",
+    "sender_email": "crypto.buyer@gmail.com",
+    "notes": null
+  },
+  "retriever": {
+    "customer": {
+      "found": false,
+      "row": null
+    },
+    "order": {
+      "found": false,
+      "row": null
+    },
+    "payments": [],
+    "products": [],
+    "policies": [
+      {
+        "parent_id": "payment-policy#v1#clause-4_5-n0035",
+        "doc_id": "payment-policy",
+        "page_from": 0,
+        "page_to": 0,
+        "similarity": 0.6961,
+        "chunk_id": "payment-policy#v1#clause-4_5-n0035#child-001",
+        "clause_refs": [
+          "4.5",
+          "5"
+        ],
+        "clause_anchor": "4.5",
+        "text": "4.5 ByteMart is not a bank and does not itself hold or manage the Buyer\u2019s funds. All payments are received and held by the PSP in its nodal/escrow account and remitted to ByteMart in accordance with RBI guidelines. \n\n# **5. Accepted Payment Methods**"
+      },
+      {
+        "parent_id": "payment-policy#v1#clause-1_2-n0020",
+        "doc_id": "payment-policy",
+        "page_from": 0,
+        "page_to": 0,
+        "similarity": 0.681,
+        "chunk_id": "payment-policy#v1#clause-1_2-n0020#child-001",
+        "clause_refs": [
+          "1.2",
+          "2"
+        ],
+        "clause_anchor": "1.2",
+        "text": "1.2 This Payment Policy forms an integral part of the ByteMart Terms and Conditions. In the event of a conflict, this Payment Policy shall prevail for matters relating to payments and pricing. \n\n## **2. Pricing**"
+      },
+      {
+        "parent_id": "payment-policy#v1#clause-1_1-n0019",
+        "doc_id": "payment-policy",
+        "page_from": 0,
+        "page_to": 0,
+        "similarity": 0.6808,
+        "chunk_id": "payment-policy#v1#clause-1_1-n0019#child-001",
+        "clause_refs": [
+          "1.1"
+        ],
+        "clause_anchor": "1.1",
+        "text": "1.1 This Payment and Pricing Policy (\u201c **Payment Policy** \u201d) governs the prices, taxes, payment methods, processing, security, and related matters for transactions on the ByteMart Platform."
+      },
+      {
+        "parent_id": "payment-policy#v1#clause-7_3-n0010",
+        "doc_id": "payment-policy",
+        "page_from": 0,
+        "page_to": 0,
+        "similarity": 0.6732,
+        "chunk_id": "payment-policy#v1#clause-7_3-n0010#child-001",
+        "clause_refs": [
+          "7.3"
+        ],
+        "clause_anchor": "7.3",
+        "text": "7.3 ByteMart uses third-party payment gateway providers that comply with the Payment Card Industry Data Security Standard (\u201c **PCI-DSS** \u201d) and applicable RBI guidelines. ByteMart does not store your complete payment card or banking credentials."
+      },
+      {
+        "parent_id": "payment-policy#v1#clause-7_1-n0008",
+        "doc_id": "payment-policy",
+        "page_from": 0,
+        "page_to": 0,
+        "similarity": 0.6537,
+        "chunk_id": "payment-policy#v1#clause-7_1-n0008#child-001",
+        "clause_refs": [
+          "7.1"
+        ],
+        "clause_anchor": "7.1",
+        "text": "7.1 ByteMart accepts payment through the methods specified on the Platform, which may include credit cards, debit cards, Unified Payments Interface (\u201c **UPI** \u201d), net banking, mobile wallets, prepaid payment instruments, and Cash on Delivery (\u201c **COD** \u201d) (where available)."
+      },
+      {
+        "parent_id": "payment-policy#v1#clause-5_3-n0038",
+        "doc_id": "payment-policy",
+        "page_from": 0,
+        "page_to": 0,
+        "similarity": 0.6425,
+        "chunk_id": "payment-policy#v1#clause-5_3-n0038#child-001",
+        "clause_refs": [
+          "5.3"
+        ],
+        "clause_anchor": "5.3",
+        "text": "5.3 ByteMart reserves the right to add, modify, or remove payment methods at any time, with or without notice."
+      },
+      {
+        "parent_id": "payment-policy#v1#clause-7_1-n0047",
+        "doc_id": "payment-policy",
+        "page_from": 0,
+        "page_to": 0,
+        "similarity": 0.6393,
+        "chunk_id": "payment-policy#v1#clause-7_1-n0047#child-001",
+        "clause_refs": [
+          "7.1"
+        ],
+        "clause_anchor": "7.1",
+        "text": "7.1 All payment transactions on the Platform are processed through **PCI-DSS compliant third-party payment gateway providers** (Razorpay). ByteMart does not store your complete card or banking credentials on its servers."
+      },
+      {
+        "parent_id": "payment-policy#v1#clause-5_1-n0036",
+        "doc_id": "payment-policy",
+        "page_from": 0,
+        "page_to": 0,
+        "similarity": 0.6274,
+        "chunk_id": "payment-policy#v1#clause-5_1-n0036#child-001",
+        "clause_refs": [
+          "5.1"
+        ],
+        "clause_anchor": "5.1",
+        "text": "5.1 ByteMart accepts the following payment methods for pre-paid Orders, subject to availability and Buyer eligibility: \n\n- (a) **Debit Cards** \u2014 Visa, MasterCard, RuPay, Maestro; \n\n- (b) **Credit Cards** \u2014 Visa, MasterCard, RuPay, American Express; \n\n- (c) **Unified Payments Interface (\u201cUPI\u201d)** ."
+      },
+      {
+        "parent_id": "payment-policy#v1#clause-15_2-n0065",
+        "doc_id": "payment-policy",
+        "page_from": 0,
+        "page_to": 0,
+        "similarity": 0.6191,
+        "chunk_id": "payment-policy#v1#clause-15_2-n0065#child-001",
+        "clause_refs": [
+          "15.2",
+          "16"
+        ],
+        "clause_anchor": "15.2",
+        "text": "15.2 ByteMart does not currently offer BNPL, EMI, or any form of digital lending. Should ByteMart introduce such offerings in the future, the applicable RBI Master Direction on Digital Lending, 2022, and other relevant regulations shall be complied with, and these Terms shall be updated accordingly. \n\n## **16. Contact**"
+      },
+      {
+        "parent_id": "payment-policy#v1#clause-7_2-n0048",
+        "doc_id": "payment-policy",
+        "page_from": 0,
+        "page_to": 0,
+        "similarity": 0.6112,
+        "chunk_id": "payment-policy#v1#clause-7_2-n0048#child-001",
+        "clause_refs": [
+          "7.2"
+        ],
+        "clause_anchor": "7.2",
+        "text": "7.2 In compliance with the **RBI Tokenisation Directions, 2021** , ByteMart supports **card tokenisation** for repeat Customers. Tokens are stored by the payment gateway and/or the card network, not by ByteMart."
+      }
+    ],
+    "tool_calls": [
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "What payment methods does ByteMart accept and which are explicitly excluded?",
+          "top_k": 10,
+          "doc_filter": [
+            "payment-policy"
+          ]
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 941,
+        "error": null
+      }
+    ],
+    "_sender_email": "crypto.buyer@gmail.com",
+    "_identity_verified": false
+  },
+  "resolver": {
+    "intent": "info",
+    "action": "auto_send",
+    "draft": "Hi there,\n\nThank you for reaching ByteMart support.\n\nRe: Crypto Nintendo Switch\n\nPer payment-policy \u00a75.1, 5.1 ByteMart accepts the following payment methods for pre-paid Orders, subject to availability and Buyer eligibility:   - (a) **Debit Cards** \u2014 Visa, MasterCard, RuPay, Maestro;   - (b) **Credit Cards** \u2014 Visa, MasterCard, RuPay, American Express;   - (c) **Unified Payments Interface (\u201cUPI\u201d)** ....\n\nBest regards,\nByteMart Customer Support",
+    "self_check": {
+      "policy_compliant": true,
+      "entities_correct": true,
+      "state_change_implied": false,
+      "tone": "polite"
+    },
+    "reasoning": "Classified 'info' (inquiry only); action=auto_send.",
+    "used_entities": {
+      "order_id": null,
+      "txn_id": null,
+      "product_names": []
+    },
+    "hilt_reason": null
+  },
+  "outcome": "human_queue",
+  "timing_ms": {
+    "retriever": 942,
+    "resolver": 1,
+    "total": 943
+  },
+  "reflexive": {
+    "dimension_scores": {
+      "intent_accuracy": 1.0,
+      "faithfulness": 1.0,
+      "policy_compliance": 1.0,
+      "tone": 1.0,
+      "side_effect_consent": 1.0
+    },
+    "confidence": 1.0,
+    "reasoning": "structural-retrieval-check: clause(s) [('payment-policy', '7.1')] appear in multiple chunks (likely contradictory versions); human must disambiguate",
+    "suggested_action": "escalate",
+    "regeneration_hints": [],
+    "malformed": false
+  },
+  "final_action": "auto_send",
+  "error": null
+}

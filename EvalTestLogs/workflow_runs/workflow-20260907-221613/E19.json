@@ -1,0 +1,291 @@
+{
+  "schema_version": "1.2",
+  "email_id": "E19",
+  "captured_at": "2026-09-07T16:47:54.303211+00:00",
+  "input": {
+    "subject": "Xbox Not Turning On",
+    "body": "Hey ByteMart, this is very disappointing. I received my Xbox Series S today, and although the box and console have no visible scratches or damage, the console does not turn on. I initially thought it might be an issue with the power cord, so I borrowed my friend's Xbox Series S power cord, but the console still does not turn on and there are no lights. Please help me with a replacement or suitable resolution. Order No: BM834853.\n",
+    "sender_email": "priya.kapoor.bng@gmail.com",
+    "notes": "run_id=workflow-20260907-221613, serial=19"
+  },
+  "retriever": {
+    "customer": {
+      "found": true,
+      "row": {
+        "email": "priya.kapoor.bng@gmail.com",
+        "full_name": "Priya Kapoor",
+        "account_status": "active",
+        "no_of_orders": 2,
+        "created_at": "2025-03-12T07:00:00+00:00"
+      }
+    },
+    "order": {
+      "found": true,
+      "row": {
+        "order_id": "BM834853",
+        "customer_email": "priya.kapoor.bng@gmail.com",
+        "items": [
+          {
+            "qty": 1,
+            "sku": "XSS-001",
+            "name": "Xbox Series S 512GB Console",
+            "line_total": 29990.0,
+            "unit_price": 29990.0
+          }
+        ],
+        "total_amount": "29990.00",
+        "payment_method": "upi",
+        "order_date": "2025-08-22T06:15:00+00:00",
+        "expected_delivery": "2025-08-27",
+        "current_status": "delivered",
+        "shipping_address": {
+          "zip": "560038",
+          "city": "Bengaluru",
+          "line1": "55 Indiranagar 1st Stage",
+          "state": "Karnataka",
+          "country": "India"
+        },
+        "created_at": "2025-08-22T06:15:00+00:00",
+        "updated_at": "2026-09-07T03:04:58.781315+00:00"
+      }
+    },
+    "payments": [],
+    "products": [],
+    "policies": [
+      {
+        "parent_id": "return-policy#v1#parent-027-001",
+        "doc_id": "return-policy",
+        "page_from": 27,
+        "page_to": 27,
+        "similarity": 0.7304,
+        "chunk_id": "return-policy#v1#parent-027-001#child-002",
+        "clause_refs": [
+          "13",
+          "14",
+          "13.1",
+          "12",
+          "13.2",
+          "13.3",
+          "13.4",
+          "14",
+          "14.1",
+          "14.2",
+          "15",
+          "15.1",
+          "16",
+          "16.1",
+          "17",
+          "17.1"
+        ],
+        "text": "13. Defective Products (Beyond 14 Days) 13.1 Ifa Productdevelopsadefectafterthe 14-day Reporting Windowandthereisnophysical damageattributabletotransit,theissueshallbetreatedasamanufacturerwarrantyclaim in accordance with Clause 12. The Buyer should: (a) Contact the original manufacturer of the Product using the contact details on the war- ranty card, the Product packaging, or the manufacturer\u2019s official website; (b) Use the Byte Mart tax invoice as proof of purchase and warranty start date; and (c) Follow the manufacturer\u2019s troubleshooting and service process. 13.2 Where the Buyer is unable to reach the manufacturer or requires assistance, Byte Mart shall, on a best-efforts basis, facilitate communication with the manufacturer\u2019s service cen- tre,includingprovidingaduplicateinvoice,confirmingthepurchasedate,andescalatingthe Buyer\u2019s concern to the manufacturer\u2019s customer support. 13.3 Byte Mart\u2019s role is limited to facilitation. Byte Mart does not provide repair, replace- ment, or refund for defects that arise after the 14-day Reporting Window and that are at- tributable to manufacturing, design, software, firmware, normal wear and tear, or any cause not attributable to Byte Mart. 13.4 The Buyer\u2019s statutory rights under the Consumer Protection Act, 2019 (including the right to file a complaint against a defect or unfair trade practice) are not affected by this Clause and may be exercised against either the manufacturer or Byte Mart, as applicable. 14. Chargebacks 14.1 Ifthe Buyerinitiatesachargebackwiththeirbankorcardissuerwithoutfirstcontacting Byte Mart and exhausting the remedies under this Return Policy, Byte Mart reserves the right to: (a) Dispute the chargeback; (b) Suspend the Buyer\u2019s account; and (c) Pursue recovery of costs, including the Product price, shipping charges, and chargeback processing fees. 14.2 Buyers are encouraged to contact Byte Mart first to resolve any issue before initiating a chargeback. 15. Refusal of Return 15.1 Byte Martreservestherighttorefuseareturnrequestif: (a)Therequestismadeoutside the 14-day Reporting Window; (b) The Product is not in its original condition; (c) The Buyer cannot provide adequate evidence of the reported issue; (d) The request is for a reason not covered under Clause 2; (e) The Buyer has previously abused the return process. 16. Effect of Return on Promotional Benefits 16.1 If the Order was placed using a coupon, promotional code, or freebie, the coupon value or freebie benefit may be reversed or adjusted in case of a partial return, in accordance with the specific terms of the promotion. 17. Contact 17.1 For all return, refund, and replacement queries, please contact: Byte Mart Customer Support Email: [support@bytemart.in] Phone: [PHONE] Hours: [DAYS / TIMINGS] 27"
+      },
+      {
+        "parent_id": "shipping-policy#v1#parent-022-001",
+        "doc_id": "shipping-policy",
+        "page_from": 22,
+        "page_to": 22,
+        "similarity": 0.7031,
+        "chunk_id": "shipping-policy#v1#parent-022-001#child-002",
+        "clause_refs": [
+          "15",
+          "15.1",
+          "16",
+          "16.1",
+          "1.0",
+          "1",
+          "1.1",
+          "1.2",
+          "2",
+          "2.1",
+          "2.2"
+        ],
+        "text": "15. Force Majeure 15.1 Byte Mart shall not be liable for any delay or failure in delivery caused by force majeure events, as set out in Clause 20 of the Terms and Conditions. 16. Contact 16.1 For all shipping and delivery related queries, please contact: Byte Mart Customer Support Email: [support@bytemart.in] Phone: [PHONE] Hours: [DAYS / TIMINGS] End of Shipping & Delivery Policy Byte Mart \u2014 Return, Refund & Replacement Policy Version: 1.0 Last Updated: [DD/MM/YYYY] Effective Date: [DD/MM/YYYY] Statutory map (for internal use): Consumer Protection Act, 2019 (rights of con- sumers,includingrighttoseekredressalagainstdefectivegoods,unfairtradeprac- tice, etc.) \u00b7 Consumer Protection (E-Commerce) Rules, 2020 (Reg. 5(3) \u2014 return policy;Reg. 9\u2014refund)\u00b7Indian Contract Act,1872(defect,failureofconsideration) \u00b7 Sale of Goods Act, 1930 (conditions and warranties) \u00b7 Bureau of Indian Standards Act, 2016 (product standards). 1. Scope 1.1 This Return, Refund and Replacement Policy (\u201cReturn Policy\u201d) governs the conditions, process,andtimelinesapplicabletoreturns,refunds,andreplacementsof Productspurchased on the Byte Mart Platform. 1.2 This Return Policy forms an integral part of the Byte Mart Terms and Conditions. In the eventofaconflict,this Return Policyshallprevailformattersrelatingtoreturns,refunds,and replacements. 2. Eligible Reasons for Return 2.1 Byte Mart accepts return requests only in the following circumstances: (a) Physical Damage \u2014 the Product is delivered in a damaged condition (cracked, broken, dented, water-damaged, or otherwise physically compromised); (b) Incomplete Order\u2014oneormoreitemsinamulti-item Orderaremissingatthetimeof delivery; or (c) Wrong Product \u2014the Productdelivereddoes notmatchthe Productordered (different model, variant, colour, size, or configuration). 2.2 Returns for reasons other than those listed in Clause 2.1 (e.g., \u201cchange of mind\u201d, buyer\u2019s remorse, or non-defect-related dissatisfaction) are not accepted, except where required by Applicable Law. 22"
+      },
+      {
+        "parent_id": "refund-policy#v1#parent-023-001",
+        "doc_id": "refund-policy",
+        "page_from": 23,
+        "page_to": 23,
+        "similarity": 0.7326,
+        "chunk_id": "refund-policy#v1#parent-023-001#child-003",
+        "clause_refs": [
+          "3",
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4",
+          "3.5",
+          "3.6",
+          "4",
+          "4.1",
+          "4.2",
+          "4.3",
+          "4.4",
+          "4.4.1",
+          "4.4.2",
+          "4.4.3",
+          "4.4.4"
+        ],
+        "text": "3. Reporting Window 3.1 Any replacement or refund request under Clause 2 must be submitted to Byte Mart by email within fourteen (14) calendar days of delivery (\u201cReporting Window\u201d). 3.2 Reporting channel (for replacement and refund requests only): (a) Email: [sup- port@bytemart.in] (mandatory channel for replacement and refund requests) Forgeneralqueries(ordertracking,deliverystatus,accountquestions),Buyersmaycontinue touse: (b)Portal: \u201cMy Orders\u201d\u2192\u201cReportan Issue\u201donthe Platform(forstatus/tracking)(c) Phone: [PHONE] (for general queries, not for replacement/refund requests) 3.3 The replacement or refund request email must include, as a mandatory requirement: (a) Order number; (b) Description of the issue; (c) Photographs of the box (outer packag- ing) showing the Product inside, the tamper seal/condition, and the shipping label; (d) Pho- tographs of the Product clearly showing the damage, defect, missing accessories, wrong version, or wrong item (close-up shots and wide shots); (e) Photograph of the serial number / IMEI / model number label of the Product (where applicable); (f) Photograph of all con- tentsofthebox(incaseofmissingitems);and(g)Shortvideo(optionalbutrecommendedfor high-value items). 3.4 Photographs and attachments are mandatory for any refund or replacement request for a delivered item. A return, refund, or replacement request submitted without pho- tographs of both the box and the Product shall be deemed incomplete and shall not be processed until such photographs are provided. Byte Mart may, at its sole discretion, request additional photographs or video evidence to substantiate the claim. 3.5 Replacement or refund requests submitted after the 14-day Reporting Window may not be eligible for return, replacement, or refund, except in cases covered by an applicable manufacturer warranty. 3.6 The Buyer must retain the Product, all original packaging, all accessories, all documenta- tion,andtheshippinglabeluntilthereturn,refund,orreplacementisfullyprocessed. Failure to retain the Product or its packaging may result in rejection of the claim. 4. Resolution: Replacement 4.1 For Products reported under Clause 2, Byte Mart\u2019s default resolution is replacement of the Product, subject to stock availability of the same SKU (or an equivalent Product of equal or greater value, at Byte Mart\u2019s discretion). 4.2 Replacement is offered free of cost, including: (a) No additional Product price; (b) No shipping or reverse-shipping charges. 4.3 Ifthe Buyerrefusesthereplacement,Byte Martisnotobligatedtoofferarefundinlieuof replacement, except where the replacement is unavailable (see Clause 5). 4.4 Missing Original Accessories or Product Documentation 4.4.1 If any original accessories, cables, adapters, manuals, warranty cards, driver CD s, or otherproductdocumentationthatarepartofthe Productasshippedbythemanufacturerare missing from the delivered box, the Buyer may report the issue in accordance with Clause 3. 4.4.2 The report must include photographs of the box (showing the serial number label, theaccessorylistprintedonthebox, where present, andthetamperseal) and photographs of the contents of the box clearly showing the items that were actually delivered. 4.4.3 Upon receipt of sufficient proof, Byte Mart shall arrange delivery of the missing item only, and shall not offer a complete replacement of the Product. The Product itself shall be retained by the Buyer. 4.4.4 Delivery of the missing item shall be made within 5\u201310 business days of verification, subjecttoavailability. Ifthemissingitemisoutofstock,Byte Martshall,atitssolediscretion: (a) Arrange a suitable equivalent; (b) Issue a partial refund equal to the value of the missing 23"
+      },
+      {
+        "parent_id": "shipping-policy#v1#parent-008-001",
+        "doc_id": "return-policy",
+        "page_from": 8,
+        "page_to": 8,
+        "similarity": 0.7208,
+        "chunk_id": "shipping-policy#v1#parent-008-001#child-001",
+        "clause_refs": [
+          "8.3",
+          "8.4",
+          "9",
+          "9.1",
+          "9.2",
+          "9.3",
+          "9.4",
+          "9.5",
+          "9.6",
+          "10",
+          "10.1",
+          "10.2",
+          "10.3",
+          "10.4",
+          "10.5",
+          "11",
+          "11.1",
+          "11.2"
+        ],
+        "text": "Such refund shall be processed in accordance with Clause 11 and the Return, Refund and Replacement Policy. 8.3 Delivery timelines are indicative and may be affected by factors beyond Byte Mart\u2019s rea- sonable control, including natural disasters, transportation disruptions, government actions, and force majeure events. 8.4 Forcompleteshippingterms,includingserviceablelocations,tracking,faileddelivery,and risk of loss, please refer to the Shipping and Delivery Policy. 9. Returns, Refunds & Replacements 9.1 Byte Mart accepts returns, refunds, and replacements strictly in accordance with the Re- turn, Refund and Replacement Policy. 9.2 Returns shall be accepted only in the following circumstances: (a) Physical damage to the Productupondelivery;(b)Incomplete Orderdelivered;or(c)Wrong Productdelivered. 9.3 For damaged, wrong, or incomplete Orders, Byte Mart shall, at its sole discretion and subject to verification: (a) Offer a replacement of the Product, subject to stock availability; or (b) Offer a complete refund of the Product price if the Product or a suitable replacement is out of stock. 9.4 Refunds for cancelled Orders shall be processed without any charge to the Buyer. Re- funds for damaged Products are not provided; replacement shall be offered instead, sub- ject to Clause 9.3. 9.5 Standard refund processing time is 3\u20137 business days from initiation, subject to bank processing timelines. Replacement processing time is 5\u20137 business days. 9.6 For complete terms governing returns, refunds, and replacements, please refer to the Return, Refund and Replacement Policy. 10. Cancellations 10.1 You may cancel your Order at any time within the delivery window (i.e., from Order placement until actual delivery or refusal of delivery) via the \u201cMy Orders\u201d section of your account on the Platform, or by contacting [support@bytemart.in]. 10.2 If you cancel an Order on the scheduled delivery day (i.e., when the Order is in the \u201cOut for Delivery\u201d stage), Byte Mart reserves the right to deny delivery at the time of attempted delivery. 10.3 Ifyouacceptdeliveryofacancelled Order,the Ordershallbedeemeddelivered,andno return shall be permitted under the cancellation provisions. Any post-delivery return request shall be governed exclusively by the Return, Refund and Replacement Policy, and shall be subject to the 14-day Reporting Window and the limited grounds set out therein (physical damage, incomplete Order, wrong Product, or wrong version). 10.4 Refunds for cancelled Orders shall be processed in accordance with Clause 11 and the Return, Refund and Replacement Policy. 10.5 For complete cancellation terms, please refer to the Cancellation Policy. 11. Refunds 11.1 Refunds shall be processed to the original payment method used at the time of Order placement. 11.2 Oncearefundticketisinitiated,therefundmaytake 3\u20137 businessdaystobecreditedto the Buyer\u2019s account due to bank processing timelines. 8"
+      },
+      {
+        "parent_id": "refund-policy#v1#parent-009-001",
+        "doc_id": "refund-policy",
+        "page_from": 9,
+        "page_to": 9,
+        "similarity": 0.7207,
+        "chunk_id": "refund-policy#v1#parent-009-001#child-004",
+        "clause_refs": [
+          "11.3",
+          "11.4",
+          "11.5",
+          "12",
+          "12.1",
+          "12.2",
+          "12.3",
+          "13",
+          "13.1",
+          "13.2",
+          "13.3",
+          "13.4",
+          "13.5",
+          "13.6"
+        ],
+        "text": "11.3 Byte Martshallinitiaterefundsasquicklyaspossible,butthefinalcreditingoftherefund is subject to the timelines of the Buyer\u2019s bank or payment instrument issuer. 11.4 No refund shall be processed for Products damaged after delivery. In such cases, re- placement shall be offered in accordance with the Return, Refund and Replacement Policy. 11.5 For complete refund terms, please refer to the Return, Refund and Replacement Policy. 12. User Obligations 12.1 You agree to use the Platform only for lawful purposes and in compliance with all Appli- cable Law. 12.2 Youagreenotto: (a)Usethe Platformforanyfraudulent,illegal,orunauthorisedpurpose; (b) Impersonate any person or entity, or falsely state or otherwise misrepresent your affilia- tion with any person or entity; (c) Interfere with or disrupt the Platform, its servers, or any networksconnectedtothe Platform;(d)Useanydevice,software,orroutinetointerferewith theproperfunctioningofthe Platform;(e)Attempttogainunauthorisedaccesstoanyportion or feature of the Platform, other accounts, computer systems, or networks connected to the Platform; (f) Upload or transmit viruses, malware, or any other malicious code; (g) Engage in anyactivitythatmayunreasonablyburdenthe Platform\u2019sinfrastructure;(h)Usethe Platform to harass, threaten, defame, or intimidate any person; (i) Copy, reproduce, republish, upload, post, transmit, or distribute any Content in any manner without prior written consent; or (j) Circumvent, disable, or otherwise interfere with security-related features of the Platform. 12.3 Youaresolelyresponsibleforanycontentyouupload, post, transmit, orotherwisemake available through the Platform. 13. Reseller Relationship 13.1 Byte Martsources Productsfromauthorised Resellers,distributors,and OEM s. Byte Mart istheprincipal seller ofall Productslistedonthe Platformandbearsdirectcontractualand statutory responsibility to the Buyer in accordance with the Consumer Protection Act, 2019, and the E-Commerce Rules, 2020. 13.2 Byte Mart acts as a retailer of the Products. Byte Mart is not the manufacturer of any Product sold on the Platform and does not design, manufacture, or quality-test the Products at source, except for Products manufactured by Byte Mart\u2019s group entities, where applicable. 13.3 The relationship between Byte Mart and its Resellers is governed by separate written agreements. Nothing in these Terms shall be construed to create any privity of contract, agency, partnership, or joint venture between a Reseller and a Buyer. 13.4 Byte Mart does not act as an agent of the Reseller, and the Reseller does not act as an agent of Byte Mart, except as expressly disclosed to the Buyer in writing on the relevant Product page. 13.5 Warranty and Post-Sales Service. Warranty support, where applicable, is the respon- sibilityoftheoriginalmanufacturerofthe Product. Byte Mart\u2019sroleislimitedto: (a)Provid- ingthe Byte Mart tax invoiceasproofofpurchasetobeusedbythe Buyerformanufacturer warranty claims; (b) Facilitating communication between the Buyer and the manufacturer or itsauthorisedservicecentre,onabest-effortsbasis;and(c)Wherethe Productisdeliveredin a damaged, incomplete, or wrong condition, providing replacement or refund in accordance with the Return, Refund and Replacement Policy. 13.6 Byte Mart does not assume the manufacturer\u2019s statutory warranty obligations, does not provideon-siteservice,repair,ortechnicalsupport,andisnotliableforanymanufacturingde- fect, design defect, software/firmware issue, or post-delivery hardware failure, except where suchissueisattributableto Byte Mart\u2019sownactoromission. The Buyer\u2019srighttoseekredres- salunderthe Consumer Protection Act,2019,againsteither Byte Martorthemanufactureris not affected by this Clause. 9"
+      }
+    ],
+    "tool_calls": [
+      {
+        "tool": "lookup_customer",
+        "args": {
+          "email": "priya.kapoor.bng@gmail.com"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 4,
+        "error": null
+      },
+      {
+        "tool": "lookup_order_by_id",
+        "args": {
+          "order_id": "BM834853"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 3,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "What is ByteMart's return policy for defective items within the 14-day reporting window?"
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 241,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "What is ByteMart's policy on replacements for defective products?"
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 241,
+        "error": null
+      }
+    ],
+    "_sender_email": "priya.kapoor.bng@gmail.com",
+    "_identity_verified": true
+  },
+  "resolver": {
+    "intent": "complaint",
+    "action": "hilt_other",
+    "draft": "We deeply regret the inconvenience, Priya.\n\nOur team is reviewing your request and will get back to you with a resolution.\n\nRe: [PENDING APPROVAL] Xbox Not Turning On\n\n[PENDING APPROVAL: review required before sending]\n\nBest regards,\nByteMart Customer Support",
+    "self_check": {
+      "policy_compliant": true,
+      "entities_correct": true,
+      "state_change_implied": true,
+      "tone": "neutral"
+    },
+    "reasoning": "Action verb matched state-change trigger; routed to operator.",
+    "used_entities": {
+      "order_id": "BM834853",
+      "txn_id": null,
+      "product_names": [
+        "XSS-001"
+      ]
+    },
+    "hilt_reason": {
+      "policy_clause": "returns \u00a72",
+      "reason_short": "State change requires operator approval",
+      "reason_long": "Customer requested an order-state change (replacement/cancellation/address). Operator approval required before executing.",
+      "recommended_action": "review_state_change_request",
+      "action_target": "ops_queue",
+      "urgency": "medium",
+      "human_skill_required": "tier_1_support"
+    }
+  },
+  "outcome": "pending",
+  "timing_ms": {
+    "retriever": 15059,
+    "resolver": 15802,
+    "total": 30861
+  },
+  "reflexive": {
+    "dimension_scores": {
+      "intent_accuracy": 1.0,
+      "faithfulness": 1.0,
+      "policy_compliance": 1.0,
+      "tone": 1.0,
+      "side_effect_consent": 1.0
+    },
+    "confidence": 1.0,
+    "reasoning": "structural-retrieval-check: clause(s) ['1', '10', '11', '12', '13', '14', '15', '16', '17', '2', '3', '4', '8', '9'] appear in multiple chunks (likely contradictory versions); human must disambiguate",
+    "suggested_action": "accept",
+    "regeneration_hints": [],
+    "malformed": false
+  },
+  "final_action": "hilt_other",
+  "error": null
+}

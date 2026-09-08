@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.2",
+  "email_id": "E26_FIXED",
+  "captured_at": "2026-09-08T10:23:56.451769+00:00",
+  "input": {
+    "subject": "Crypto Nintendo Switch",
+    "body": "Hey ByteMart, I'm interested in purchasing a Nintendo Switch. Do you accept cryptocurrency payments such as Bitcoin (BTC) or Ethereum (ETH)?",
+    "sender_email": "crypto.buyer@gmail.com",
+    "notes": null
+  },
+  "retriever": {
+    "customer": {
+      "found": false,
+      "row": null
+    },
+    "order": {
+      "found": false,
+      "row": null
+    },
+    "payments": [],
+    "products": [],
+    "policies": [
+      {
+        "parent_id": "shipping-policy#v1#parent-001-001",
+        "doc_id": "shipping-policy",
+        "page_from": 1,
+        "page_to": 1,
+        "similarity": 0.0684,
+        "chunk_id": "shipping-policy#v1#parent-001-001#child-007",
+        "clause_refs": [
+          "3",
+          "3",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "17",
+          "18",
+          "19",
+          "20",
+          "21",
+          "22",
+          "23",
+          "24",
+          "25",
+          "26",
+          "27",
+          "28",
+          "13",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "text": "Byte Mart \u2014 Legal & Policy Documentation Pack Consumer E-Commerce \u00b7 India Byte Mart [Private Limited / Limited] Contents Byte Mart \u2014 Legal & Policy Documentation Pack 3 About this Document . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3 Byte Mart \u2014 Terms and Conditions 5 1. Introduction & Acceptance . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5 2. Definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5 3. Eligibility . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 4. Account Registration . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 5. Products, Pricing & Availability . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 6. Orders & Contract Formation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 7. Payment Terms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 8. Shipping & Delivery . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 9. Returns, Refunds & Replacements . . . . . . . . . . . . . . . . . . . . . . . . . . 8 10. Cancellations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8 11. Refunds . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8 12. User Obligations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9 13. Reseller Relationship . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9 14. Intellectual Property . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 15. Data & Privacy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 16. Product Standards, Safety & E-Waste . . . . . . . . . . . . . . . . . . . . . . . . 10 17. Disclaimers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11 18. Limitation of Liability . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11 19. Indemnification . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11 20. Force Majeure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11 21. Termination . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12 22. Governing Law . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12 23. Jurisdiction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12 24. Dispute Resolution & Consumer Redressal . . . . . . . . . . . . . . . . . . . . . 12 25. Severability . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 26. Waiver . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 27. Entire Agreement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 28. Contact . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 Byte Mart \u2014 Privacy Policy 13 1. Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13 2. Definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14 3. What Personal Data We Collect . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14 4. Purpose of Collection & Use . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15 5. Consent . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15 6. Disclosure & Sharing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15 7. Cross-Border Transfer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16 8. Data Retention . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16 9. Security Measures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16 10. Cookies & Tracking Technologies . . . . . . . . . . . . . . . . . . . . . . . . . . 16 11. Your Rights as a Data Principal . . . . . . . . . . . . . . . . . . . . . . . . . . . 17 12. Children\u2019s Data . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17 1"
+      },
+      {
+        "parent_id": "privacy-policy#v1#parent-010-001",
+        "doc_id": "privacy-policy",
+        "page_from": 10,
+        "page_to": 10,
+        "similarity": 0.0677,
+        "chunk_id": "privacy-policy#v1#parent-010-001#child-001",
+        "clause_refs": [
+          "14",
+          "14.1",
+          "14.2",
+          "15",
+          "15.1",
+          "15.2",
+          "15.3",
+          "16",
+          "16.1",
+          "16.2",
+          "16.3",
+          "16.4",
+          "16.5"
+        ],
+        "text": "14. Intellectual Property 14.1 All Content on the Platform, including but not limited to text, graphics, logos, images, audio, video, software, and the compilation thereof, is the property of Byte Mart or its licen- sors and is protected by Indian and international copyright, trademark, patent, and other intellectual property laws. 14.2 You may not reproduce, distribute, modify, create derivative works of, publicly display, publiclyperform,republish,download,store,ortransmitanyofthe Contentwithouttheprior written consent of Byte Mart. 14.3 \u201cByte Mart\u201d and all related logos, product names, and service names are trademarks of Byte Mart. You may not use such marks without the prior written consent of Byte Mart. 15. Data & Privacy 15.1 Byte Martprocessesyourpersonaldatainaccordancewiththe Digital Personal Data Pro- tection Act, 2023 (\u201cDPDPA\u201d), the Information Technology Act, 2000, and the IT (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011, as set out in the Privacy Policy. 15.2 Byusingthe Platform,youconsenttothecollection,use,storage,processing,andsharing of your personal data in accordance with the Privacy Policy. 15.3 You have the right to access, correct, erase, and nominate another individual in respect ofyourpersonaldata,inaccordancewiththe DPDPA.Toexercisetheserights,pleasecontact the Grievance Officer. 16. Product Standards, Safety & E-Waste 16.1 Byte Mart ensures that Products requiring mandatory registration under the BIS Act, 2016, the Meit Y CRS, or any other Applicable Law are sourced only from BIS-registered manufacturers or importers. 16.2 The Buyer is entitled to receive Products that comply with the standards notified un- der the Legal Metrology Act, 2009, and the Legal Metrology (Packaged Commodities) Rules, 2011, including declarations of MRP, net quantity, manufacturer/importer details, country of origin, and date of manufacture/import. 16.3 In accordance with the E-Waste (Management) Rules, 2022, Byte Mart supports Ex- tended Producer Responsibility (\u201cEPR\u201d) and provides a take-back mechanism for end-of-life electrical and electronic equipment purchased on the Platform. Buyers may deposit e-waste at the collection points communicated on the Platform or contact [support@bytemart.in] for scheduled collection, where available. 16.4 Buyers are advised to handle lithium-ion and other battery-powered Products with care and to dispose of damaged or end-of-life batteries only through authorised channels. 16.5 Manufacturerwarrantiesandpost-salesservicearetheresponsibilityoftheoriginal manufacturer of the Product. Byte Mart is a retailer and does not provide warranty or post- sales service in its own name, except where expressly stated on a specific Product page. (a) Themanufacturer\u2019swarrantyterms(includingperiod,scope,andexclusions)shallapply as set out in the warranty card, terms document, or manufacturer\u2019s website; (b) The Byte Marttaxinvoiceshallbeacceptedasvalidproofofpurchaseformanufacturer warrantyclaims,andshallcontainthe Productdescription,modelnumber,serialnumber (where recorded), purchase date, and price; 10"
+      }
+    ],
+    "tool_calls": [
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "What does ByteMart policy say about: Crypto Nintendo Switch",
+          "top_k": 3
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 131,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "What payment methods does ByteMart accept?",
+          "top_k": 3
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 11,
+        "error": null
+      }
+    ],
+    "_sender_email": "crypto.buyer@gmail.com",
+    "_identity_verified": false
+  },
+  "resolver": {
+    "intent": "info",
+    "action": "auto_send",
+    "draft": "Hi there,\n\nThank you for reaching ByteMart support.\n\nRe: Crypto Nintendo Switch\n\nPer shipping-policy \u00a73, Byte Mart \u2014 Legal & Policy Documentation Pack Consumer E-Commerce \u00b7 India Byte Mart [Private Limited / Limited] Contents Byte Mart \u2014 Legal & Policy Documentation Pack 3 About this Document . . . . . ....\n\nBest regards,\nByteMart Customer Support",
+    "self_check": {
+      "policy_compliant": true,
+      "entities_correct": true,
+      "state_change_implied": false,
+      "tone": "polite"
+    },
+    "reasoning": "Classified 'info' (inquiry only); action=auto_send.",
+    "used_entities": {
+      "order_id": null,
+      "txn_id": null,
+      "product_names": []
+    },
+    "hilt_reason": null
+  },
+  "outcome": "sent",
+  "timing_ms": {
+    "retriever": 143,
+    "resolver": 0,
+    "total": 143
+  },
+  "reflexive": {
+    "dimension_scores": {
+      "intent_accuracy": 1.0,
+      "faithfulness": 1.0,
+      "policy_compliance": 1.0,
+      "tone": 1.0,
+      "side_effect_consent": 1.0
+    },
+    "confidence": 1.0,
+    "reasoning": "structural-retrieval-check: all retrieved chunks have similarity < 0.6; policy relevance is too weak",
+    "suggested_action": "accept",
+    "regeneration_hints": [],
+    "malformed": false
+  },
+  "final_action": "auto_send",
+  "error": null
+}

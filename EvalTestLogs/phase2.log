@@ -1,0 +1,2 @@
+phase2: judge is not configured; set JUDGE_BASE_URL / JUDGE_MODEL / JUDGE_API_KEY. Falling back to per-metric 'unscored'.
+phase2 done: judge_run_id=judge-20260907-222803
