@@ -1,0 +1,48 @@
+[project]
+name = "bytemart-email-evals"
+version = "3.0"
+description = "ByteMart email-evals agent — Phase 1 (data layer) + Phase 2 (tools + agents) + Phase 3 (workflow + eval hooks)"
+requires-python = ">=3.11"
+
+# ---------------------------------------------------------------------------
+# Runtime dependencies (every phase uses these)
+# ---------------------------------------------------------------------------
+dependencies = [
+    "sqlalchemy>=2.0,<3",
+    "psycopg[binary]>=3.1,<4",
+    "openai>=1.40,<2",
+    "pyyaml>=6.0,<7",
+    "python-dotenv>=1.0,<2",
+    "pdfplumber>=0.10,<1",        # Phase 2 RAG: PDF extraction
+    "tiktoken>=0.5,<1",          # Phase 2 RAG: token counting for chunking
+    "numpy>=2,<3",               # Phase 2 RAG: hash-embedding fallback math
+]
+
+[project.optional-dependencies]
+# Phase 1 only
+phase1 = []
+# Phase 2 (in addition to runtime; already in `dependencies`)
+phase2 = []
+# Phase 3 (in addition to runtime)
+phase3 = []
+# Dev / test only
+dev = [
+    "pytest>=8",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["src*"]
+
+[tool.setuptools.package-data]
+"src" = ["py.typed"]
+
+# ---------------------------------------------------------------------------
+# Tooling
+# ---------------------------------------------------------------------------
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra -q"

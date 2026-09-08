@@ -1,0 +1,36 @@
+# Multi-Agent Email Automation with Evals — gitignore
+# Phase 1 baseline (ByteMart v3) + repo-rebrand additions
+
+# Env + secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+*.egg
+build/
+dist/
+.mypy_cache/
+.ruff_cache/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Runtime
+data/bytemart.db          # if SQLite is ever used locally
+data/runs/                # generated trace JSONs (Phase 3) — large, regeneratable
+*.log                      # phase1.log / phase2.log / eval runner logs
+nohup.out                  # accidental backgrounded process output
+
+# Planning / internal docs (kept on disk, not pushed to repo)
+docs/

@@ -1,0 +1,33 @@
+# ByteMart — Postgres + pgvector (single container, replaces homebrew)
+#
+# Usage:
+#   docker compose up -d
+#   docker compose down -v   # full reset (deletes the named volume)
+#
+# All app credentials are read from .env (see docs/env.example).
+# The container is reachable at localhost:5432 by default.
+#
+# Source of truth: docs/build.yaml#phase-4-data-layer
+services:
+  postgres:
+    image: pgvector/pgvector:pg17
+    container_name: bytemart-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-bytemart}
+      POSTGRES_USER: ${POSTGRES_USER:-bytemart_owner}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-bytemart_owner_pw}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - bytemart_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-bytemart_owner} -d ${POSTGRES_DB:-bytemart}"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 5s
+
+volumes:
+  bytemart_pgdata:
+    name: bytemart_pgdata
