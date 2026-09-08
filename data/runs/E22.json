@@ -1,0 +1,205 @@
+{
+  "schema_version": "1.1",
+  "email_id": "E22",
+  "captured_at": "2026-09-07T03:42:58.438857+00:00",
+  "input": {
+    "subject": "[E22] Old Stock Razer BlackShark",
+    "body": "Hey ByteMart, I ordered the Razer BlackShark V2 Pro on August 15 and received it today, but I noticed that the product was manufactured in December 2024. I paid the regular retail price, so I believe an older stock item should have been offered with an additional discount. Please let me know if you can provide a partial refund or suitable compensation for this.\n",
+    "sender_email": "anjalisingh.hyd@gmail.com"
+  },
+  "retriever": {
+    "customer": {
+      "found": true,
+      "row": {
+        "email": "anjalisingh.hyd@gmail.com",
+        "full_name": "Anjali Singh",
+        "account_status": "active",
+        "no_of_orders": 2,
+        "created_at": "2025-06-15T07:50:00+00:00"
+      }
+    },
+    "order": {
+      "found": true,
+      "row": {
+        "order_id": "BM200009",
+        "customer_email": "anjalisingh.hyd@gmail.com",
+        "items": [
+          {
+            "qty": 1,
+            "sku": "RBSV2-PRO",
+            "name": "Razer BlackShark V2 Pro Wireless Headset",
+            "line_total": 18999.0,
+            "unit_price": 18999.0
+          }
+        ],
+        "total_amount": "18999.00",
+        "payment_method": "upi",
+        "order_date": "2025-08-15T04:30:00+00:00",
+        "expected_delivery": "2025-08-20",
+        "current_status": "delivered",
+        "shipping_address": {
+          "zip": "500033",
+          "city": "Hyderabad",
+          "line1": "32 Jubilee Hills Road No 5",
+          "state": "Telangana",
+          "country": "India"
+        },
+        "created_at": "2025-08-15T04:30:00+00:00",
+        "updated_at": "2026-09-07T03:04:58.781315+00:00"
+      }
+    },
+    "payments": [
+      {
+        "payment_id": "dbee5f2a-d4f6-4887-9cf0-9ff303e0ae57",
+        "customer_email": "anjalisingh.hyd@gmail.com",
+        "order_id": "BM200009",
+        "amount": "18999.00",
+        "method": "upi",
+        "status": "success",
+        "transaction_id": "25081501",
+        "failure_reason": null,
+        "created_at": "2025-08-15T04:30:30+00:00",
+        "updated_at": "2025-08-15T04:30:30+00:00"
+      }
+    ],
+    "products": [
+      {
+        "sku": "RBSV2-PRO",
+        "name": "Razer BlackShark V2 Pro Wireless Headset",
+        "category": "audio",
+        "unit_price": "18999.00",
+        "in_stock": true,
+        "description": "Razer BlackShark V2 Pro, wireless gaming headset",
+        "warranty_text": "2 Years manufacturer warranty.",
+        "tech_description": "Wireless gaming headset engineered for competitive gaming with high-fidelity drivers and low-latency wireless audio.",
+        "tech_details": "Drivers: 50mm Wireless: 2.4GHz wireless + Bluetooth Bluetooth: Bluetooth connectivity Microphone: Detachable boom mic Audio: Stereo / virtual surround depending on platform Port: USB-C charging Battery: Long-duration rechargeable battery Compatibility: PC / supported consoles",
+        "stock_count": 3
+      }
+    ],
+    "policies": [
+      {
+        "parent_id": "cancellation-policy#v1#parent-028-001",
+        "doc_id": "cancellation-policy",
+        "page_from": 28,
+        "page_to": 28,
+        "similarity": 0.9772,
+        "chunk_id": "cancellation-policy#v1#parent-028-001#child-001",
+        "clause_refs": [
+          "17.2",
+          "1.0",
+          "1",
+          "1.1",
+          "1.2",
+          "2",
+          "2.1",
+          "3",
+          "3.1",
+          "3.2"
+        ],
+        "text": "17.2 If unsatisfied with our response, please refer to the Grievance Redressal Policy for further escalation options, including the National Consumer Helpline (1915), INGRAM portal, and e-Daakhil. End of Return, Refund & Replacement Policy Byte Mart \u2014 Cancellation Policy Version: 1.0 Last Updated: [DD/MM/YYYY] Effective Date: [DD/MM/YYYY] Statutory map (for internal use): Consumer Protection Act, 2019 (right to infor- mation,righttobeheard)\u00b7Consumer Protection(E-Commerce)Rules,2020(Reg. 5 \u2014 disclosure of cancellation policy) \u00b7 Indian Contract Act, 1872 (revocation of offer, breach of contract). 1. Scope 1.1 This Cancellation Policy (\u201cCancellation Policy\u201d) governs the conditions, process, and timelines applicable to the cancellation of Orders placed on the Byte Mart Platform. 1.2 This Cancellation Policy forms an integral part of the Byte Mart Terms and Conditions. In the event of a conflict, this Cancellation Policy shall prevail for matters relating to Order cancellation. 2. Stages of an Order 2.1 For the purpose of this Cancellation Policy, an Order passes through the following stages: (a) Order Placed \u2014 the Buyer has placed the Order and payment (if pre-paid) has been authorised; (b) Order Confirmed \u2014 Byte Mart has accepted the Order and issued an Order Confirma- tion; (c) Order Packed \u2014 the Product has been packed and is awaiting pickup by the logistics partner; (d) Order Dispatched \u2014 the Product has been handed over to the logistics partner and is in transit; (e) Out for Delivery \u2014 the Product is on the logistics partner\u2019s vehicle for delivery to the Buyer\u2019s address; (f) Delivered \u2014 the Product has been delivered to and accepted at the Buyer\u2019s address. 3. Cancellation Window 3.1 AB uyermayrequestcancellationofan Orderatanytimewithin the delivery window \u2014 thatis,fromthemomentthe Orderisplaceduntilthe Orderisactuallydeliveredtothe Buyer (or refused at the door). Once the Order has been delivered, the cancellation pathway under this Policy shall no longer apply. 3.2 The \u201cdelivery window\u201d means the period commencing on Order placement and ending onthemomentofactualdelivery(orrefusalofdelivery)atthe Buyer\u2019saddress. Thisincludes allofthefollowingstages: (a)Order Placed;(b)Order Confirmed;(c)Order Packed;(d)Order Dispatched (in transit); (e) Out for Delivery. 28"
+      }
+    ],
+    "tool_calls": [
+      {
+        "tool": "lookup_customer",
+        "args": {
+          "email": "anjalisingh.hyd@gmail.com"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 1,
+        "error": null
+      },
+      {
+        "tool": "lookup_order_by_sender_and_product",
+        "args": {
+          "email": "anjalisingh.hyd@gmail.com",
+          "product_hint": "Razer BlackShark"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 0,
+        "error": null
+      },
+      {
+        "tool": "lookup_payments_for_order",
+        "args": {
+          "customer_email": "anjalisingh.hyd@gmail.com",
+          "order_id": "BM200009"
+        },
+        "result_keys": [
+          "rows"
+        ],
+        "duration_ms": 0,
+        "error": null
+      },
+      {
+        "tool": "get_product_details",
+        "args": {
+          "sku": "RBSV2-PRO"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 0,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "refund timelines and inspection process",
+          "top_k": 3
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 10,
+        "error": null
+      }
+    ],
+    "_sender_email": "anjalisingh.hyd@gmail.com",
+    "_identity_verified": true
+  },
+  "resolver": {
+    "intent": "refund",
+    "action": "hilt_refund",
+    "draft": "Hi,\n\nThank you for your message. Our team is reviewing your request.\n\nRe: [PENDING APPROVAL] [E22] Old Stock Razer BlackShark\n\n[PENDING APPROVAL: review required before sending]\n\nBest regards,\nByteMart Customer Support",
+    "self_check": {
+      "policy_compliant": true,
+      "entities_correct": true,
+      "state_change_implied": true,
+      "tone": "neutral"
+    },
+    "reasoning": "Action verb matched refund trigger; routed to operator for refund execution.",
+    "used_entities": {
+      "order_id": "BM200009",
+      "txn_id": null,
+      "product_names": [
+        "RBSV2-PRO"
+      ]
+    },
+    "hilt_reason": {
+      "policy_clause": "refund \u00a73",
+      "reason_short": "Refund request requires operator approval",
+      "reason_long": "Customer requested a refund. Money movement requires tier-2 support approval per refund policy \u00a73.",
+      "recommended_action": "review_refund_request",
+      "action_target": "refund_execution",
+      "urgency": "high",
+      "human_skill_required": "tier_2_support"
+    }
+  },
+  "outcome": "pending",
+  "timing_ms": {
+    "retriever": 14,
+    "resolver": 1,
+    "total": 15
+  },
+  "error": null
+}

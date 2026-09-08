@@ -1,0 +1,44 @@
+{"event": "run_start", "level": "INFO", "ts": "2026-09-07T15:30:42.757686+00:00", "eval_set": "/Users/rr/DEV/Emails_Agent/data/completeBytemartEvalset/BytemartEvals.yaml", "trace_dir": "/Users/rr/DEV/Emails_Agent/data/runs"}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:30:42.894761+00:00", "email_id": "E1", "topic": "PS5 Delivery Before Sep 1", "spec_intent": "logistic"}
+{"event": "email_done", "level": "INFO", "ts": "2026-09-07T15:31:06.835314+00:00", "email_id": "E1", "decision": "auto_send", "outcome": "sent", "timing_ms": 23233}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:31:06.835358+00:00", "email_id": "E2", "topic": "Xbox Series S No Update 15d", "spec_intent": "logistic"}
+{"event": "email_done", "level": "INFO", "ts": "2026-09-07T15:31:28.134087+00:00", "email_id": "E2", "decision": "auto_send", "outcome": "sent", "timing_ms": 21293}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:31:28.134156+00:00", "email_id": "E3", "topic": "Cancel Order", "spec_intent": "logistic"}
+{"event": "email_done", "level": "INFO", "ts": "2026-09-07T15:32:01.529941+00:00", "email_id": "E3", "decision": "hilt_refund", "outcome": "pending", "timing_ms": 33391}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:32:01.530183+00:00", "email_id": "E4", "topic": "Express Delivery 3 Days", "spec_intent": "logistic"}
+{"event": "email_done", "level": "INFO", "ts": "2026-09-07T15:32:26.767461+00:00", "email_id": "E4", "decision": "auto_send", "outcome": "sent", "timing_ms": 25230}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:32:26.767835+00:00", "email_id": "E5", "topic": "Transit Insurance", "spec_intent": "info"}
+{"event": "email_done", "level": "INFO", "ts": "2026-09-07T15:32:55.353913+00:00", "email_id": "E5", "decision": "auto_send", "outcome": "sent", "timing_ms": 28579}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:32:55.354147+00:00", "email_id": "E6", "topic": "Change Address", "spec_intent": "logistic"}
+{"event": "email_done", "level": "INFO", "ts": "2026-09-07T15:33:18.477645+00:00", "email_id": "E6", "decision": "hilt_other", "outcome": "pending", "timing_ms": 23117}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:33:18.477852+00:00", "email_id": "E7", "topic": "PS5 + G923 Compatibility", "spec_intent": "info"}
+{"event": "email_done", "level": "INFO", "ts": "2026-09-07T15:33:35.236678+00:00", "email_id": "E7", "decision": "auto_send", "outcome": "sent", "timing_ms": 16754}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:33:35.237692+00:00", "email_id": "E8", "topic": "G PRO on PS3", "spec_intent": "info"}
+{"event": "email_done", "level": "INFO", "ts": "2026-09-07T15:33:47.751819+00:00", "email_id": "E8", "decision": "auto_send", "outcome": "sent", "timing_ms": 12509}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:33:47.752035+00:00", "email_id": "E9", "topic": "Xbox + G PRO Power", "spec_intent": "info"}
+{"event": "email_done", "level": "INFO", "ts": "2026-09-07T15:34:10.756796+00:00", "email_id": "E9", "decision": "auto_send", "outcome": "sent", "timing_ms": 22994}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:34:10.757077+00:00", "email_id": "E10", "topic": "G PRO PS5 Troubleshooting", "spec_intent": "info"}
+{"event": "email_done", "level": "INFO", "ts": "2026-09-07T15:34:41.917902+00:00", "email_id": "E10", "decision": "auto_send", "outcome": "pending", "timing_ms": 31153}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:34:41.918919+00:00", "email_id": "E11", "topic": "Samsung Odyssey G6 Dual", "spec_intent": "info"}
+{"event": "email_done", "level": "INFO", "ts": "2026-09-07T15:35:02.308094+00:00", "email_id": "E11", "decision": "auto_send", "outcome": "sent", "timing_ms": 20373}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:35:02.308335+00:00", "email_id": "E12", "topic": "Meta Quest 3 512GB", "spec_intent": "info"}
+{"event": "email_done", "level": "INFO", "ts": "2026-09-07T15:35:25.484703+00:00", "email_id": "E12", "decision": "hilt_other", "outcome": "pending", "timing_ms": 23171}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:35:25.484938+00:00", "email_id": "E13", "topic": "Steam Deck OLED Software", "spec_intent": "info"}
+{"event": "email_done", "level": "INFO", "ts": "2026-09-07T15:35:44.823626+00:00", "email_id": "E13", "decision": "escalate", "outcome": "sent", "timing_ms": 19333}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:35:44.823802+00:00", "email_id": "E14", "topic": "Xbox Controller PS5+Xbox", "spec_intent": "info"}
+{"event": "email_done", "level": "INFO", "ts": "2026-09-07T15:36:08.071793+00:00", "email_id": "E14", "decision": "auto_send", "outcome": "sent", "timing_ms": 23243}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:36:08.072030+00:00", "email_id": "E15", "topic": "ASUS ROG Swift KVM", "spec_intent": "info"}
+{"event": "email_done", "level": "INFO", "ts": "2026-09-07T15:36:25.876080+00:00", "email_id": "E15", "decision": "auto_send", "outcome": "sent", "timing_ms": 17798}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:36:25.876279+00:00", "email_id": "E16", "topic": "4K OLED Monitor PS5", "spec_intent": "info"}
+{"event": "email_done", "level": "INFO", "ts": "2026-09-07T15:36:46.850438+00:00", "email_id": "E16", "decision": "auto_send", "outcome": "sent", "timing_ms": 20966}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:36:46.850635+00:00", "email_id": "E17", "topic": "LG UltraGear Aspect Ratio", "spec_intent": "info"}
+{"event": "email_done", "level": "INFO", "ts": "2026-09-07T15:37:08.431016+00:00", "email_id": "E17", "decision": "auto_send", "outcome": "sent", "timing_ms": 21571}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:37:08.431222+00:00", "email_id": "E18", "topic": "Damaged PS5 Box", "spec_intent": "complaint"}
+{"event": "email_done", "level": "INFO", "ts": "2026-09-07T15:37:41.559753+00:00", "email_id": "E18", "decision": "hilt_other", "outcome": "pending", "timing_ms": 33120}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:37:41.560118+00:00", "email_id": "E19", "topic": "Xbox Not Turning On", "spec_intent": "complaint"}
+{"event": "email_done", "level": "INFO", "ts": "2026-09-07T15:38:13.429631+00:00", "email_id": "E19", "decision": "hilt_other", "outcome": "pending", "timing_ms": 31861}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:38:13.429871+00:00", "email_id": "E20", "topic": "Used Xbox Controller", "spec_intent": "complaint"}
+{"event": "email_done", "level": "INFO", "ts": "2026-09-07T15:38:37.527489+00:00", "email_id": "E20", "decision": "hilt_other", "outcome": "pending", "timing_ms": 24092}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:38:37.527794+00:00", "email_id": "E21", "topic": "Missing HDMI Dell Alienware", "spec_intent": "complaint"}
+{"event": "email_done", "level": "INFO", "ts": "2026-09-07T15:39:08.928391+00:00", "email_id": "E21", "decision": "auto_send", "outcome": "pending", "timing_ms": 31393}
+{"event": "email_start", "level": "INFO", "ts": "2026-09-07T15:39:08.928631+00:00", "email_id": "E22", "topic": "Old Stock Razer BlackShark", "spec_intent": "refund"}

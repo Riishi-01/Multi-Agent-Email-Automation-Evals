@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.1",
+  "email_id": "E26",
+  "captured_at": "2026-09-07T03:42:58.488335+00:00",
+  "input": {
+    "subject": "[E26] Crypto Nintendo Switch",
+    "body": "Hey ByteMart, I'm interested in purchasing a Nintendo Switch. Do you accept cryptocurrency payments such as Bitcoin (BTC) or Ethereum (ETH)?\n",
+    "sender_email": "crypto.buyer@gmail.com"
+  },
+  "retriever": {
+    "customer": {
+      "found": true,
+      "row": {
+        "email": "crypto.buyer@gmail.com",
+        "full_name": "Shaurya Bhatt",
+        "account_status": "active",
+        "no_of_orders": 0,
+        "created_at": "2025-07-30T05:30:00+00:00"
+      }
+    },
+    "order": {
+      "found": false,
+      "row": null
+    },
+    "payments": [],
+    "products": [],
+    "policies": [],
+    "tool_calls": [
+      {
+        "tool": "lookup_customer",
+        "args": {
+          "email": "crypto.buyer@gmail.com"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 1,
+        "error": null
+      }
+    ],
+    "_sender_email": "crypto.buyer@gmail.com",
+    "_identity_verified": true
+  },
+  "resolver": {
+    "intent": "info",
+    "action": "auto_send",
+    "draft": "Hi Shaurya,\n\nThank you for reaching ByteMart support.\n\nRe: [E26] Crypto Nintendo Switch\n\nWe've reviewed your message and have an update for you.\n\nBest regards,\nByteMart Customer Support",
+    "self_check": {
+      "policy_compliant": true,
+      "entities_correct": true,
+      "state_change_implied": false,
+      "tone": "polite"
+    },
+    "reasoning": "Classified 'info' (inquiry only); action=auto_send.",
+    "used_entities": {
+      "order_id": null,
+      "txn_id": null,
+      "product_names": []
+    },
+    "hilt_reason": null
+  },
+  "outcome": "sent",
+  "timing_ms": {
+    "retriever": 1,
+    "resolver": 0,
+    "total": 1
+  },
+  "error": null
+}

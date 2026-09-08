@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.1",
+  "email_id": "ES-031",
+  "captured_at": "2026-09-07T03:42:58.514437+00:00",
+  "input": {
+    "subject": "[ES-031] Data Erasure DPDPA",
+    "body": "I want to delete my account and all associated personal data from your systems immediately.\n",
+    "sender_email": "user.privacy@test.com"
+  },
+  "retriever": {
+    "customer": {
+      "found": true,
+      "row": {
+        "email": "user.privacy@test.com",
+        "full_name": "User Privacy",
+        "account_status": "active",
+        "no_of_orders": 0,
+        "created_at": "2026-08-20T04:30:00+00:00"
+      }
+    },
+    "order": {
+      "found": false,
+      "row": null
+    },
+    "payments": [],
+    "products": [],
+    "policies": [
+      {
+        "parent_id": "privacy-policy#v1#parent-017-001",
+        "doc_id": "privacy-policy",
+        "page_from": 17,
+        "page_to": 17,
+        "similarity": 0.9839,
+        "chunk_id": "privacy-policy#v1#parent-017-001#child-001",
+        "clause_refs": [
+          "10.3",
+          "11",
+          "11.1",
+          "11.2",
+          "12",
+          "12.1",
+          "18",
+          "12.2",
+          "12.3",
+          "13",
+          "13.1",
+          "13.2",
+          "14",
+          "14.1",
+          "14.2"
+        ],
+        "text": "(b) Performance & Analytics Cookies \u2014 to measure usage and improve the Platform; (c) Functionality Cookies \u2014 to remember your preferences (e.g., language, location); (d) Marketing & Advertising Cookies \u2014 to deliver relevant ads and measure their effec- tiveness. 10.3 Youcanmanageyour Cookiepreferencesviathe Cookieconsentbanneroryourbrowser settings. Disabling certain Cookies may affect the functionality of the Platform. 11. Your Rights as a Data Principal 11.1 Under the DPDPA and other Applicable Law, you have the following rights: (a) Right to Access \u2014 to obtain a summary of your personal data being processed and the associated processing activities; (b) Right to Correction & Erasure \u2014 to correct inaccurate or misleading personal data and to request erasure of personal data that is no longer necessary; (c) Rightto Withdraw Consent\u2014towithdraw Consentatanytime,withprospectiveeffect; (d) Right of Nomination \u2014 to nominate another individual to exercise your rights in the event of your death or incapacity; (e) Right to Grievance Redressal \u2014 to file a complaint with our Grievance Officer and, if unsatisfied, with the Data Protection Board of India. 11.2 Toexerciseanyoftheserights,pleasecontactthe Grievance Officerat[grievance@bytemart.in]. We will respond to your request within thirty (30) days, or such longer period as may be permitted under the DPDPA, after identity verification. 12. Children\u2019s Data 12.1 The Platform is not intended for individuals under the age of 18. We do not knowingly collect personal data from children. 12.2 Ifwebecomeawarethatwehaveinadvertentlycollectedpersonaldatafromachildunder 18, we will delete such data as soon as possible. 12.3 If you believe that a child has provided us with personal data, please contact the Grievance Officer. 13. Third-Party Links 13.1 The Platformmaycontainlinkstothird-partywebsites,applications,orservicesthatare not owned or controlled by Byte Mart. 13.2 Wearenotresponsiblefortheprivacypracticesofsuchthirdparties. Weencourageyou to read the privacy policies of every website and application that collects your personal data. 14. Automated Decision-Making & Profiling 14.1 We may use automated processing, including profiling, for purposes such as fraud de- tection, personalised recommendations, and dynamic pricing, in accordance with Applicable Law. 14.2 You have the right to request human review of any automated decision that significantly affects you, in accordance with the DPDPA. 17"
+      }
+    ],
+    "tool_calls": [
+      {
+        "tool": "lookup_customer",
+        "args": {
+          "email": "user.privacy@test.com"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 0,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "DPDPA 2023 data principal right to erasure",
+          "top_k": 3
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 2,
+        "error": null
+      }
+    ],
+    "_sender_email": "user.privacy@test.com",
+    "_identity_verified": true
+  },
+  "resolver": {
+    "intent": "info",
+    "action": "auto_send",
+    "draft": "Hi User,\n\nThank you for reaching ByteMart support.\n\nRe: [ES-031] Data Erasure DPDPA\n\nWe've reviewed your message and have an update for you.\n\nBest regards,\nByteMart Customer Support",
+    "self_check": {
+      "policy_compliant": true,
+      "entities_correct": true,
+      "state_change_implied": false,
+      "tone": "polite"
+    },
+    "reasoning": "Classified 'info' (inquiry only); action=auto_send.",
+    "used_entities": {
+      "order_id": null,
+      "txn_id": null,
+      "product_names": []
+    },
+    "hilt_reason": null
+  },
+  "outcome": "sent",
+  "timing_ms": {
+    "retriever": 3,
+    "resolver": 0,
+    "total": 3
+  },
+  "error": null
+}

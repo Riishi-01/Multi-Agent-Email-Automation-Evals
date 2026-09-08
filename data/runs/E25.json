@@ -1,0 +1,252 @@
+{
+  "schema_version": "1.1",
+  "email_id": "E25",
+  "captured_at": "2026-09-07T03:42:58.486093+00:00",
+  "input": {
+    "subject": "[E25] Refund Status",
+    "body": "Hey ByteMart, my order #BM293482 was lost in transit, and a refund ticket was initiated 2 days ago. I would like to request an update on the refund status, as I have not yet received the refund in my bank account. Please let me know when I can expect the amount to be credited.\n",
+    "sender_email": "divya.nair.kol@gmail.com"
+  },
+  "retriever": {
+    "customer": {
+      "found": true,
+      "row": {
+        "email": "divya.nair.kol@gmail.com",
+        "full_name": "Divya Nair",
+        "account_status": "active",
+        "no_of_orders": 4,
+        "created_at": "2025-07-12T11:15:00+00:00"
+      }
+    },
+    "order": {
+      "found": true,
+      "row": {
+        "order_id": "BM293482",
+        "customer_email": "divya.nair.kol@gmail.com",
+        "items": [
+          {
+            "qty": 1,
+            "sku": "PS5-DISC-001",
+            "name": "PlayStation 5 Disc Edition Console",
+            "line_total": 54990.0,
+            "unit_price": 54990.0
+          }
+        ],
+        "total_amount": "54990.00",
+        "payment_method": "card",
+        "order_date": "2025-08-18T07:30:00+00:00",
+        "expected_delivery": "2025-08-23",
+        "current_status": "refunded",
+        "shipping_address": {
+          "zip": "700091",
+          "city": "Kolkata",
+          "line1": "14 Salt Lake Sector V",
+          "state": "West Bengal",
+          "country": "India"
+        },
+        "created_at": "2025-08-18T07:30:00+00:00",
+        "updated_at": "2026-09-07T03:04:58.781315+00:00"
+      }
+    },
+    "payments": [
+      {
+        "payment_id": "af071dd5-1ef8-43f4-b2b6-8d4d818339ac",
+        "customer_email": "divya.nair.kol@gmail.com",
+        "order_id": "BM293482",
+        "amount": "54990.00",
+        "method": "card",
+        "status": "refunded",
+        "transaction_id": "25081801",
+        "failure_reason": "shipment_lost",
+        "created_at": "2025-08-18T07:30:30+00:00",
+        "updated_at": "2025-08-18T07:30:30+00:00"
+      }
+    ],
+    "products": [
+      {
+        "sku": "PS5-DISC-001",
+        "name": "PlayStation 5 Disc Edition Console",
+        "category": "gaming_console",
+        "unit_price": "54990.00",
+        "in_stock": true,
+        "description": "PS5 with Ultra HD Blu-ray drive",
+        "warranty_text": "1 Year manufacturer warranty covering manufacturing defects.",
+        "tech_description": "Next-generation Sony gaming console with Ultra HD Blu-ray disc drive, high-speed SSD storage, AMD Zen 2 CPU and RDNA 2 GPU.",
+        "tech_details": "Storage: 825GB SSD Wi-Fi: Wi-Fi 6 Bluetooth: 5.1 USB: 2\u00d7 USB-A, 2\u00d7 USB-C HDMI: 1\u00d7 HDMI 2.1 Disc: 4K UHD Blu-ray Resolution: Up to 8K Networking: Gigabit Ethernet Controller: DualSense Wireless",
+        "stock_count": 7
+      }
+    ],
+    "policies": [
+      {
+        "parent_id": "shipping-policy#v1#parent-002-001",
+        "doc_id": "shipping-policy",
+        "page_from": 2,
+        "page_to": 2,
+        "similarity": 0.9783,
+        "chunk_id": "shipping-policy#v1#parent-002-001#child-003",
+        "clause_refs": [
+          "13",
+          "14",
+          "15",
+          "16",
+          "18",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "15",
+          "16",
+          "22",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13",
+          "14",
+          "14",
+          "15",
+          "16",
+          "17",
+          "27",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "2",
+          "9",
+          "10",
+          "11",
+          "12",
+          "31",
+          "1",
+          "2",
+          "3"
+        ],
+        "text": "13. Third-Party Links . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17 14. Automated Decision-Making & Profiling . . . . . . . . . . . . . . . . . . . . . . . 17 15. Changes to this Policy . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18 16. Contact & Grievance Officer . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18 Byte Mart \u2014 Shipping & Delivery Policy 18 1. Scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18 2. Delivery Options . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18 3. Fast Delivery . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19 4. Regular Delivery . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19 5. Serviceable Locations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19 6. Order Tracking . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19 7. Delivery Attempts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20 8. Risk of Loss & Title . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20 9. Damaged, Incomplete, or Wrong Orders . . . . . . . . . . . . . . . . . . . . . . . 20 10. Pre-Orders & Back-Orders . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20 11. Delivery to Multiple Addresses . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21 12. Change of Delivery Address . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21 13. International Shipping . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21 14. Compliance Disclosures . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21 15. Force Majeure . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22 16. Contact . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22 Byte Mart \u2014 Return, Refund & Replacement Policy 22 1. Scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22 2. Eligible Reasons for Return . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22 3. Reporting Window . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23 4. Resolution: Replacement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23 5. Resolution: Refund When Out of Stock . . . . . . . . . . . . . . . . . . . . . . . . 24 6. Refund Timelines . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24 7. Refunds for Cancelled Orders . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25 8. No Refund for Product Damage . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25 9. Return Pickup & Reverse Logistics . . . . . . . . . . . . . . . . . . . . . . . . . . 25 10. Condition of Returned Products . . . . . . . . . . . . . . . . . . . . . . . . . . . 25 11. Non-Returnable / Non-Refundable Items . . . . . . . . . . . . . . . . . . . . . . 25 12. Manufacturer Warranty & Post-Sales Service . . . . . . . . . . . . . . . . . . . . 26 13. Defective Products (Beyond 14 Days) . . . . . . . . . . . . . . . . . . . . . . . . 27 14. Chargebacks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27 15. Refusal of Return . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27 16. Effect of Return on Promotional Benefits . . . . . . . . . . . . . . . . . . . . . . 27 17. Contact . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27 Byte Mart \u2014 Cancellation Policy 28 1. Scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28 2. Stages of an Order . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28 3. Cancellation Window . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28 4. Refund for Cancellation Within the Delivery Window . . . . . . . . . . . . . . . . 29 5. Cancellation on the Day of Delivery . . . . . . . . . . . . . . . . . . . . . . . . . . 29 6. Cancellation by Byte Mart . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29 7. Cancellation of Pre-Orders & Back-Orders . . . . . . . . . . . . . . . . . . . . . . 30 8. Cancellation of Bulk / B 2 B Orders . . . . . . . . . . . . . . . . . . . . . . . . . . . 30 9. Effect of Cancellation on Promotional Benefits . . . . . . . . . . . . . . . . . . . . 30 10. Chargebacks & Disputes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 30 11. Cancellations & Consumer Rights . . . . . . . . . . . . . . . . . . . . . . . . . . 30 12. Contact . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31 Byte Mart \u2014 Payment & Pricing Policy 31 1. Scope . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31 2. Pricing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31 3. Taxes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31 2"
+      }
+    ],
+    "tool_calls": [
+      {
+        "tool": "lookup_customer",
+        "args": {
+          "email": "divya.nair.kol@gmail.com"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 2,
+        "error": null
+      },
+      {
+        "tool": "lookup_order_by_id",
+        "args": {
+          "order_id": "BM293482"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 1,
+        "error": null
+      },
+      {
+        "tool": "lookup_payments_for_order",
+        "args": {
+          "customer_email": "divya.nair.kol@gmail.com",
+          "order_id": "BM293482"
+        },
+        "result_keys": [
+          "rows"
+        ],
+        "duration_ms": 1,
+        "error": null
+      },
+      {
+        "tool": "get_product_details",
+        "args": {
+          "sku": "PS5-DISC-001"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 0,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "shipping force majeure delivery timelines",
+          "top_k": 3
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 2,
+        "error": null
+      }
+    ],
+    "_sender_email": "divya.nair.kol@gmail.com",
+    "_identity_verified": true
+  },
+  "resolver": {
+    "intent": "refund",
+    "action": "hilt_refund",
+    "draft": "Hi,\n\nThank you for your message. Our team is reviewing your request.\n\nRe: [PENDING APPROVAL] [E25] Refund Status\n\n[PENDING APPROVAL: review required before sending]\n\nBest regards,\nByteMart Customer Support",
+    "self_check": {
+      "policy_compliant": true,
+      "entities_correct": true,
+      "state_change_implied": true,
+      "tone": "neutral"
+    },
+    "reasoning": "Action verb matched refund trigger; routed to operator for refund execution.",
+    "used_entities": {
+      "order_id": "BM293482",
+      "txn_id": null,
+      "product_names": [
+        "PS5-DISC-001"
+      ]
+    },
+    "hilt_reason": {
+      "policy_clause": "refund \u00a73",
+      "reason_short": "Refund request requires operator approval",
+      "reason_long": "Customer requested a refund. Money movement requires tier-2 support approval per refund policy \u00a73.",
+      "recommended_action": "review_refund_request",
+      "action_target": "refund_execution",
+      "urgency": "high",
+      "human_skill_required": "tier_2_support"
+    }
+  },
+  "outcome": "pending",
+  "timing_ms": {
+    "retriever": 8,
+    "resolver": 0,
+    "total": 8
+  },
+  "error": null
+}

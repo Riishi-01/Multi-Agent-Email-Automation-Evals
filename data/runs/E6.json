@@ -1,0 +1,228 @@
+{
+  "schema_version": "1.2",
+  "email_id": "E6",
+  "captured_at": "2026-09-07T15:33:18.474949+00:00",
+  "input": {
+    "subject": "[E6] Change Address",
+    "body": "I am writing to request a change to the delivery address for my order, #BM183923. The current delivery address is in Delhi, but I would like to change it to Street 3, Mumbai. Please confirm whether the delivery address can still be updated and let me know if you require any additional information. Thank you for your assistance.\n",
+    "sender_email": "sneha.mumbai86@gmail.com",
+    "notes": null
+  },
+  "retriever": {
+    "customer": {
+      "found": true,
+      "row": {
+        "email": "sneha.mumbai86@gmail.com",
+        "full_name": "Sneha Iyer",
+        "account_status": "active",
+        "no_of_orders": 2,
+        "created_at": "2025-02-05T10:30:00+00:00"
+      }
+    },
+    "order": {
+      "found": true,
+      "row": {
+        "order_id": "BM183923",
+        "customer_email": "sneha.mumbai86@gmail.com",
+        "items": [
+          {
+            "qty": 1,
+            "sku": "PS5-DISC-001",
+            "name": "PlayStation 5 Disc Edition Console",
+            "line_total": 54990.0,
+            "unit_price": 54990.0
+          }
+        ],
+        "total_amount": "54990.00",
+        "payment_method": "upi",
+        "order_date": "2025-08-20T10:00:00+00:00",
+        "expected_delivery": "2025-08-26",
+        "current_status": "paid",
+        "shipping_address": {
+          "zip": "110001",
+          "city": "Delhi",
+          "line1": "42 Connaught Place",
+          "state": "Delhi",
+          "country": "India"
+        },
+        "created_at": "2025-08-20T10:00:00+00:00",
+        "updated_at": "2026-09-07T03:04:58.781315+00:00"
+      }
+    },
+    "payments": [],
+    "products": [],
+    "policies": [
+      {
+        "parent_id": "pricing-policy#v1#parent-021-001",
+        "doc_id": "pricing-policy",
+        "page_from": 21,
+        "page_to": 21,
+        "similarity": 0.7582,
+        "chunk_id": "pricing-policy#v1#parent-021-001#child-002",
+        "clause_refs": [
+          "10.4",
+          "10.4.1",
+          "10.4.2",
+          "10.4.3",
+          "10.4.4",
+          "11",
+          "11.1",
+          "12",
+          "12.1",
+          "12.2",
+          "12.3",
+          "13",
+          "13.1",
+          "14",
+          "14.1"
+        ],
+        "text": "10.4 Pre-Orders During Sales 10.4.1 Duringapromotionalsale(includingbutnotlimitedtofestivesales,flashsales,anniver- sary sales, and clearance sales), Byte Mart may, at its sole discretion, accept or not accept Pre-Orders for selected Products. 10.4.2 Where Pre-Ordersareacceptedduringasale,the Buyermayplacea Pre-Orderthrough the Platform during the active promotional period. The Pre-Order will be honoured at the promotional price, subject to stock and the terms of the Pre-Order. 10.4.3 Where Pre-Orders are not accepted during a sale, the Platform shall not display any \u201cPre-Order\u201d or \u201cNotify Me\u201d option for the affected Product(s). The Buyer may purchase the Product only when (and if) it becomes available for regular sale at the regular price. 10.4.4 For the avoidance of doubt, the general rules on offers and promotions in Clause 10 of the Payment and Pricing Policy apply to Pre-Orders placed during a sale. 11. Delivery to Multiple Addresses 11.1 Byte Mart currently supports delivery to a single address per Order. If the Buyer wishes to ship Products to multiple addresses, separate Orders must be placed. 12. Change of Delivery Address 12.1 The Buyer may request a change of delivery address prior to dispatch by contacting [support@bytemart.in]. Byte Mart may, at its sole discretion, accept or reject the request. 12.2 Once an Order has been dispatched from the warehouse, the Buyer cannot re- quest a change of delivery address. The Order shall be delivered to the address on file at the time of dispatch, and any redirection request thereafter shall not be entertained. 12.3 Ifthe Buyerisunavailableatthedispatch-timeaddress,thestandardfailed-deliveryand RTO process under Clauses 7 and 8 shall apply. The Order may be cancelled and refunded in accordancewiththe Cancellation Policy,withthe Fast Deliverychargeand(whereapplicable) the COD Charge not refunded, in accordance with the Payment and Pricing Policy. 13. International Shipping 13.1 Byte Mart currently does not offer international shipping. Products are delivered within the territory of India only. 14. Compliance Disclosures 14.1 In accordance with the E-Commerce Rules, 2020, Byte Mart displays the following information on every Product page and at checkout: (a) Name and principal address of Byte Mart; (b) GSTIN, CIN, and other statutory registration numbers; (c) Country of origin of each Product; (d) Delivery options, charges, and estimated timelines; (e) Grievance Officer contact details. 21"
+      },
+      {
+        "parent_id": "privacy-policy#v1#parent-018-001",
+        "doc_id": "privacy-policy",
+        "page_from": 18,
+        "page_to": 18,
+        "similarity": 0.6711,
+        "chunk_id": "privacy-policy#v1#parent-018-001#child-001",
+        "clause_refs": [
+          "15",
+          "15.1",
+          "15.2",
+          "16",
+          "16.1",
+          "16.2",
+          "1.0",
+          "1",
+          "1.1",
+          "1.2",
+          "2",
+          "2.1",
+          "2.2",
+          "2.3"
+        ],
+        "text": "15. Changes to this Policy 15.1 We may update this Policy from time to time. Material changes will be notified via the Platform and/or via email at least seven (7) days before the effective date of the changes. 15.2 The \u201cLast Updated\u201d and \u201cEffective Date\u201d at the top of this Policy indicate when it was last revised. 16. Contact & Grievance Officer 16.1 For all privacy-related queries, requests, and grievances, please contact our Grievance Officer: Grievance Officer: [NAME] Byte Mart [Private Limited / Limited] Registered Office: [ADDRESS], New Delhi, India Email: [grievance@bytemart.in] Phone: [PHONE] Response timeline: Acknowledgement within 48 hours; resolution within 30 days. 16.2 If you are not satisfied with our response, you may escalate the matter to the Data Protection Board of India in accordance with the DPDPA. End of Privacy Policy Byte Mart \u2014 Shipping & Delivery Policy Version: 1.0 Last Updated: [DD/MM/YYYY] Effective Date: [DD/MM/YYYY] Statutory map (for internal use): Consumer Protection Act, 2019 \u00b7 Consumer Protection(E-Commerce)Rules,2020(Reg. 5\u2014disclosures,includingshippingand delivery) \u00b7 Indian Contract Act, 1872 (delivery and risk) \u00b7 Sale of Goods Act, 1930 (transfer of property and risk) \u00b7 Legal Metrology (Packaged Commodities) Rules, 2011 (label/declarations). 1. Scope 1.1 This Shipping and Delivery Policy (\u201cShipping Policy\u201d) governs the dispatch, transit, and delivery of all Products purchased on the Byte Mart Platform. 1.2 This Shipping Policy forms an integral part of the Byte Mart Terms and Conditions. In the event of a conflict, this Shipping Policy shall prevail for matters relating to shipping and delivery. 2. Delivery Options 2.1 Byte Mart offers the following delivery options, subject to serviceability of the delivery pincode: (a) Fast Delivery \u2014 a paid, expedited delivery option; (b) Regular Delivery \u2014 a complimentary, standard delivery option. 2.2 The availability of each option may vary by Product, Seller, and delivery pincode. Not all options may be available for all Orders. 2.3 Delivery days are counted in business days, excluding Sundays and public holidays de- clared in the Buyer\u2019s state of delivery. 18"
+      },
+      {
+        "parent_id": "shipping-policy#v1#parent-020-001",
+        "doc_id": "shipping-policy",
+        "page_from": 20,
+        "page_to": 20,
+        "similarity": 0.6637,
+        "chunk_id": "shipping-policy#v1#parent-020-001#child-002",
+        "clause_refs": [
+          "6.3",
+          "7",
+          "7.1",
+          "7.2",
+          "7.3",
+          "7.4",
+          "8",
+          "8.1",
+          "8.2",
+          "9",
+          "9.1",
+          "9.2",
+          "9.3",
+          "9.4",
+          "10",
+          "10.1",
+          "10.2",
+          "10.3"
+        ],
+        "text": "6.3 Tracking information is provided by the logistics partner. Any discrepancy in tracking should be reported to [support@bytemart.in] for investigation. 7. Delivery Attempts 7.1 The logistics partner shall make up to three (3) delivery attempts at the address speci- fied in the Order. 7.2 If the Buyer is unavailable at the time of the delivery attempts, the logistics partner may contact the Buyer on the registered phone number to schedule a re-attempt. 7.3 If delivery cannot be completed after three (3) attempts or within seven (7) days of the first attempt (whichever is earlier), the Order shall be returned to origin (\u201cRTO\u201d). 7.4 In the event of an RTO: (a) The Order shall be treated as cancelled; (b) Refund shall be processed in accordance with the Return, Refund and Replacement Policy, after deduction of any return shipping charges, if applicable; and (c) The Fast Delivery charge shall not be refunded if the non-delivery is attributable to the Buyer\u2019s unavailability or refusal. 8. Risk of Loss & Title 8.1 The risk of loss and title to each Product shall pass to the Buyer upon successful delivery to the address specified in the Order and the Buyer\u2019s (or any adult at the address\u2019s) acknowl- edgement of receipt. 8.2 Until such acknowledgement, Byte Mart bears the risk of loss in transit, subject to Clause 9 (Damaged, Incomplete, or Wrong Orders). 9. Damaged, Incomplete, or Wrong Orders 9.1 The Buyer is requested to inspect the Product at the time of delivery and report any issue (physical damage, missing item, or wrong item) at the doorstep or within forty-eight (48) hours of delivery, whichever is earlier. 9.2 Reporting channels: (a) Email: [support@bytemart.in] (b) \u201cMy Orders\u201d \u2192 \u201cReport an Issue\u201d 9.3 Issues must be reported within fourteen (14) calendar days of delivery in accordance withthe Return,Refundand Replacement Policy. Issuesreportedbeyondthe 14-day Reporting Window may not be eligible for return, replacement, or refund, except in cases covered by applicable manufacturer warranty. 9.4 Resolutionofdamaged,incomplete,orwrong Ordersisgovernedbythe Return, Refund and Replacement Policy. 10. Pre-Orders & Back-Orders 10.1 Products marked as \u201cPre-Order\u201d or \u201cBack-Order\u201d are not immediately available for delivery. The estimated dispatch date is displayed on the Product page. 10.2 The delivery timeframe for Pre-Order and Back-Order Products shall be communicated separately and may be longer than the standard Fast or Regular Delivery windows. 10.3 Pre-Order and Back-Order Products are subject to the Cancellation Policy and may be cancelled at any time within the delivery window. 20"
+      }
+    ],
+    "tool_calls": [
+      {
+        "tool": "lookup_customer",
+        "args": {
+          "email": "sneha.mumbai86@gmail.com"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 19,
+        "error": null
+      },
+      {
+        "tool": "lookup_order_by_id",
+        "args": {
+          "order_id": "BM183923"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 7,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "What is ByteMart's policy on changing the delivery address for an order?"
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 276,
+        "error": null
+      }
+    ],
+    "_sender_email": "sneha.mumbai86@gmail.com",
+    "_identity_verified": true
+  },
+  "resolver": {
+    "intent": "other",
+    "action": "hilt_other",
+    "draft": "We deeply regret the inconvenience regarding your delivery address change request, Sneha Iyer. Per our policy, you may request a change of delivery address prior to dispatch. Since your order #BM183923 is currently in 'paid' status, we will review your request to update the address to Street 3, Mumbai. Please allow us some time to process this change, and we will get back to you shortly. [PENDING APPROVAL]",
+    "self_check": {
+      "policy_compliant": true,
+      "entities_correct": true,
+      "state_change_implied": true,
+      "tone": "neutral"
+    },
+    "reasoning": "Read from retriever: customer verified; order found with status 'paid'; policies include delivery address change policy. Tone: problem \u2192 empathy lead. Did NOT: upsell, volunteer product features, or promise a specific outcome. Decision: hilt_other (state change \u2014 address update, not money movement).",
+    "used_entities": {
+      "order_id": "BM183923",
+      "txn_id": null,
+      "product_names": [
+        "PlayStation 5 Disc Edition Console"
+      ]
+    },
+    "hilt_reason": {
+      "policy_clause": "12.1",
+      "reason_short": "Request to change delivery address prior to dispatch",
+      "reason_long": "Customer requests a change of delivery address for order #BM183923, which is currently in 'paid' status. The request is eligible for review as per policy clause 12.1.",
+      "recommended_action": "approve_address_change",
+      "action_target": "ops_queue",
+      "urgency": "medium",
+      "human_skill_required": "tier_1_support"
+    }
+  },
+  "outcome": "pending",
+  "timing_ms": {
+    "retriever": 10031,
+    "resolver": 13085,
+    "total": 23117
+  },
+  "reflexive": {
+    "dimension_scores": {
+      "intent_accuracy": 1.0,
+      "faithfulness": 1.0,
+      "policy_compliance": 1.0,
+      "tone": 1.0,
+      "side_effect_consent": 1.0
+    },
+    "confidence": 1.0,
+    "reasoning": "structural-retrieval-check: clause(s) ['1', '10', '11', '12', '13', '14', '15', '16', '2', '7', '8', '9'] appear in multiple chunks (likely contradictory versions); human must disambiguate",
+    "suggested_action": "accept",
+    "regeneration_hints": [],
+    "malformed": false
+  },
+  "final_action": "hilt_other",
+  "error": null
+}

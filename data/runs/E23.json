@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.1",
+  "email_id": "E23",
+  "captured_at": "2026-09-07T03:42:58.446391+00:00",
+  "input": {
+    "subject": "[E23] Wrong Xbox Color",
+    "body": "Hey, I ordered an Xbox Wireless Controller in black, but I received the white version instead. I would like to request a replacement with the black controller I originally ordered. Please arrange the replacement at the earliest possible. Order No: BM932412.\n",
+    "sender_email": "vikram.reddy.pun@gmail.com"
+  },
+  "retriever": {
+    "customer": {
+      "found": true,
+      "row": {
+        "email": "vikram.reddy.pun@gmail.com",
+        "full_name": "Vikram Reddy",
+        "account_status": "active",
+        "no_of_orders": 2,
+        "created_at": "2025-06-30T12:30:00+00:00"
+      }
+    },
+    "order": {
+      "found": true,
+      "row": {
+        "order_id": "BM932412",
+        "customer_email": "vikram.reddy.pun@gmail.com",
+        "items": [
+          {
+            "qty": 1,
+            "sku": "XCTRL-BLK",
+            "name": "Xbox Wireless Controller - Black",
+            "line_total": 5499.0,
+            "unit_price": 5499.0
+          }
+        ],
+        "total_amount": "5499.00",
+        "payment_method": "upi",
+        "order_date": "2025-08-22T08:40:00+00:00",
+        "expected_delivery": "2025-08-27",
+        "current_status": "delivered",
+        "shipping_address": {
+          "zip": "411001",
+          "city": "Pune",
+          "line1": "210 Koregaon Park",
+          "state": "Maharashtra",
+          "country": "India"
+        },
+        "created_at": "2025-08-22T08:40:00+00:00",
+        "updated_at": "2026-09-07T03:04:58.781315+00:00"
+      }
+    },
+    "payments": [
+      {
+        "payment_id": "04fbc99a-8dc1-424a-83c2-d74bcaae583c",
+        "customer_email": "vikram.reddy.pun@gmail.com",
+        "order_id": "BM932412",
+        "amount": "5499.00",
+        "method": "upi",
+        "status": "success",
+        "transaction_id": "25082202",
+        "failure_reason": null,
+        "created_at": "2025-08-22T08:40:30+00:00",
+        "updated_at": "2025-08-22T08:40:30+00:00"
+      }
+    ],
+    "products": [
+      {
+        "sku": "XCTRL-BLK",
+        "name": "Xbox Wireless Controller - Black",
+        "category": "game_controller",
+        "unit_price": "5499.00",
+        "in_stock": true,
+        "description": "Xbox Wireless Controller, black",
+        "warranty_text": "1 Year manufacturer warranty.",
+        "tech_description": "Wireless Xbox controller with textured grips, hybrid D-pad, impulse triggers and vibration feedback.",
+        "tech_details": "Connectivity: Xbox Wireless + Bluetooth USB: USB-C Audio: 3.5mm headset jack Wireless Range: Up to approx. 10m Power: 2\u00d7 AA batteries / USB-C rechargeable battery compatible Compatibility: Xbox, Windows, supported mobile devices",
+        "stock_count": 11
+      }
+    ],
+    "policies": [],
+    "tool_calls": [
+      {
+        "tool": "lookup_customer",
+        "args": {
+          "email": "vikram.reddy.pun@gmail.com"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 1,
+        "error": null
+      },
+      {
+        "tool": "lookup_order_by_id",
+        "args": {
+          "order_id": "BM932412"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 1,
+        "error": null
+      },
+      {
+        "tool": "lookup_payments_for_order",
+        "args": {
+          "customer_email": "vikram.reddy.pun@gmail.com",
+          "order_id": "BM932412"
+        },
+        "result_keys": [
+          "rows"
+        ],
+        "duration_ms": 1,
+        "error": null
+      },
+      {
+        "tool": "get_product_details",
+        "args": {
+          "sku": "XCTRL-BLK"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 1,
+        "error": null
+      }
+    ],
+    "_sender_email": "vikram.reddy.pun@gmail.com",
+    "_identity_verified": true
+  },
+  "resolver": {
+    "intent": "complaint",
+    "action": "hilt_other",
+    "draft": "Hi,\n\nThank you for your message. Our team is reviewing your request.\n\nRe: [PENDING APPROVAL] [E23] Wrong Xbox Color\n\n[PENDING APPROVAL: review required before sending]\n\nBest regards,\nByteMart Customer Support",
+    "self_check": {
+      "policy_compliant": true,
+      "entities_correct": true,
+      "state_change_implied": true,
+      "tone": "neutral"
+    },
+    "reasoning": "Action verb matched state-change trigger; routed to operator.",
+    "used_entities": {
+      "order_id": "BM932412",
+      "txn_id": null,
+      "product_names": [
+        "XCTRL-BLK"
+      ]
+    },
+    "hilt_reason": {
+      "policy_clause": "returns \u00a72",
+      "reason_short": "State change requires operator approval",
+      "reason_long": "Customer requested an order-state change (replacement/cancellation/address). Operator approval required before executing.",
+      "recommended_action": "review_state_change_request",
+      "action_target": "ops_queue",
+      "urgency": "medium",
+      "human_skill_required": "tier_1_support"
+    }
+  },
+  "outcome": "pending",
+  "timing_ms": {
+    "retriever": 6,
+    "resolver": 0,
+    "total": 6
+  },
+  "error": null
+}

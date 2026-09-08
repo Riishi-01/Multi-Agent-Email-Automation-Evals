@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "started_at": "2026-09-07T10:39:23.216245+00:00",
+  "finished_at": "2026-09-07T10:40:52.598227+00:00",
+  "calls": [
+    {
+      "event": "judge_call",
+      "email_id": "E1",
+      "model": "minimax/minimax-m3:free",
+      "tokens_in": 1146,
+      "tokens_out": 47,
+      "duration_ms": 2289,
+      "cost_usd": 0.0,
+      "ts": "2026-09-07T10:39:50.391972+00:00",
+      "metric_id": "tone_professional"
+    },
+    {
+      "event": "judge_call",
+      "email_id": "E1",
+      "model": "minimax/minimax-m3:free",
+      "tokens_in": 1143,
+      "tokens_out": 68,
+      "duration_ms": 1503,
+      "cost_usd": 0.0,
+      "ts": "2026-09-07T10:39:51.895521+00:00",
+      "metric_id": "completeness"
+    },
+    {
+      "event": "judge_call",
+      "email_id": "E22",
+      "model": "minimax/minimax-m3:free",
+      "tokens_in": 1177,
+      "tokens_out": 41,
+      "duration_ms": 1738,
+      "cost_usd": 0.0,
+      "ts": "2026-09-07T10:40:22.147595+00:00",
+      "metric_id": "tone_professional"
+    },
+    {
+      "event": "judge_call",
+      "email_id": "E22",
+      "model": "minimax/minimax-m3:free",
+      "tokens_in": 1174,
+      "tokens_out": 48,
+      "duration_ms": 9363,
+      "cost_usd": 0.0,
+      "ts": "2026-09-07T10:40:31.512183+00:00",
+      "metric_id": "completeness"
+    },
+    {
+      "event": "judge_call",
+      "email_id": "E30",
+      "model": "minimax/minimax-m3:free",
+      "tokens_in": 1152,
+      "tokens_out": 49,
+      "duration_ms": 1568,
+      "cost_usd": 0.0,
+      "ts": "2026-09-07T10:40:48.284281+00:00",
+      "metric_id": "tone_professional"
+    },
+    {
+      "event": "judge_call",
+      "email_id": "E30",
+      "model": "minimax/minimax-m3:free",
+      "tokens_in": 1149,
+      "tokens_out": 50,
+      "duration_ms": 4305,
+      "cost_usd": 0.0,
+      "ts": "2026-09-07T10:40:52.597748+00:00",
+      "metric_id": "completeness"
+    }
+  ],
+  "per_email": {
+    "E1": {
+      "calls": 2,
+      "tokens_in": 2289,
+      "tokens_out": 115,
+      "cost_usd": 0.0,
+      "duration_ms": 3792
+    },
+    "E22": {
+      "calls": 2,
+      "tokens_in": 2351,
+      "tokens_out": 89,
+      "cost_usd": 0.0,
+      "duration_ms": 11101
+    },
+    "E30": {
+      "calls": 2,
+      "tokens_in": 2301,
+      "tokens_out": 99,
+      "cost_usd": 0.0,
+      "duration_ms": 5873
+    }
+  },
+  "totals": {
+    "calls": 6,
+    "tokens_in": 6941,
+    "tokens_out": 303,
+    "cost_usd": 0.0,
+    "duration_ms": 20766
+  }
+}

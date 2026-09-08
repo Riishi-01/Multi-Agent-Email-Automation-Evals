@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "started_at": "2026-09-07T04:36:29.871907+00:00",
+  "finished_at": "2026-09-07T04:39:48.036608+00:00",
+  "calls": [
+    {
+      "event": "judge_call",
+      "email_id": "E1",
+      "model": "minimax/minimax-m3:free",
+      "tokens_in": 1079,
+      "tokens_out": 42,
+      "duration_ms": 1978,
+      "cost_usd": 0.0,
+      "ts": "2026-09-07T04:38:41.739063+00:00",
+      "metric_id": "tone_professional"
+    },
+    {
+      "event": "judge_call",
+      "email_id": "E1",
+      "model": "minimax/minimax-m3:free",
+      "tokens_in": 1076,
+      "tokens_out": 42,
+      "duration_ms": 1651,
+      "cost_usd": 0.0,
+      "ts": "2026-09-07T04:38:43.395604+00:00",
+      "metric_id": "completeness"
+    },
+    {
+      "event": "judge_call",
+      "email_id": "E1",
+      "model": "minimax/minimax-m3:free",
+      "tokens_in": 1079,
+      "tokens_out": 40,
+      "duration_ms": 1875,
+      "cost_usd": 0.0,
+      "ts": "2026-09-07T04:38:45.272961+00:00",
+      "metric_id": "tone_professional"
+    },
+    {
+      "event": "judge_call",
+      "email_id": "E22",
+      "model": "minimax/minimax-m3:free",
+      "tokens_in": 1213,
+      "tokens_out": 34,
+      "duration_ms": 2349,
+      "cost_usd": 0.0,
+      "ts": "2026-09-07T04:39:06.835397+00:00",
+      "metric_id": "tone_professional"
+    },
+    {
+      "event": "judge_call",
+      "email_id": "E22",
+      "model": "minimax/minimax-m3:free",
+      "tokens_in": 1210,
+      "tokens_out": 50,
+      "duration_ms": 3502,
+      "cost_usd": 0.0,
+      "ts": "2026-09-07T04:39:10.339127+00:00",
+      "metric_id": "completeness"
+    },
+    {
+      "event": "judge_call",
+      "email_id": "E22",
+      "model": "minimax/minimax-m3:free",
+      "tokens_in": 1213,
+      "tokens_out": 55,
+      "duration_ms": 7572,
+      "cost_usd": 0.0,
+      "ts": "2026-09-07T04:39:17.912262+00:00",
+      "metric_id": "tone_professional"
+    },
+    {
+      "event": "judge_call",
+      "email_id": "E30",
+      "model": "minimax/minimax-m3:free",
+      "tokens_in": 1199,
+      "tokens_out": 49,
+      "duration_ms": 2342,
+      "cost_usd": 0.0,
+      "ts": "2026-09-07T04:39:41.260266+00:00",
+      "metric_id": "tone_professional"
+    },
+    {
+      "event": "judge_call",
+      "email_id": "E30",
+      "model": "minimax/minimax-m3:free",
+      "tokens_in": 1196,
+      "tokens_out": 51,
+      "duration_ms": 1667,
+      "cost_usd": 0.0,
+      "ts": "2026-09-07T04:39:42.928281+00:00",
+      "metric_id": "completeness"
+    },
+    {
+      "event": "judge_call",
+      "email_id": "E30",
+      "model": "minimax/minimax-m3:free",
+      "tokens_in": 1199,
+      "tokens_out": 53,
+      "duration_ms": 5106,
+      "cost_usd": 0.0,
+      "ts": "2026-09-07T04:39:48.035979+00:00",
+      "metric_id": "tone_professional"
+    }
+  ],
+  "per_email": {
+    "E1": {
+      "calls": 3,
+      "tokens_in": 3234,
+      "tokens_out": 124,
+      "cost_usd": 0.0,
+      "duration_ms": 5504
+    },
+    "E22": {
+      "calls": 3,
+      "tokens_in": 3636,
+      "tokens_out": 139,
+      "cost_usd": 0.0,
+      "duration_ms": 13423
+    },
+    "E30": {
+      "calls": 3,
+      "tokens_in": 3594,
+      "tokens_out": 153,
+      "cost_usd": 0.0,
+      "duration_ms": 9115
+    }
+  },
+  "totals": {
+    "calls": 9,
+    "tokens_in": 10464,
+    "tokens_out": 416,
+    "cost_usd": 0.0,
+    "duration_ms": 28042
+  }
+}

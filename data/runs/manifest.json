@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "eval_set": "/Users/rr/DEV/Emails_Agent/data/completeBytemartEvalset/BytemartEvals.yaml",
+  "trace_dir": "/Users/rr/DEV/Emails_Agent/data/runs",
+  "n_emails": 36,
+  "decisions": {
+    "auto_send": 20,
+    "hilt_refund": 11,
+    "hilt_other": 5,
+    "escalate": 0
+  },
+  "timing_ms_total": 530,
+  "log_path": "/Users/rr/DEV/Emails_Agent/data/runs/run.jsonl",
+  "finished_at": "2026-09-07T09:12:58.536705"
+}

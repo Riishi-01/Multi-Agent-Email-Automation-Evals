@@ -1,0 +1,21 @@
+sku,name,category,unit_price,in_stock,description
+PS5-DISC-001,PlayStation 5 Disc Edition Console,gaming_console,54990.0,True,PS5 with Ultra HD Blu-ray drive
+PS5-DIGI-001,PlayStation 5 Digital Edition Console,gaming_console,39990.0,True,PS5 Digital Edition (no disc drive)
+XSX-001,Xbox Series X 1TB Console,gaming_console,49990.0,True,"Xbox Series X, 1TB SSD"
+XSS-001,Xbox Series S 512GB Console,gaming_console,29990.0,True,"Xbox Series S, 512GB SSD"
+BMPC-RTX4070,ByteMart Custom Gaming PC RTX 4070,gaming_desktop,129990.0,True,"Custom-built gaming PC, RTX 4070"
+XCTRL-BLK,Xbox Wireless Controller - Black,game_controller,5499.0,True,"Xbox Wireless Controller, black"
+XCTRL-WHT,Xbox Wireless Controller - White,game_controller,5499.0,True,"Xbox Wireless Controller, white"
+DSC-WHT,DualSense Wireless Controller - White,game_controller,5990.0,True,"PS5 DualSense Controller, white"
+LGPRO-RW,Logitech G PRO Racing Wheel and Pedals,racing_wheel,79990.0,True,Logitech G PRO racing wheel + pedals
+MQUEST3-512,Meta Quest 3 512GB VR Headset,vr_headset,58990.0,True,"Meta Quest 3, 512GB storage"
+MQUEST3-128,Meta Quest 3 128GB VR Headset,vr_headset,44990.0,True,"Meta Quest 3, 128GB storage"
+RZR-KRAKEN-V3,Razer Kraken V3 HyperSense Gaming Headset,audio,24999.0,True,"Razer Kraken V3 HyperSense, haptic feedback, THX spatial audio, wired USB"
+WEP-001,Wireless Earbuds Pro,audio,7999.0,True,"Wireless Earbuds Pro, ANC, IPX5"
+RBSV2-PRO,Razer BlackShark V2 Pro Wireless Headset,audio,18999.0,True,"Razer BlackShark V2 Pro, wireless gaming headset"
+AW3423DWF,Dell Alienware AW3423DWF 34 inch OLED Monitor,monitor,92990.0,True,"34"" curved OLED gaming monitor, 175Hz"
+LED27-001,LED Monitor 27-inch,monitor,18999.0,True,"LED Monitor 27"" 1440p IPS 75Hz"
+RZR-ORN-V3,Razer Ornata V3 Gaming Keyboard,gaming_keyboard,4999.0,True,"Razer Ornata V3, hybrid mecha-membrane switches, RGB chroma, wrist rest included"
+HYPX-PFC-001,HyperX Pulsefire Core Gaming Mouse,gaming_mouse,3499.0,True,"HyperX Pulsefire Core, 6200 DPI optical sensor, 7 programmable buttons, Pixart 3327"
+EXP-DEL-001,Express Delivery Surcharge,service_fee,100.0,True,Expedited 1-3 day delivery surcharge
+COD-CHG,COD Service Charge,service_fee,100.0,True,Cash-on-delivery handling fee

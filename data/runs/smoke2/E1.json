@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.1",
+  "email_id": "E1",
+  "captured_at": "2026-09-07T04:38:39.749170+00:00",
+  "input": {
+    "subject": "[E1] PS5 Delivery Before Sep 1",
+    "body": "Dear Customer Support, I would like to know the expected delivery date for my PS5 order. Is it possible to have it delivered before September 1st? It is a birthday gift for my friend, so I would really appreciate delivery before that date if possible. Please let me know the expected delivery date and whether expedited delivery is available. Thank you.\n",
+    "sender_email": "sanya.delhi@gmail.com"
+  },
+  "retriever": {
+    "customer": {
+      "found": true,
+      "row": {
+        "email": "sanya.delhi@gmail.com",
+        "full_name": "Sanya Malhotra",
+        "account_status": "active",
+        "no_of_orders": 2,
+        "created_at": "2025-08-01T04:42:00+00:00"
+      }
+    },
+    "order": {
+      "found": true,
+      "row": {
+        "order_id": "BM200001",
+        "customer_email": "sanya.delhi@gmail.com",
+        "items": [
+          {
+            "qty": 1,
+            "sku": "PS5-DISC-001",
+            "name": "PlayStation 5 Disc Edition Console",
+            "line_total": 54990.0,
+            "unit_price": 54990.0
+          }
+        ],
+        "total_amount": "54990.00",
+        "payment_method": "upi",
+        "order_date": "2025-08-22T03:30:00+00:00",
+        "expected_delivery": "2025-08-30",
+        "current_status": "paid",
+        "shipping_address": {
+          "zip": "160009",
+          "city": "Chandigarh",
+          "line1": "7 Sector 8",
+          "state": "Chandigarh",
+          "country": "India"
+        },
+        "created_at": "2025-08-22T03:30:00+00:00",
+        "updated_at": "2026-09-07T03:04:58.781315+00:00"
+      }
+    },
+    "payments": [],
+    "products": [],
+    "policies": [
+      {
+        "parent_id": "shipping-policy#v1#parent-019-001",
+        "doc_id": "shipping-policy",
+        "page_from": 19,
+        "page_to": 19,
+        "similarity": 0.461,
+        "chunk_id": "shipping-policy#v1#parent-019-001#child-001",
+        "clause_refs": [
+          "3",
+          "3.1",
+          "3.2",
+          "3.3",
+          "3.4",
+          "3.5",
+          "4",
+          "4.1",
+          "4.2",
+          "4.3",
+          "4.4",
+          "5",
+          "5.1",
+          "5.2",
+          "5.3",
+          "5.4",
+          "6",
+          "6.1",
+          "6.2"
+        ],
+        "text": "3. Fast Delivery 3.1 Charge: Between\u20b9100 and\u20b9250,dependingonthe Buyer\u2019sdeliverylocation. Theexact Fast Delivery charge applicable to an Order is displayed at checkout before payment. 3.2 Delivery Timeframe: 3\u20134 business days from the date of Order Confirmation. 3.3 Guarantee & Refund of Fast Delivery Charge: If a Fast Delivery Order is not deliv- ered within the guaranteed 3\u20134 business day window, the Buyer may request a refund of the Fast Delivery charge only (not the Product price, taxes, or other charges) by email- ing [support@bytemart.in] with the Order number. Such refund requests shall be processed in accordance with the Return, Refund and Replacement Policy, within 3\u20137 business days of verification. 3.4 Exclusions from the Fast Delivery Guarantee: The guarantee does not apply in cases of: (a) Force majeure events (see Clause 11 of the Terms); (b) Inaccurate or incomplete de- livery address provided by the Buyer; (c) Buyer unavailability at the delivery address after reasonable delivery attempts; (d) Refusal to accept delivery; (e) Government-imposed restric- tions, lockdowns, or curfews in the delivery area; (f) Non-serviceable or restricted pincode, where Fast Delivery was inadvertently displayed. 3.5 Order Cut-off: Fast Delivery Orders placed after the daily cut-off time (as displayed on the Product/checkout page) shall be deemed placed on the next business day for the purpose of computing the delivery window. 4. Regular Delivery 4.1 Charge: Free of charge. 4.2 Delivery Timeframe: 5\u20137 business days from the date of Order Confirmation. 4.3 Regular Deliveryisthedefaultdeliveryoptionunless Fast Deliveryisselectedbythe Buyer at checkout. 4.4 The Regular Delivery timeframe is indicative. Byte Mart shall not be liable for delays beyond its reasonable control, including but not limited to logistics partner delays, weather events, or local disruptions. 5. Serviceable Locations 5.1 Byte Martcurrentlydeliverstoallserviceablepincodesacross India,asdeterminedbyour logistics partners. 5.2 The Buyer may enter a pincode on any Product page to check serviceability and the avail- able delivery options before adding the Product to the cart. 5.3 Certainpincodesmaybeclassifiedasout-of-servicearea(\u201cOSA\u201d)orrestrictedzone,in whichcasedeliverymaynotbeavailableormaybesubjecttoadditionalchargesandtimelines. 5.4 Byte Mart reserves the right to add, modify, or remove pin codes from its serviceable list at any time, with or without notice. 6. Order Tracking 6.1 Once an Order is dispatched, the Buyer will receive a dispatch confirmation via email and/or SMS containing the tracking link and consignment number. 6.2 The Buyer may also track the Order via the \u201cMy Orders\u201d section of their account on the Platform. 19"
+      },
+      {
+        "parent_id": "shipping-policy#v1#parent-007-001",
+        "doc_id": "shipping-policy",
+        "page_from": 7,
+        "page_to": 7,
+        "similarity": 0.4333,
+        "chunk_id": "shipping-policy#v1#parent-007-001#child-003",
+        "clause_refs": [
+          "5.7",
+          "6",
+          "6.1",
+          "6.2",
+          "72",
+          "6.3",
+          "6.4",
+          "6.5",
+          "7",
+          "7.1",
+          "7.2",
+          "7.3",
+          "7.4",
+          "7.5",
+          "7.6",
+          "7.7",
+          "8",
+          "8.1",
+          "8.2"
+        ],
+        "text": "Byte Martshallensurethatonly Productsbearingvalid BIS registration(including ISI or CRS marks where applicable) are offered for sale on the Platform. 5.7 Each Product page shall display the country of origin and the name and address of the manufacturer or importer, in compliance with the Legal Metrology (Packaged Commodities) Rules, 2011, and the Consumer Protection (E-Commerce) Rules, 2020. 6. Orders & Contract Formation 6.1 To place an Order, you must follow the instructions on the Platform and provide accurate delivery and payment information. 6.2 Submissionofan Orderconstitutesanofferbyyoutoenterintoacontractwith Byte Mart, in accordance with the Indian Contract Act, 1872. No contract is formed until Byte Mart ac- cepts your offer by issuing an Order Confirmation. 6.3 Byte Mart reserves the right to cancel any Order prior to issuance of the Order Confirma- tion,includingbutnotlimitedtocasesofpricingerrors,stockunavailability,suspectedfraud, non-compliance with these Terms, or any legal or regulatory restriction. 6.4 Each Order shall be governed by these Terms and any additional terms communicated at the time of Order placement. 6.5 Byte Mart may, at its sole discretion, place limits on Order quantities, Order value, or the total number of Orders per User, per household, or per payment instrument. 7. Payment Terms 7.1 Byte Mart accepts payment through the methods specified on the Platform, which may include credit cards, debit cards, Unified Payments Interface (\u201cUPI\u201d), net banking, mobile wallets, prepaid payment instruments, and Cash on Delivery (\u201cCOD\u201d) (where available). 7.2 All payments are processed in compliance with the rules and regulations of the Reserve Bank of India (\u201cRBI\u201d) and the Payment and Settlement Systems Act, 2007. 7.3 Byte Martusesthird-partypaymentgatewayprovidersthatcomplywiththe Payment Card Industry Data Security Standard (\u201cPCI-DSS\u201d) and applicable RBI guidelines. Byte Mart does not store your complete payment card or banking credentials. 7.4 You agree to pay all charges at the prices displayed at the time of Order placement, to- gether with applicable taxes, delivery charges, and any other fees specified at checkout. 7.5 Fortheavoidanceofdoubt,titletoany Productpurchasedshallpasstoyouupondelivery, and the risk of loss shall pass to you upon delivery at the address specified in the Order. 7.6 For the avoidance of doubt, GST on e-commerce supplies shall be discharged in accor- dance with the CGST Act, 2017, and any tax collected at source (\u201cTCS\u201d) by Byte Mart as an e-commerce operator shall be reflected in the tax invoice. 7.7 For full payment terms, please refer to the Payment and Pricing Policy. 8. Shipping & Delivery 8.1 Byte Mart offers two delivery options as set out in the Shipping and Delivery Policy: (a) Fast Delivery \u2014 between \u20b9100 and \u20b9250, depending on the delivery location, with delivery within 3\u20134 business days; and (b) Regular Delivery \u2014 free of charge, with delivery within 5\u20137 business days. 8.2 In the event that a Fast Delivery Order is not delivered within the guaranteed 3\u20134 busi- ness day window, the Buyer may request a refund of the Fast Delivery charge only (not the Product price or other charges) by emailing [support@bytemart.in] with the Order number. 7"
+      }
+    ],
+    "tool_calls": [
+      {
+        "tool": "lookup_customer",
+        "args": {
+          "email": "sanya.delhi@gmail.com"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 60,
+        "error": null
+      },
+      {
+        "tool": "lookup_order_by_sender_and_product",
+        "args": {
+          "email": "sanya.delhi@gmail.com",
+          "product_hint": "PlayStation 5"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 10,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "expedited delivery before birthday",
+          "top_k": 3
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 334,
+        "error": null
+      }
+    ],
+    "_sender_email": "sanya.delhi@gmail.com",
+    "_identity_verified": true
+  },
+  "resolver": {
+    "intent": "logistic",
+    "action": "auto_send",
+    "draft": "Hi Sanya,\n\nThank you for reaching ByteMart support.\n\nRe: [E1] PS5 Delivery Before Sep 1\n\nWe've reviewed your message and have an update for you.\n\nBest regards,\nByteMart Customer Support",
+    "self_check": {
+      "policy_compliant": true,
+      "entities_correct": true,
+      "state_change_implied": false,
+      "tone": "polite"
+    },
+    "reasoning": "Classified 'logistic' (inquiry only); action=auto_send.",
+    "used_entities": {
+      "order_id": "BM200001",
+      "txn_id": null,
+      "product_names": [
+        "PS5-DISC-001"
+      ]
+    },
+    "hilt_reason": null
+  },
+  "outcome": "sent",
+  "timing_ms": {
+    "retriever": 12257,
+    "resolver": 117620,
+    "total": 129877
+  },
+  "error": null
+}

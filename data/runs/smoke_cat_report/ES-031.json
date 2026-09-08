@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.1",
+  "email_id": "ES-031",
+  "captured_at": "2026-09-07T05:46:21.307239+00:00",
+  "input": {
+    "subject": "[ES-031] Data Erasure DPDPA",
+    "body": "I want to delete my account and all associated personal data from your systems immediately.\n",
+    "sender_email": "user.privacy@test.com"
+  },
+  "retriever": {
+    "customer": {
+      "found": true,
+      "row": {
+        "email": "user.privacy@test.com",
+        "full_name": "User Privacy",
+        "account_status": "active",
+        "no_of_orders": 0,
+        "created_at": "2026-08-20T04:30:00+00:00"
+      }
+    },
+    "order": {
+      "found": false,
+      "row": null
+    },
+    "payments": [],
+    "products": [],
+    "policies": [
+      {
+        "parent_id": "privacy-policy#v1#parent-010-001",
+        "doc_id": "privacy-policy",
+        "page_from": 10,
+        "page_to": 10,
+        "similarity": 0.6251,
+        "chunk_id": "privacy-policy#v1#parent-010-001#child-002",
+        "clause_refs": [
+          "14",
+          "14.1",
+          "14.2",
+          "15",
+          "15.1",
+          "15.2",
+          "15.3",
+          "16",
+          "16.1",
+          "16.2",
+          "16.3",
+          "16.4",
+          "16.5"
+        ],
+        "text": "14. Intellectual Property 14.1 All Content on the Platform, including but not limited to text, graphics, logos, images, audio, video, software, and the compilation thereof, is the property of Byte Mart or its licen- sors and is protected by Indian and international copyright, trademark, patent, and other intellectual property laws. 14.2 You may not reproduce, distribute, modify, create derivative works of, publicly display, publiclyperform,republish,download,store,ortransmitanyofthe Contentwithouttheprior written consent of Byte Mart. 14.3 \u201cByte Mart\u201d and all related logos, product names, and service names are trademarks of Byte Mart. You may not use such marks without the prior written consent of Byte Mart. 15. Data & Privacy 15.1 Byte Martprocessesyourpersonaldatainaccordancewiththe Digital Personal Data Pro- tection Act, 2023 (\u201cDPDPA\u201d), the Information Technology Act, 2000, and the IT (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011, as set out in the Privacy Policy. 15.2 Byusingthe Platform,youconsenttothecollection,use,storage,processing,andsharing of your personal data in accordance with the Privacy Policy. 15.3 You have the right to access, correct, erase, and nominate another individual in respect ofyourpersonaldata,inaccordancewiththe DPDPA.Toexercisetheserights,pleasecontact the Grievance Officer. 16. Product Standards, Safety & E-Waste 16.1 Byte Mart ensures that Products requiring mandatory registration under the BIS Act, 2016, the Meit Y CRS, or any other Applicable Law are sourced only from BIS-registered manufacturers or importers. 16.2 The Buyer is entitled to receive Products that comply with the standards notified un- der the Legal Metrology Act, 2009, and the Legal Metrology (Packaged Commodities) Rules, 2011, including declarations of MRP, net quantity, manufacturer/importer details, country of origin, and date of manufacture/import. 16.3 In accordance with the E-Waste (Management) Rules, 2022, Byte Mart supports Ex- tended Producer Responsibility (\u201cEPR\u201d) and provides a take-back mechanism for end-of-life electrical and electronic equipment purchased on the Platform. Buyers may deposit e-waste at the collection points communicated on the Platform or contact [support@bytemart.in] for scheduled collection, where available. 16.4 Buyers are advised to handle lithium-ion and other battery-powered Products with care and to dispose of damaged or end-of-life batteries only through authorised channels. 16.5 Manufacturerwarrantiesandpost-salesservicearetheresponsibilityoftheoriginal manufacturer of the Product. Byte Mart is a retailer and does not provide warranty or post- sales service in its own name, except where expressly stated on a specific Product page. (a) Themanufacturer\u2019swarrantyterms(includingperiod,scope,andexclusions)shallapply as set out in the warranty card, terms document, or manufacturer\u2019s website; (b) The Byte Marttaxinvoiceshallbeacceptedasvalidproofofpurchaseformanufacturer warrantyclaims,andshallcontainthe Productdescription,modelnumber,serialnumber (where recorded), purchase date, and price; 10"
+      },
+      {
+        "parent_id": "privacy-policy#v1#parent-018-001",
+        "doc_id": "privacy-policy",
+        "page_from": 18,
+        "page_to": 18,
+        "similarity": 0.6195,
+        "chunk_id": "privacy-policy#v1#parent-018-001#child-001",
+        "clause_refs": [
+          "15",
+          "15.1",
+          "15.2",
+          "16",
+          "16.1",
+          "16.2",
+          "1.0",
+          "1",
+          "1.1",
+          "1.2",
+          "2",
+          "2.1",
+          "2.2",
+          "2.3"
+        ],
+        "text": "15. Changes to this Policy 15.1 We may update this Policy from time to time. Material changes will be notified via the Platform and/or via email at least seven (7) days before the effective date of the changes. 15.2 The \u201cLast Updated\u201d and \u201cEffective Date\u201d at the top of this Policy indicate when it was last revised. 16. Contact & Grievance Officer 16.1 For all privacy-related queries, requests, and grievances, please contact our Grievance Officer: Grievance Officer: [NAME] Byte Mart [Private Limited / Limited] Registered Office: [ADDRESS], New Delhi, India Email: [grievance@bytemart.in] Phone: [PHONE] Response timeline: Acknowledgement within 48 hours; resolution within 30 days. 16.2 If you are not satisfied with our response, you may escalate the matter to the Data Protection Board of India in accordance with the DPDPA. End of Privacy Policy Byte Mart \u2014 Shipping & Delivery Policy Version: 1.0 Last Updated: [DD/MM/YYYY] Effective Date: [DD/MM/YYYY] Statutory map (for internal use): Consumer Protection Act, 2019 \u00b7 Consumer Protection(E-Commerce)Rules,2020(Reg. 5\u2014disclosures,includingshippingand delivery) \u00b7 Indian Contract Act, 1872 (delivery and risk) \u00b7 Sale of Goods Act, 1930 (transfer of property and risk) \u00b7 Legal Metrology (Packaged Commodities) Rules, 2011 (label/declarations). 1. Scope 1.1 This Shipping and Delivery Policy (\u201cShipping Policy\u201d) governs the dispatch, transit, and delivery of all Products purchased on the Byte Mart Platform. 1.2 This Shipping Policy forms an integral part of the Byte Mart Terms and Conditions. In the event of a conflict, this Shipping Policy shall prevail for matters relating to shipping and delivery. 2. Delivery Options 2.1 Byte Mart offers the following delivery options, subject to serviceability of the delivery pincode: (a) Fast Delivery \u2014 a paid, expedited delivery option; (b) Regular Delivery \u2014 a complimentary, standard delivery option. 2.2 The availability of each option may vary by Product, Seller, and delivery pincode. Not all options may be available for all Orders. 2.3 Delivery days are counted in business days, excluding Sundays and public holidays de- clared in the Buyer\u2019s state of delivery. 18"
+      },
+      {
+        "parent_id": "shipping-policy#v1#parent-011-001",
+        "doc_id": "return-policy",
+        "page_from": 11,
+        "page_to": 11,
+        "similarity": 0.607,
+        "chunk_id": "shipping-policy#v1#parent-011-001#child-003",
+        "clause_refs": [
+          "16.6",
+          "17",
+          "17.1",
+          "17.2",
+          "17.3",
+          "17.4",
+          "18",
+          "18.1",
+          "18.2",
+          "18.3",
+          "19",
+          "19.1",
+          "20",
+          "20.1"
+        ],
+        "text": "(c) For any software or hardware issue that develops after delivery (where there is no phys- ical damage at the time of delivery), the Buyer should contact the original manufacturer directly for troubleshooting, repair, or replacement under warranty; (d) Byte Martshall,onthe Buyer\u2019srequest,provideaduplicateinvoiceandfacilitatecommu- nication with the manufacturer\u2019s service centre on a best-efforts basis. 16.6 Nothingin Clause 16.5 limitsthe Buyer\u2019srightsunderthe Consumer Protection Act,2019, including the right to seek redressal against product defects, deficiency in service, or unfair trade practice, against either Byte Mart or the manufacturer. 17. Disclaimers 17.1 The Platformandall Contentareprovidedonan\u201casis\u201dand\u201casavailable\u201dbasis,without any warranties of any kind, express or implied, except as required by Applicable Law. 17.2 Byte Mart does not warrant that the Platform will be uninterrupted, error-free, or free from viruses or other harmful components. 17.3 Byte Mart does not warrant the accuracy, completeness, or usefulness of any Content on the Platform, except for statutory disclosures required under Applicable Law. 17.4 Nothing in this clause shall be construed to exclude, restrict, or limit any warranty that cannot be excluded, restricted, or limited under the Consumer Protection Act, 2019, or any other Applicable Law. 18. Limitation of Liability 18.1 To the fullest extent permitted by Applicable Law, Byte Mart shall not be liable for any indirect,incidental,special,consequential,exemplary,orpunitivedamages,includingbutnot limited to loss of profits, revenue, data, use, goodwill, or other intangible losses, arising out of or in connection with your use of the Platform. 18.2 Innoeventshall Byte Mart\u2019stotalliabilityforanyclaimarisingoutoforrelatingtothese Terms or your use of the Platform exceed the total amount paid by you to Byte Mart for the specific Product giving rise to the claim. 18.3 Nothing in this clause shall limit Byte Mart\u2019s liability for: (a) Death or personal injury caused by negligence; (b) Fraud or fraudulent misrepresentation; (c) Defective products or product liability under the Consumer Protection Act, 2019; (d) Breach of data protection obli- gations under the DPDPA; or (e) Any other liability that cannot be excluded or limited under Applicable Law. 19. Indemnification 19.1 You agree to indemnify, defend, and hold harmless Byte Mart, its officers, directors, em- ployees,agents,and Resellersfromandagainstanyandallclaims,damages,losses,liabilities, costs,andexpenses(includingreasonableattorneys\u2019fees)arisingoutoforrelatingto: (a)Your use of the Platform; (b) Your breach of these Terms; (c) Your violation of any Applicable Law; or (d) Your infringement of any third-party rights. 20. Force Majeure 20.1 Byte Mart shall not be liable for any failure or delay in the performance of its obliga- tions under these Terms to the extent such failure or delay is caused by circumstances be- yond its reasonable control, including but not limited to acts of God, natural disasters, pan- 11"
+      }
+    ],
+    "tool_calls": [
+      {
+        "tool": "lookup_customer",
+        "args": {
+          "email": "user.privacy@test.com"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 14,
+        "error": null
+      },
+      {
+        "tool": "lookup_policy",
+        "args": {
+          "query": "What is ByteMart's policy on data erasure under the DPDPA?"
+        },
+        "result_keys": [
+          "query",
+          "top_k",
+          "hits"
+        ],
+        "duration_ms": 258,
+        "error": null
+      }
+    ],
+    "_sender_email": "user.privacy@test.com",
+    "_identity_verified": true
+  },
+  "resolver": {
+    "intent": "other",
+    "action": "hilt_refund",
+    "draft": "Hi User Privacy,\n\nThank you for reaching out to ByteMart support.\n\nRe: [PENDING APPROVAL] Request to Delete Account and Personal Data\n\nWe have received your request to delete your account and all associated personal data. This request is currently under review. Please note that we will process your request in accordance with the Digital Personal Data Protection Act, 2023 (DPDPA). Our Grievance Officer will contact you shortly to confirm the details and next steps.\n\nBest regards,\nByteMart Customer Support",
+    "self_check": {
+      "policy_compliant": true,
+      "entities_correct": true,
+      "state_change_implied": true,
+      "tone": "neutral"
+    },
+    "reasoning": "The request to delete the account and personal data implies a state change, which requires operator review. The action is compliant with the DPDPA as stated in the privacy policy.",
+    "used_entities": {
+      "order_id": null,
+      "txn_id": null,
+      "product_names": []
+    },
+    "hilt_reason": {
+      "policy_clause": "15. Data & Privacy",
+      "reason_short": "Request for account deletion and data erasure.",
+      "reason_long": "The request to delete the account and all associated personal data requires review and processing in accordance with the DPDPA.",
+      "recommended_action": "Review and process the account deletion request.",
+      "action_target": "Grievance Officer",
+      "urgency": "high",
+      "human_skill_required": "Data Privacy Compliance"
+    }
+  },
+  "outcome": "pending",
+  "timing_ms": {
+    "retriever": 9265,
+    "resolver": 3744,
+    "total": 13009
+  },
+  "error": null
+}

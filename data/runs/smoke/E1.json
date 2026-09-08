@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.1",
+  "email_id": "E1",
+  "captured_at": "2026-09-07T03:45:48.569015+00:00",
+  "input": {
+    "subject": "[E1] PS5 Delivery Before Sep 1",
+    "body": "Dear Customer Support, I would like to know the expected delivery date for my PS5 order. Is it possible to have it delivered before September 1st? It is a birthday gift for my friend, so I would really appreciate delivery before that date if possible. Please let me know the expected delivery date and whether expedited delivery is available. Thank you.\n",
+    "sender_email": "sanya.delhi@gmail.com"
+  },
+  "retriever": {
+    "customer": {
+      "found": true,
+      "row": {
+        "email": "sanya.delhi@gmail.com",
+        "full_name": "Sanya Malhotra",
+        "account_status": "active",
+        "no_of_orders": 2,
+        "created_at": "2025-08-01T04:42:00+00:00"
+      }
+    },
+    "order": {
+      "found": true,
+      "row": {
+        "order_id": "BM200001",
+        "customer_email": "sanya.delhi@gmail.com",
+        "items": [
+          {
+            "qty": 1,
+            "sku": "PS5-DISC-001",
+            "name": "PlayStation 5 Disc Edition Console",
+            "line_total": 54990.0,
+            "unit_price": 54990.0
+          }
+        ],
+        "total_amount": "54990.00",
+        "payment_method": "upi",
+        "order_date": "2025-08-22T03:30:00+00:00",
+        "expected_delivery": "2025-08-30",
+        "current_status": "paid",
+        "shipping_address": {
+          "zip": "160009",
+          "city": "Chandigarh",
+          "line1": "7 Sector 8",
+          "state": "Chandigarh",
+          "country": "India"
+        },
+        "created_at": "2025-08-22T03:30:00+00:00",
+        "updated_at": "2026-09-07T03:04:58.781315+00:00"
+      }
+    },
+    "payments": [
+      {
+        "payment_id": "b30bb57a-b9c1-461d-aeeb-7929bd9f4d33",
+        "customer_email": "sanya.delhi@gmail.com",
+        "order_id": "BM200001",
+        "amount": "54990.00",
+        "method": "upi",
+        "status": "success",
+        "transaction_id": "25082203",
+        "failure_reason": null,
+        "created_at": "2025-08-22T03:30:30+00:00",
+        "updated_at": "2025-08-22T03:30:30+00:00"
+      }
+    ],
+    "products": [
+      {
+        "sku": "PS5-DISC-001",
+        "name": "PlayStation 5 Disc Edition Console",
+        "category": "gaming_console",
+        "unit_price": "54990.00",
+        "in_stock": true,
+        "description": "PS5 with Ultra HD Blu-ray drive",
+        "warranty_text": "1 Year manufacturer warranty covering manufacturing defects.",
+        "tech_description": "Next-generation Sony gaming console with Ultra HD Blu-ray disc drive, high-speed SSD storage, AMD Zen 2 CPU and RDNA 2 GPU.",
+        "tech_details": "Storage: 825GB SSD Wi-Fi: Wi-Fi 6 Bluetooth: 5.1 USB: 2\u00d7 USB-A, 2\u00d7 USB-C HDMI: 1\u00d7 HDMI 2.1 Disc: 4K UHD Blu-ray Resolution: Up to 8K Networking: Gigabit Ethernet Controller: DualSense Wireless",
+        "stock_count": 7
+      }
+    ],
+    "policies": [],
+    "tool_calls": [
+      {
+        "tool": "lookup_customer",
+        "args": {
+          "email": "sanya.delhi@gmail.com"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 66,
+        "error": null
+      },
+      {
+        "tool": "lookup_order_by_sender_and_product",
+        "args": {
+          "email": "sanya.delhi@gmail.com",
+          "product_hint": "PS5"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 7,
+        "error": null
+      },
+      {
+        "tool": "lookup_payments_for_order",
+        "args": {
+          "customer_email": "sanya.delhi@gmail.com",
+          "order_id": "BM200001"
+        },
+        "result_keys": [
+          "rows"
+        ],
+        "duration_ms": 3,
+        "error": null
+      },
+      {
+        "tool": "get_product_details",
+        "args": {
+          "sku": "PS5-DISC-001"
+        },
+        "result_keys": [
+          "found",
+          "row"
+        ],
+        "duration_ms": 3,
+        "error": null
+      }
+    ],
+    "_sender_email": "sanya.delhi@gmail.com",
+    "_identity_verified": true
+  },
+  "resolver": {
+    "intent": "logistic",
+    "action": "auto_send",
+    "draft": "Hi Sanya,\n\nThank you for reaching ByteMart support.\n\nRe: [E1] PS5 Delivery Before Sep 1\n\nWe've reviewed your message and have an update for you.\n\nBest regards,\nByteMart Customer Support",
+    "self_check": {
+      "policy_compliant": true,
+      "entities_correct": true,
+      "state_change_implied": false,
+      "tone": "polite"
+    },
+    "reasoning": "Classified 'logistic' (inquiry only); action=auto_send.",
+    "used_entities": {
+      "order_id": "BM200001",
+      "txn_id": null,
+      "product_names": [
+        "PS5-DISC-001"
+      ]
+    },
+    "hilt_reason": null
+  },
+  "outcome": "sent",
+  "timing_ms": {
+    "retriever": 80,
+    "resolver": 1,
+    "total": 81
+  },
+  "error": null
+}
